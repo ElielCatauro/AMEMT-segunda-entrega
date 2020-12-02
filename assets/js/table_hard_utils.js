@@ -1,4 +1,5 @@
 let tableHardEl = document.getElementById("tabla");
+let inputsEl = document.getElementById("inputs");
 
 //convertimos la data en formato JSON a un objeto JS para poder acceder a sus propiedades
 
@@ -11,10 +12,10 @@ let loadGPUStable=()=>{
            dataProcess => {
                let dataParseada=dataProcess;
                //obtenemos las claves del objeto
-               let clavesProducto = Object.keys(dataParseada.GPUS[0]);
-               console.log(typeof(dataParseada.GPUS[0]));
-               createHeader(clavesProducto);
+               let claves = Object.keys(dataParseada.GPUS[0]);
+               createHeader(claves);
                createBody(dataParseada.GPUS);
+               createInputs(claves);
             }
           ,
       

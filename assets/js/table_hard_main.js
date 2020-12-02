@@ -1,5 +1,21 @@
 'use strict'
 
+let createInputs=(claves)=>{
+  for (let i = 0; i < claves.length; i++) {
+    let inp=document.createElement('input');
+    inp.setAttribute('id',`inp-${claves[i]}`);
+    inputsEl.appendChild(inp);
+  }
+  let btnOk=document.createElement('button');
+  let btnCancel=document.createElement('button');
+  btnOk.setAttribute('id','btnAceptar');
+  btnCancel.setAttribute('id','btnCancelar');
+  btnCancel.innerHTML='Cancelar';
+  btnOk.innerHTML='Aceptar';
+  inputsEl.appendChild(btnOk);
+  inputsEl.appendChild(btnCancel);
+}
+
 let createHeader = (claves) => {
   //claves es un array con los nombres de las claves de nuestro objeto --> ["nombre", "cantidad", "categoria", "precio", "marca"]
   let theadEl = document.createElement("thead");
@@ -30,6 +46,7 @@ let createRow = (elemento,i) => {
   for (let clave in elemento) {
     //creamos un elemento td para cada propiedad
     let tdEl = document.createElement("td");
+    tdEl.setAttribute('id',`${clave}${i}`)
     //cambiamos su innerHTML para que muestre el valor de cada propiedad
     tdEl.innerHTML = elemento[clave];
     //agregamos el elemento td al elemento tr
@@ -52,6 +69,33 @@ let createRow = (elemento,i) => {
   return trEl;
 };
 
+
+
+let modifi=(elemento,i)=>{ 
+  let btnOk=document.getElementById(`btnAceptar`);
+  let btnCancel=document.getElementById('btnCancelar');
+  //modifica en el html
+  for (let clave in elemento){
+    if((clave!='elim') && (clave!='mod') &&(clave!='row') ){
+    let inpEL=document.getElementById(`inp-${clave}`);
+    let tdEl=document.getElementById(`${clave}${i}`);
+  
+    inpEL.value=tdEl.innerHTML;
+    btnOk.addEventListener('click',()=>{
+      tdEl.innerHTML= !!inpEL.value ? inpEL.value : tdEl.innerHTML ;
+      inpEL.value='';
+      }
+      );
+    btnCancel.addEventListener('click',()=>{
+      inpEL.value='';
+      });
+    }
+  }
+}
+
+
+
+
 let createBody = (elementos) => {
   //elementos es un arreglo con todos los objetos que queremos mostrar en nuestra tabla [{}, {}, {}]
   let tbodyEl = document.createElement("tbody");
@@ -70,9 +114,13 @@ let createBody = (elementos) => {
     elementos[i].elim.addEventListener("click",()=>{
           elementos[i].row.parentNode.removeChild(elementos[i].row);
            });
-    elementos[i].mod.addEventListener("click",()=>{});
+    elementos[i].mod.addEventListener("click",()=>{
+      modifi(elementos[i],i);
+    });
   }
 };
+
+
 
 window.addEventListener("load", () => {
 loadGPUStable();
