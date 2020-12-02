@@ -1,17 +1,17 @@
 'use strict'
 
-let createInputs=(claves)=>{
+let createInputs = (claves) => {
   for (let i = 0; i < claves.length; i++) {
-    let inp=document.createElement('input');
-    inp.setAttribute('id',`inp-${claves[i]}`);
+    let inp = document.createElement('input');
+    inp.setAttribute('id', `inp-${claves[i]}`);
     inputsEl.appendChild(inp);
   }
-  let btnOk=document.createElement('button');
-  let btnCancel=document.createElement('button');
-  btnOk.setAttribute('id','btnAceptar');
-  btnCancel.setAttribute('id','btnCancelar');
-  btnCancel.innerHTML='Cancelar';
-  btnOk.innerHTML='Aceptar';
+  let btnOk = document.createElement('button');
+  let btnCancel = document.createElement('button');
+  btnOk.setAttribute('id', 'btnAceptar');
+  btnCancel.setAttribute('id', 'btnCancelar');
+  btnCancel.innerHTML = 'Cancelar';
+  btnOk.innerHTML = 'Aceptar';
   inputsEl.appendChild(btnOk);
   inputsEl.appendChild(btnCancel);
 }
@@ -30,7 +30,7 @@ let createHeader = (claves) => {
     trEl.appendChild(thEl);
   }
   let thEl = document.createElement("th");
-  thEl.innerHTML ='Modificar';
+  thEl.innerHTML = 'Modificar';
   trEl.appendChild(thEl);
   //agregamos el elemento tr al thead
   theadEl.appendChild(trEl);
@@ -38,15 +38,15 @@ let createHeader = (claves) => {
   tableHardEl.appendChild(theadEl);
 };
 
-let createRow = (elemento,i) => {
+let createRow = (elemento, i) => {
   //elemento es el objeto que queremos mostrar en cada filaa --> {nombre: "Juan", apellido: "Gonzalez", edad: 31, email: "juan_gonzalez@gmail.com"}
   let trEl = document.createElement("tr");
-  trEl.setAttribute('id',`row${i}`)
+  trEl.setAttribute('id', `row${i}`)
   //iteramos sobre las propiedades de nuestro objeto
   for (let clave in elemento) {
     //creamos un elemento td para cada propiedad
     let tdEl = document.createElement("td");
-    tdEl.setAttribute('id',`${clave}${i}`)
+    tdEl.setAttribute('id', `${clave}${i}`)
     //cambiamos su innerHTML para que muestre el valor de cada propiedad
     tdEl.innerHTML = elemento[clave];
     //agregamos el elemento td al elemento tr
@@ -55,12 +55,12 @@ let createRow = (elemento,i) => {
   let tdElimMod = document.createElement("td");
   let btnElim = document.createElement("button");
   let btnModif = document.createElement("button");
-  btnElim.setAttribute('id',`btnElim${i}`);
-  btnModif.setAttribute('id',`btnModif${i}`);
-  btnElim.value=i;
-  btnModif.value=i;
-  btnModif.innerText='Modificar';
-  btnElim.innerText='Eliminar';
+  btnElim.setAttribute('id', `btnElim${i}`);
+  btnModif.setAttribute('id', `btnModif${i}`);
+  btnElim.value = i;
+  btnModif.value = i;
+  btnModif.innerText = 'Modificar';
+  btnElim.innerText = 'Eliminar';
   tdElimMod.appendChild(btnElim);
   tdElimMod.appendChild(btnModif);
 
@@ -71,51 +71,53 @@ let createRow = (elemento,i) => {
 
 
 
-let modifi=(elemento,i)=>{ 
-  let btnOk=document.getElementById(`btnAceptar`);
-  let btnCancel=document.getElementById('btnCancelar');
+let modifi = (elemento, i) => {
+  let btnOk = document.getElementById(`btnAceptar`);
+  let btnCancel = document.getElementById('btnCancelar');
   //modifica en el html
-  for (let clave in elemento){
-    if((clave!='elim') && (clave!='mod') &&(clave!='row') ){
-    let inpEL=document.getElementById(`inp-${clave}`);
-    let tdEl=document.getElementById(`${clave}${i}`);
-  
-    inpEL.value=tdEl.innerHTML;
-    btnOk.addEventListener('click',()=>{
-      tdEl.innerHTML= !!inpEL.value ? inpEL.value : tdEl.innerHTML ;
-      inpEL.value='';
-      }
-      );
-    btnCancel.addEventListener('click',()=>{
-      inpEL.value='';
-      });
+  for (let clave in elemento) {
+    if ((clave != 'elim') && (clave != 'mod') && (clave != 'row')) {
+      let inpEL = document.getElementById(`inp-${clave}`);
+      let tdEl = document.getElementById(`${clave}${i}`);
+
+      inpEL.value = tdEl.innerHTML;
+
+      let sip = () => {
+        tdEl.innerHTML = !!inpEL.value ? inpEL.value : tdEl.innerHTML;
+        inpEL.value = '';
+        btnCancel.removeEventListener('click', nop, { once: true });
+      };
+      let nop = () => {
+        inpEL.value = '';
+        btnOk.removeEventListener('click', sip, { once: true });
+      };
+
+      btnOk.addEventListener('click', sip, { once: true });
+
+      btnCancel.addEventListener('click', nop, { once: true });
     }
   }
 }
 
 
 
-
 let createBody = (elementos) => {
-  //elementos es un arreglo con todos los objetos que queremos mostrar en nuestra tabla [{}, {}, {}]
+
   let tbodyEl = document.createElement("tbody");
   for (let i = 0; i < elementos.length; i++) {
-    //recorremos el arreglo de objetos e invocamos la función de crear fila para cada uno de ellos
-    //la función nos devuelve un elemento tr y lo agregamos a nuestro elemento tbody
-    tbodyEl.appendChild(createRow(elementos[i],i));
+    tbodyEl.appendChild(createRow(elementos[i], i));
   }
-  //agregamos el elemento tbody a nuestro elemento tabla
   tableHardEl.appendChild(tbodyEl);
   // agrega funcionalidad de borrar y modificar a la tabla 
   for (let i = 0; i < elementos.length; i++) {
-    elementos[i].row=document.getElementById(`row${i}`);
-    elementos[i].elim=document.getElementById(`btnElim${i}`);
-    elementos[i].mod=document.getElementById(`btnModif${i}`);
-    elementos[i].elim.addEventListener("click",()=>{
-          elementos[i].row.parentNode.removeChild(elementos[i].row);
-           });
-    elementos[i].mod.addEventListener("click",()=>{
-      modifi(elementos[i],i);
+    elementos[i].row = document.getElementById(`row${i}`);
+    elementos[i].elim = document.getElementById(`btnElim${i}`);
+    elementos[i].mod = document.getElementById(`btnModif${i}`);
+    elementos[i].elim.addEventListener("click", () => {
+      elementos[i].row.parentNode.removeChild(elementos[i].row);
+    });
+    elementos[i].mod.addEventListener("click", () => {
+      modifi(elementos[i], i);
     });
   }
 };
@@ -123,6 +125,6 @@ let createBody = (elementos) => {
 
 
 window.addEventListener("load", () => {
-loadGPUStable();
+  loadGPUStable();
 });
 
