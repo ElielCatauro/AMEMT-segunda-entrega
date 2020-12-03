@@ -1,5 +1,47 @@
 'use strict'
 
+
+
+let deleteRow = (elemento,i) => {
+
+
+  const row = document.getElementById(`row${i}`);
+  row.remove();
+
+
+}
+
+
+let modifiRow = (elemento, i) => {
+  let btnOk = document.getElementById(`btnAceptar`);
+  let btnCancel = document.getElementById('btnCancelar');
+  //modifica en el html
+  for (let clave in elemento) {
+    let inpEL = document.getElementById(`inp-${clave}`);
+    let tdEl = document.getElementById(`${clave}${i}`);
+
+    inpEL.value = tdEl.innerHTML;
+
+    let sip = () => {
+      tdEl.innerHTML = !!inpEL.value ? inpEL.value : tdEl.innerHTML;
+      inpEL.value = '';
+      btnCancel.removeEventListener('click', nop, { once: true });
+    };
+    let nop = () => {
+      inpEL.value = '';
+      btnOk.removeEventListener('click', sip, { once: true });
+    };
+
+    btnOk.addEventListener('click', sip, { once: true });
+
+    btnCancel.addEventListener('click', nop, { once: true });
+
+  }
+}
+
+
+
+
 let createInputs = (claves) => {
   for (let i = 0; i < claves.length; i++) {
     let inp = document.createElement('input');
@@ -39,17 +81,12 @@ let createHeader = (claves) => {
 };
 
 let createRow = (elemento, i) => {
-  //elemento es el objeto que queremos mostrar en cada filaa --> {nombre: "Juan", apellido: "Gonzalez", edad: 31, email: "juan_gonzalez@gmail.com"}
   let trEl = document.createElement("tr");
   trEl.setAttribute('id', `row${i}`)
-  //iteramos sobre las propiedades de nuestro objeto
   for (let clave in elemento) {
-    //creamos un elemento td para cada propiedad
     let tdEl = document.createElement("td");
     tdEl.setAttribute('id', `${clave}${i}`)
-    //cambiamos su innerHTML para que muestre el valor de cada propiedad
     tdEl.innerHTML = elemento[clave];
-    //agregamos el elemento td al elemento tr
     trEl.appendChild(tdEl);
   }
   let tdElimMod = document.createElement("td");
@@ -57,47 +94,17 @@ let createRow = (elemento, i) => {
   let btnModif = document.createElement("button");
   btnElim.setAttribute('id', `btnElim${i}`);
   btnModif.setAttribute('id', `btnModif${i}`);
-  btnElim.value = i;
-  btnModif.value = i;
   btnModif.innerText = 'Modificar';
   btnElim.innerText = 'Eliminar';
   tdElimMod.appendChild(btnElim);
   tdElimMod.appendChild(btnModif);
-
   trEl.appendChild(tdElimMod);
+  btnElim.addEventListener("click", () => { deleteRow(elemento,i);  });
+  btnModif.addEventListener("click", () => { modifiRow(elemento, i);  });
   //devolvemos la fila creada
   return trEl;
 };
 
-
-
-let modifi = (elemento, i) => {
-  let btnOk = document.getElementById(`btnAceptar`);
-  let btnCancel = document.getElementById('btnCancelar');
-  //modifica en el html
-  for (let clave in elemento) {
-    if ((clave != 'elim') && (clave != 'mod') && (clave != 'row')) {
-      let inpEL = document.getElementById(`inp-${clave}`);
-      let tdEl = document.getElementById(`${clave}${i}`);
-
-      inpEL.value = tdEl.innerHTML;
-
-      let sip = () => {
-        tdEl.innerHTML = !!inpEL.value ? inpEL.value : tdEl.innerHTML;
-        inpEL.value = '';
-        btnCancel.removeEventListener('click', nop, { once: true });
-      };
-      let nop = () => {
-        inpEL.value = '';
-        btnOk.removeEventListener('click', sip, { once: true });
-      };
-
-      btnOk.addEventListener('click', sip, { once: true });
-
-      btnCancel.addEventListener('click', nop, { once: true });
-    }
-  }
-}
 
 
 
@@ -108,23 +115,44 @@ let createBody = (elementos) => {
     tbodyEl.appendChild(createRow(elementos[i], i));
   }
   tableHardEl.appendChild(tbodyEl);
-  // agrega funcionalidad de borrar y modificar a la tabla 
-  for (let i = 0; i < elementos.length; i++) {
-    elementos[i].row = document.getElementById(`row${i}`);
-    elementos[i].elim = document.getElementById(`btnElim${i}`);
-    elementos[i].mod = document.getElementById(`btnModif${i}`);
-    elementos[i].elim.addEventListener("click", () => {
-      elementos[i].row.parentNode.removeChild(elementos[i].row);
-    });
-    elementos[i].mod.addEventListener("click", () => {
-      modifi(elementos[i], i);
-    });
-  }
 };
 
+
+let createTable = (claves, arregloObjet) => {
+  createHeader(claves);
+  createBody(arregloObjet);
+  createInputs(claves);
+}
 
 
 window.addEventListener("load", () => {
   loadGPUStable();
 });
+
+let tableHardEl = document.getElementById("tabla");
+let inputsEl = document.getElementById("inputs");
+
+//convertimos la data en formato JSON a un objeto JS para poder acceder a sus propiedades
+
+
+
+/* intento de carga desde un json */
+let loadGPUStable = () => {
+  fetch('https://api.jsonbin.io/b/5fc69853045eb86f1f89c24d').then((res) => {  //fetch('"../json/CPUS.json"').then((res)=>{
+    res.json().then(
+      dataProcess => {
+        let dataParseada = dataProcess;
+
+        //obtenemos las claves del objeto
+        let claves = Object.keys(dataParseada.GPUS[0]);
+        createTable(claves, dataParseada.GPUS);
+      }
+          ,
+
+    )
+  }
+    ,
+
+  );
+}
 
