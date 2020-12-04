@@ -1,25 +1,68 @@
 'use strict'
 
 
+let tableHardEl = document.getElementById("tabla");
+let inputsEl = document.getElementById("inputs");
+let inputsBtnsEl = document.getElementById("inputsBtns");
+let tituloModalEL = document.getElementById("tituloModal");
 
-let deleteRow = (elemento,i) => {
+let createBtnModel = () => {
+  let btnOk = document.createElement('button');
+  let btnCancel = document.createElement('button');
+  btnOk.setAttribute('id', 'btnAceptar');
+  btnOk.setAttribute('class', 'btn  btn-secondary');
+  btnOk.setAttribute('data-dismiss', "modal");
+  btnCancel.setAttribute('id', 'btnCancelar');
+  btnCancel.setAttribute('class', 'btn btn-dark');
+  btnCancel.setAttribute('data-dismiss', "modal");
+  btnCancel.innerHTML = 'Cancelar';
+  btnOk.innerHTML = 'Aceptar';
+  inputsBtnsEl.appendChild(btnCancel);
+  inputsBtnsEl.appendChild(btnOk);
+}
+createBtnModel();
+let btnOk = document.getElementById(`btnAceptar`);
+let btnCancel = document.getElementById('btnCancelar');
 
 
-  const row = document.getElementById(`row${i}`);
-  row.remove();
 
 
+
+let deleteRow = (elemento, i) => {
+  tituloModalEL.innerText = "Eliminando fila, esta seguro?";
+
+  for (let clave in elemento) {
+    let inpEL = document.getElementById(`inp-${clave}`);
+    let tdEl = document.getElementById(`${clave}${i}`);
+    inpEL.value = tdEl.innerHTML;
+    inpEL.disabled = true;
+
+
+    let sip = () => {
+      const row = document.getElementById(`row${i}`);
+      row.remove();
+      inpEL.value = '';
+      btnCancel.removeEventListener('click', nop, { once: true });
+    };
+    let nop = () => {
+      inpEL.value = '';
+      btnOk.removeEventListener('click', sip, { once: true });
+    };
+
+    btnOk.addEventListener('click', sip, { once: true });
+
+    btnCancel.addEventListener('click', nop, { once: true });
+  }
 }
 
 
 let modifiRow = (elemento, i) => {
-  let btnOk = document.getElementById(`btnAceptar`);
-  let btnCancel = document.getElementById('btnCancelar');
+  tituloModalEL.innerText = "Modificando Fila";
   //modifica en el html
   for (let clave in elemento) {
     let inpEL = document.getElementById(`inp-${clave}`);
     let tdEl = document.getElementById(`${clave}${i}`);
-
+    inpEL.disabled = false;
     inpEL.value = tdEl.innerHTML;
 
     let sip = () => {
@@ -41,21 +84,12 @@ let modifiRow = (elemento, i) => {
 
 
 
-
 let createInputs = (claves) => {
   for (let i = 0; i < claves.length; i++) {
     let inp = document.createElement('input');
     inp.setAttribute('id', `inp-${claves[i]}`);
     inputsEl.appendChild(inp);
   }
-  let btnOk = document.createElement('button');
-  let btnCancel = document.createElement('button');
-  btnOk.setAttribute('id', 'btnAceptar');
-  btnCancel.setAttribute('id', 'btnCancelar');
-  btnCancel.innerHTML = 'Cancelar';
-  btnOk.innerHTML = 'Aceptar';
-  inputsEl.appendChild(btnOk);
-  inputsEl.appendChild(btnCancel);
 }
 
 let createHeader = (claves) => {
@@ -72,7 +106,7 @@ let createHeader = (claves) => {
     trEl.appendChild(thEl);
   }
   let thEl = document.createElement("th");
-  thEl.innerHTML = 'Modificar';
+  thEl.innerHTML = 'Modificar/Eliminar';
   trEl.appendChild(thEl);
   //agregamos el elemento tr al thead
   theadEl.appendChild(trEl);
@@ -90,17 +124,25 @@ let createRow = (elemento, i) => {
     trEl.appendChild(tdEl);
   }
   let tdElimMod = document.createElement("td");
+  tdElimMod.setAttribute('class', 'btn-group');
   let btnElim = document.createElement("button");
   let btnModif = document.createElement("button");
   btnElim.setAttribute('id', `btnElim${i}`);
+  btnElim.setAttribute('class', `btn btn-secondary`);
+  btnElim.setAttribute('data-toggle', `modal`);
+  btnElim.setAttribute('data-target', `#modalDelModAdd`);
   btnModif.setAttribute('id', `btnModif${i}`);
+  btnModif.setAttribute('class', `btn btn-secondary`);
+  btnModif.setAttribute('data-toggle', `modal`);
+  btnModif.setAttribute('data-target', `#modalDelModAdd`);
+
   btnModif.innerText = 'Modificar';
   btnElim.innerText = 'Eliminar';
-  tdElimMod.appendChild(btnElim);
   tdElimMod.appendChild(btnModif);
+  tdElimMod.appendChild(btnElim);
   trEl.appendChild(tdElimMod);
-  btnElim.addEventListener("click", () => { deleteRow(elemento,i);  });
-  btnModif.addEventListener("click", () => { modifiRow(elemento, i);  });
+  btnElim.addEventListener("click", () => { deleteRow(elemento, i); });
+  btnModif.addEventListener("click", () => { modifiRow(elemento, i); });
   //devolvemos la fila creada
   return trEl;
 };
@@ -129,10 +171,8 @@ window.addEventListener("load", () => {
   loadGPUStable();
 });
 
-let tableHardEl = document.getElementById("tabla");
-let inputsEl = document.getElementById("inputs");
 
-//convertimos la data en formato JSON a un objeto JS para poder acceder a sus propiedades
+
 
 
 
