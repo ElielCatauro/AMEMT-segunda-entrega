@@ -88,13 +88,21 @@ let modifiRow = (elemento, i) => {
 
 let createInputs = (claves) => {
   for (let i = 0; i < claves.length; i++) {
-  
+   let divi=document.createElement('div'); 
+   divi.setAttribute('class',`form-group row justify-content-between`);
+   
+
+
+
     let inp = document.createElement('input'); 
     let inpLb = document.createElement('label'); 
     inp.setAttribute('id', `inp-${claves[i]}`);
     inpLb.setAttribute('for',`inp-${claves[i]}`);
-    inputsEl.appendChild(inpLb);
-    inputsEl.appendChild(inp);
+    inpLb.innerText=claves[i];
+    divi.appendChild(inpLb);
+    divi.appendChild(inp);
+    inputsEl.appendChild(divi);
+    inputsEl
   }
 }
 
