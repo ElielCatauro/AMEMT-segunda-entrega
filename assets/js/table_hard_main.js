@@ -40,7 +40,9 @@ let deleteRow = (elemento, i) => {
 
     let sip = () => {
       const row = document.getElementById(`row${i}`);
-      row.remove();
+      try{row.remove();}
+      catch (error) {
+      }
       inpEL.value = '';
       btnCancel.removeEventListener('click', nop, { once: true });
     };
@@ -86,8 +88,12 @@ let modifiRow = (elemento, i) => {
 
 let createInputs = (claves) => {
   for (let i = 0; i < claves.length; i++) {
-    let inp = document.createElement('input');
+  
+    let inp = document.createElement('input'); 
+    let inpLb = document.createElement('label'); 
     inp.setAttribute('id', `inp-${claves[i]}`);
+    inpLb.setAttribute('for',`inp-${claves[i]}`);
+    inputsEl.appendChild(inpLb);
     inputsEl.appendChild(inp);
   }
 }
