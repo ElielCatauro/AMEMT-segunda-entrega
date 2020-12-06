@@ -1,2014 +1,2720 @@
 {
-    "CPUS":[
-    {
-    "CPU_name":"AMD Ryzen 9 5900X",
-    "CPU_Mark":"39,727",
-    "Thread_Mark":"3,551",
-    "TEST_Date":"Nov 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 5950X",
-    "CPU_Mark":"46,625",
-    "Thread_Mark":"3,550",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 5800X",
-    "CPU_Mark":"28,702",
-    "Thread_Mark":"3,482",
-    "TEST_Date":"Nov 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 5600X",
-    "CPU_Mark":"22,094",
-    "Thread_Mark":"3,373",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900K @ 3.70GHz",
-    "CPU_Mark":"24,221",
-    "Thread_Mark":"3,178",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900KF @ 3.70GHz",
-    "CPU_Mark":"23,766",
-    "Thread_Mark":"3,145",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10850K @ 3.60GHz",
-    "CPU_Mark":"23,332",
-    "Thread_Mark":"3,110",
-    "TEST_Date":"Aug 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900 @ 2.80GHz",
-    "CPU_Mark":"21,301",
-    "Thread_Mark":"3,109",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900F @ 2.80GHz",
-    "CPU_Mark":"21,465",
-    "Thread_Mark":"3,108",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9990XE @ 4.00GHz",
-    "CPU_Mark":"31,941",
-    "Thread_Mark":"3,104",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10910 @ 3.60GHz",
-    "CPU_Mark":"22,289",
-    "Thread_Mark":"3,101",
-    "TEST_Date":"Aug 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-10700K @ 3.80GHz",
-    "CPU_Mark":"19,683",
-    "Thread_Mark":"3,088",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-10700KF @ 3.80GHz",
-    "CPU_Mark":"19,532",
-    "Thread_Mark":"3,086",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900KS @ 4.00GHz",
-    "CPU_Mark":"19,460",
-    "Thread_Mark":"3,031",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900KF @ 3.60GHz",
-    "CPU_Mark":"18,942",
-    "Thread_Mark":"3,008",
-    "TEST_Date":"Apr 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900K @ 3.60GHz",
-    "CPU_Mark":"18,881",
-    "Thread_Mark":"2,978",
-    "TEST_Date":"Oct 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700KF @ 3.60GHz",
-    "CPU_Mark":"14,731",
-    "Thread_Mark":"2,949",
-    "TEST_Date":"Apr 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-8086K @ 4.00GHz",
-    "CPU_Mark":"14,752",
-    "Thread_Mark":"2,947",
-    "TEST_Date":"Jun 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-10600KF @ 4.10GHz",
-    "CPU_Mark":"14,963",
-    "Thread_Mark":"2,938",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-10700 @ 2.90GHz",
-    "CPU_Mark":"17,480",
-    "Thread_Mark":"2,931",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-10600K @ 4.10GHz",
-    "CPU_Mark":"14,638",
-    "Thread_Mark":"2,930",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700K @ 3.60GHz",
-    "CPU_Mark":"14,616",
-    "Thread_Mark":"2,914",
-    "TEST_Date":"Oct 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-10700F @ 2.90GHz",
-    "CPU_Mark":"17,238",
-    "Thread_Mark":"2,905",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900 @ 3.10GHz",
-    "CPU_Mark":"17,156",
-    "Thread_Mark":"2,895",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 3800XT",
-    "CPU_Mark":"23,960",
-    "Thread_Mark":"2,859",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-10600 @ 3.30GHz",
-    "CPU_Mark":"14,114",
-    "Thread_Mark":"2,857",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i3-9350K @ 4.00GHz",
-    "CPU_Mark":"7,797",
-    "Thread_Mark":"2,846",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-7740X @ 4.30GHz",
-    "CPU_Mark":"9,906",
-    "Thread_Mark":"2,839",
-    "TEST_Date":"Jul 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700F @ 3.00GHz",
-    "CPU_Mark":"13,822",
-    "Thread_Mark":"2,837",
-    "TEST_Date":"Jun 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-9350KF @ 4.00GHz",
-    "CPU_Mark":"7,913",
-    "Thread_Mark":"2,823",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3600XT",
-    "CPU_Mark":"18,944",
-    "Thread_Mark":"2,813",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700 @ 3.00GHz",
-    "CPU_Mark":"13,568",
-    "Thread_Mark":"2,808",
-    "TEST_Date":"Jun 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-9600KF @ 3.70GHz",
-    "CPU_Mark":"10,923",
-    "Thread_Mark":"2,806",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 3900XT",
-    "CPU_Mark":"33,114",
-    "Thread_Mark":"2,801",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 4700G",
-    "CPU_Mark":"21,164",
-    "Thread_Mark":"2,797",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-8700K @ 3.70GHz",
-    "CPU_Mark":"13,899",
-    "Thread_Mark":"2,791",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-9600K @ 3.70GHz",
-    "CPU_Mark":"10,875",
-    "Thread_Mark":"2,790",
-    "TEST_Date":"Oct 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-9600 @ 3.10GHz",
-    "CPU_Mark":"10,741",
-    "Thread_Mark":"2,784",
-    "TEST_Date":"Sep 2019"
-    },
-    {
-    "CPU_name":"Intel Xeon W-2255 @ 3.70GHz",
-    "CPU_Mark":"22,687",
-    "Thread_Mark":"2,776",
-    "TEST_Date":"Mar 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-7700K @ 4.20GHz",
-    "CPU_Mark":"9,720",
-    "Thread_Mark":"2,768",
-    "TEST_Date":"Oct 2016"
-    },
-    {
-    "CPU_name":"Intel Core i5-10500 @ 3.10GHz",
-    "CPU_Mark":"13,348",
-    "Thread_Mark":"2,759",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper PRO 3955WX",
-    "CPU_Mark":"42,095",
-    "Thread_Mark":"2,759",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 4750G",
-    "CPU_Mark":"21,304",
-    "Thread_Mark":"2,757",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 3800X",
-    "CPU_Mark":"23,362",
-    "Thread_Mark":"2,745",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 3950X",
-    "CPU_Mark":"39,231",
-    "Thread_Mark":"2,743",
-    "TEST_Date":"Nov 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-10920X @ 3.50GHz",
-    "CPU_Mark":"26,318",
-    "Thread_Mark":"2,741",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 4750GE",
-    "CPU_Mark":"20,456",
-    "Thread_Mark":"2,737",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 4700GE",
-    "CPU_Mark":"20,671",
-    "Thread_Mark":"2,737",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-10940X @ 3.30GHz",
-    "CPU_Mark":"29,831",
-    "Thread_Mark":"2,732",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 3900X",
-    "CPU_Mark":"32,866",
-    "Thread_Mark":"2,731",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900X @ 3.70GHz",
-    "CPU_Mark":"22,683",
-    "Thread_Mark":"2,727",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper PRO 3945WX",
-    "CPU_Mark":"34,762",
-    "Thread_Mark":"2,725",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9960X @ 3.10GHz",
-    "CPU_Mark":"31,554",
-    "Thread_Mark":"2,714",
-    "TEST_Date":"Feb 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-9320 @ 3.70GHz",
-    "CPU_Mark":"7,358",
-    "Thread_Mark":"2,711",
-    "TEST_Date":"Sep 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 3970X",
-    "CPU_Mark":"64,224",
-    "Thread_Mark":"2,711",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 4600G",
-    "CPU_Mark":"17,197",
-    "Thread_Mark":"2,707",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 3960X",
-    "CPU_Mark":"55,373",
-    "Thread_Mark":"2,703",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 4700G",
-    "CPU_Mark":"20,848",
-    "Thread_Mark":"2,700",
-    "TEST_Date":"Aug 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-9500F @ 3.00GHz",
-    "CPU_Mark":"10,294",
-    "Thread_Mark":"2,696",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-10700T @ 2.00GHz",
-    "CPU_Mark":"12,505",
-    "Thread_Mark":"2,695",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 3300X",
-    "CPU_Mark":"12,788",
-    "Thread_Mark":"2,690",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 3700X",
-    "CPU_Mark":"22,824",
-    "Thread_Mark":"2,690",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-9300 @ 3.70GHz",
-    "CPU_Mark":"7,267",
-    "Thread_Mark":"2,687",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-10300 @ 3.70GHz",
-    "CPU_Mark":"9,322",
-    "Thread_Mark":"2,685",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-8700 @ 3.20GHz",
-    "CPU_Mark":"13,095",
-    "Thread_Mark":"2,685",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 4650G",
-    "CPU_Mark":"16,710",
-    "Thread_Mark":"2,679",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3600X",
-    "CPU_Mark":"18,321",
-    "Thread_Mark":"2,677",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 4600GE",
-    "CPU_Mark":"16,377",
-    "Thread_Mark":"2,676",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 4650GE",
-    "CPU_Mark":"16,689",
-    "Thread_Mark":"2,675",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-9500 @ 3.00GHz",
-    "CPU_Mark":"9,933",
-    "Thread_Mark":"2,671",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper PRO 3995WX",
-    "CPU_Mark":"88,323",
-    "Thread_Mark":"2,671",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper PRO 3975WX",
-    "CPU_Mark":"65,674",
-    "Thread_Mark":"2,670",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-10300H @ 2.50GHz",
-    "CPU_Mark":"8,858",
-    "Thread_Mark":"2,660",
-    "TEST_Date":"Jan 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 4400G",
-    "CPU_Mark":"16,335",
-    "Thread_Mark":"2,655",
-    "TEST_Date":"Aug 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9920X @ 3.50GHz",
-    "CPU_Mark":"25,352",
-    "Thread_Mark":"2,655",
-    "TEST_Date":"Dec 2018"
-    },
-    {
-    "CPU_name":"Intel Core i3-10100 @ 3.60GHz",
-    "CPU_Mark":"9,003",
-    "Thread_Mark":"2,651",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 3900",
-    "CPU_Mark":"30,860",
-    "Thread_Mark":"2,647",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-10980XE @ 3.00GHz",
-    "CPU_Mark":"34,296",
-    "Thread_Mark":"2,642",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-8600K @ 3.60GHz",
-    "CPU_Mark":"10,248",
-    "Thread_Mark":"2,641",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 9 PRO 3900",
-    "CPU_Mark":"31,800",
-    "Thread_Mark":"2,637",
-    "TEST_Date":"Sep 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-10100F @ 3.60GHz",
-    "CPU_Mark":"9,078",
-    "Thread_Mark":"2,636",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-9800X @ 3.80GHz",
-    "CPU_Mark":"18,274",
-    "Thread_Mark":"2,635",
-    "TEST_Date":"Dec 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 3700",
-    "CPU_Mark":"21,904",
-    "Thread_Mark":"2,629",
-    "TEST_Date":"Sep 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-9940X @ 3.30GHz",
-    "CPU_Mark":"28,266",
-    "Thread_Mark":"2,625",
-    "TEST_Date":"Nov 2018"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900X @ 3.50GHz",
-    "CPU_Mark":"21,908",
-    "Thread_Mark":"2,615",
-    "TEST_Date":"Dec 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-7900X @ 3.30GHz",
-    "CPU_Mark":"19,358",
-    "Thread_Mark":"2,610",
-    "TEST_Date":"Aug 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-10400F @ 2.90GHz",
-    "CPU_Mark":"12,695",
-    "Thread_Mark":"2,602",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-7900X @ 3.30GHz",
-    "CPU_Mark":"21,474",
-    "Thread_Mark":"2,601",
-    "TEST_Date":"Jun 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-10400 @ 2.90GHz",
-    "CPU_Mark":"12,588",
-    "Thread_Mark":"2,598",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 4300G",
-    "CPU_Mark":"11,714",
-    "Thread_Mark":"2,585",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 4300GE",
-    "CPU_Mark":"11,878",
-    "Thread_Mark":"2,585",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3600",
-    "CPU_Mark":"17,862",
-    "Thread_Mark":"2,584",
-    "TEST_Date":"Jun 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 3600",
-    "CPU_Mark":"17,888",
-    "Thread_Mark":"2,583",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 4350GE",
-    "CPU_Mark":"11,499",
-    "Thread_Mark":"2,580",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-7960X @ 2.80GHz",
-    "CPU_Mark":"26,959",
-    "Thread_Mark":"2,580",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"Intel Core i9-9980XE @ 3.00GHz",
-    "CPU_Mark":"32,010",
-    "Thread_Mark":"2,577",
-    "TEST_Date":"Dec 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-7600K @ 3.80GHz",
-    "CPU_Mark":"6,879",
-    "Thread_Mark":"2,572",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Core i9-10900T @ 1.90GHz",
-    "CPU_Mark":"16,588",
-    "Thread_Mark":"2,571",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"Intel Pentium Gold G6500 @ 4.10GHz",
-    "CPU_Mark":"4,208",
-    "Thread_Mark":"2,558",
-    "TEST_Date":"Oct 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700E @ 2.60GHz",
-    "CPU_Mark":"12,754",
-    "Thread_Mark":"2,556",
-    "TEST_Date":"Nov 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 4350G",
-    "CPU_Mark":"11,291",
-    "Thread_Mark":"2,551",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-8600 @ 3.10GHz",
-    "CPU_Mark":"9,813",
-    "Thread_Mark":"2,550",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 3990X",
-    "CPU_Mark":"80,721",
-    "Thread_Mark":"2,550",
-    "TEST_Date":"Feb 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-7820X @ 3.60GHz",
-    "CPU_Mark":"17,476",
-    "Thread_Mark":"2,547",
-    "TEST_Date":"Jun 2017"
-    },
-    {
-    "CPU_name":"Intel Core i3-9100 @ 3.60GHz",
-    "CPU_Mark":"6,725",
-    "Thread_Mark":"2,541",
-    "TEST_Date":"Jun 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-9100F @ 3.60GHz",
-    "CPU_Mark":"6,813",
-    "Thread_Mark":"2,534",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-7940X @ 3.10GHz",
-    "CPU_Mark":"26,931",
-    "Thread_Mark":"2,534",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700T @ 2.00GHz",
-    "CPU_Mark":"10,885",
-    "Thread_Mark":"2,533",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-6700K @ 4.00GHz",
-    "CPU_Mark":"8,955",
-    "Thread_Mark":"2,531",
-    "TEST_Date":"Jul 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3500X",
-    "CPU_Mark":"13,407",
-    "Thread_Mark":"2,531",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-8350K @ 4.00GHz",
-    "CPU_Mark":"7,008",
-    "Thread_Mark":"2,518",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-10600T @ 2.40GHz",
-    "CPU_Mark":"11,330",
-    "Thread_Mark":"2,517",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3500",
-    "CPU_Mark":"12,783",
-    "Thread_Mark":"2,510",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-9400 @ 2.90GHz",
-    "CPU_Mark":"9,569",
-    "Thread_Mark":"2,507",
-    "TEST_Date":"Mar 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-7920X @ 2.90GHz",
-    "CPU_Mark":"23,489",
-    "Thread_Mark":"2,505",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"Intel Core i9-7980XE @ 2.60GHz",
-    "CPU_Mark":"29,805",
-    "Thread_Mark":"2,501",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 2920X",
-    "CPU_Mark":"25,687",
-    "Thread_Mark":"2,496",
-    "TEST_Date":"Nov 2018"
-    },
-    {
-    "CPU_name":"Intel Core i3-7300 @ 4.00GHz",
-    "CPU_Mark":"4,778",
-    "Thread_Mark":"2,492",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-9400F @ 2.90GHz",
-    "CPU_Mark":"9,599",
-    "Thread_Mark":"2,491",
-    "TEST_Date":"Feb 2019"
-    },
-    {
-    "CPU_name":"Intel Pentium Gold G6400 @ 4.00GHz",
-    "CPU_Mark":"4,243",
-    "Thread_Mark":"2,489",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-7640X @ 4.00GHz",
-    "CPU_Mark":"6,467",
-    "Thread_Mark":"2,487",
-    "TEST_Date":"Jul 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-7700 @ 3.60GHz",
-    "CPU_Mark":"8,646",
-    "Thread_Mark":"2,486",
-    "TEST_Date":"Dec 2016"
-    },
-    {
-    "CPU_name":"Intel Core i5-8500 @ 3.00GHz",
-    "CPU_Mark":"9,509",
-    "Thread_Mark":"2,482",
-    "TEST_Date":"Mar 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 2950X",
-    "CPU_Mark":"30,106",
-    "Thread_Mark":"2,480",
-    "TEST_Date":"Sep 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-7600 @ 3.50GHz",
-    "CPU_Mark":"6,591",
-    "Thread_Mark":"2,476",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-4790K @ 4.00GHz",
-    "CPU_Mark":"8,045",
-    "Thread_Mark":"2,466",
-    "TEST_Date":"Jun 2014"
-    },
-    {
-    "CPU_name":"Intel Core i3-10300T @ 3.00GHz",
-    "CPU_Mark":"8,355",
-    "Thread_Mark":"2,451",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i9-9900T @ 2.10GHz",
-    "CPU_Mark":"13,664",
-    "Thread_Mark":"2,440",
-    "TEST_Date":"Nov 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 3100",
-    "CPU_Mark":"11,749",
-    "Thread_Mark":"2,439",
-    "TEST_Date":"May 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 2700X",
-    "CPU_Mark":"17,582",
-    "Thread_Mark":"2,438",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"Intel Core i3-7350K @ 4.20GHz",
-    "CPU_Mark":"4,804",
-    "Thread_Mark":"2,431",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Core i3-7320 @ 4.10GHz",
-    "CPU_Mark":"4,862",
-    "Thread_Mark":"2,430",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Pentium Gold G5620 @ 4.00GHz",
-    "CPU_Mark":"4,102",
-    "Thread_Mark":"2,424",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"Intel Core i9-9820X @ 3.30GHz",
-    "CPU_Mark":"20,510",
-    "Thread_Mark":"2,420",
-    "TEST_Date":"Dec 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-9600T @ 2.30GHz",
-    "CPU_Mark":"9,406",
-    "Thread_Mark":"2,419",
-    "TEST_Date":"Nov 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-8400 @ 2.80GHz",
-    "CPU_Mark":"9,201",
-    "Thread_Mark":"2,416",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-6850K @ 3.60GHz",
-    "CPU_Mark":"11,273",
-    "Thread_Mark":"2,415",
-    "TEST_Date":"Jun 2016"
-    },
-    {
-    "CPU_name":"Intel Pentium Gold G5600F @ 3.90GHz",
-    "CPU_Mark":"4,161",
-    "Thread_Mark":"2,414",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 2600X",
-    "CPU_Mark":"14,073",
-    "Thread_Mark":"2,410",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 2700E",
-    "CPU_Mark":"14,657",
-    "Thread_Mark":"2,410",
-    "TEST_Date":"Sep 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-7800X @ 3.50GHz",
-    "CPU_Mark":"12,540",
-    "Thread_Mark":"2,406",
-    "TEST_Date":"Jun 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-8700T @ 2.40GHz",
-    "CPU_Mark":"10,858",
-    "Thread_Mark":"2,402",
-    "TEST_Date":"Mar 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-6950X @ 3.00GHz",
-    "CPU_Mark":"17,391",
-    "Thread_Mark":"2,395",
-    "TEST_Date":"Jun 2016"
-    },
-    {
-    "CPU_name":"Intel Core i5-10500T @ 2.30GHz",
-    "CPU_Mark":"10,808",
-    "Thread_Mark":"2,384",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3400G",
-    "CPU_Mark":"9,399",
-    "Thread_Mark":"2,381",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 2300X",
-    "CPU_Mark":"7,777",
-    "Thread_Mark":"2,376",
-    "TEST_Date":"Jan 2019"
-    },
-    {
-    "CPU_name":"Intel Core i3-6320 @ 3.90GHz",
-    "CPU_Mark":"4,432",
-    "Thread_Mark":"2,373",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"Intel Core i3-9300T @ 3.20GHz",
-    "CPU_Mark":"6,367",
-    "Thread_Mark":"2,373",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-6900K @ 3.20GHz",
-    "CPU_Mark":"13,700",
-    "Thread_Mark":"2,373",
-    "TEST_Date":"Jun 2016"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 2990X",
-    "CPU_Mark":"20,885",
-    "Thread_Mark":"2,372",
-    "TEST_Date":"Oct 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 2700X",
-    "CPU_Mark":"16,846",
-    "Thread_Mark":"2,362",
-    "TEST_Date":"Jul 2018"
-    },
-    {
-    "CPU_name":"Intel Core i3-6300 @ 3.80GHz",
-    "CPU_Mark":"4,354",
-    "Thread_Mark":"2,361",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 2500X",
-    "CPU_Mark":"9,671",
-    "Thread_Mark":"2,359",
-    "TEST_Date":"Feb 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 3400G",
-    "CPU_Mark":"9,502",
-    "Thread_Mark":"2,353",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 1900X",
-    "CPU_Mark":"16,698",
-    "Thread_Mark":"2,344",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3350GE",
-    "CPU_Mark":"9,684",
-    "Thread_Mark":"2,342",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 3350G",
-    "CPU_Mark":"9,582",
-    "Thread_Mark":"2,341",
-    "TEST_Date":"Jun 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 3350GE",
-    "CPU_Mark":"9,643",
-    "Thread_Mark":"2,340",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i3-7100 @ 3.90GHz",
-    "CPU_Mark":"4,300",
-    "Thread_Mark":"2,339",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-6600K @ 3.50GHz",
-    "CPU_Mark":"6,267",
-    "Thread_Mark":"2,328",
-    "TEST_Date":"Aug 2015"
-    },
-    {
-    "CPU_name":"AMD Athlon Gold PRO 3150G",
-    "CPU_Mark":"7,702",
-    "Thread_Mark":"2,321",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 2990WX",
-    "CPU_Mark":"31,991",
-    "Thread_Mark":"2,318",
-    "TEST_Date":"Aug 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-5775C @ 3.30GHz",
-    "CPU_Mark":"7,844",
-    "Thread_Mark":"2,314",
-    "TEST_Date":"Jun 2015"
-    },
-    {
-    "CPU_name":"Intel Core i3-8300 @ 3.70GHz",
-    "CPU_Mark":"6,317",
-    "Thread_Mark":"2,308",
-    "TEST_Date":"Jun 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 1920X",
-    "CPU_Mark":"23,199",
-    "Thread_Mark":"2,308",
-    "TEST_Date":"Aug 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-6700 @ 3.40GHz",
-    "CPU_Mark":"8,056",
-    "Thread_Mark":"2,306",
-    "TEST_Date":"Sep 2015"
-    },
-    {
-    "CPU_name":"Intel Core i7-5775R @ 3.30GHz",
-    "CPU_Mark":"7,819",
-    "Thread_Mark":"2,295",
-    "TEST_Date":"May 2016"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 2970WX",
-    "CPU_Mark":"28,071",
-    "Thread_Mark":"2,292",
-    "TEST_Date":"Nov 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-7500 @ 3.40GHz",
-    "CPU_Mark":"6,137",
-    "Thread_Mark":"2,289",
-    "TEST_Date":"Dec 2016"
-    },
-    {
-    "CPU_name":"AMD Ryzen Threadripper 1950X",
-    "CPU_Mark":"26,502",
-    "Thread_Mark":"2,281",
-    "TEST_Date":"Aug 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 2600",
-    "CPU_Mark":"13,662",
-    "Thread_Mark":"2,279",
-    "TEST_Date":"Aug 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-8600T @ 2.30GHz",
-    "CPU_Mark":"8,860",
-    "Thread_Mark":"2,274",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 3400GE",
-    "CPU_Mark":"8,219",
-    "Thread_Mark":"2,273",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-9700TE @ 1.80GHz",
-    "CPU_Mark":"10,680",
-    "Thread_Mark":"2,269",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-7700T @ 2.90GHz",
-    "CPU_Mark":"7,827",
-    "Thread_Mark":"2,266",
-    "TEST_Date":"Feb 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-6600 @ 3.30GHz",
-    "CPU_Mark":"6,066",
-    "Thread_Mark":"2,263",
-    "TEST_Date":"Sep 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 2600",
-    "CPU_Mark":"13,220",
-    "Thread_Mark":"2,261",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-5675C @ 3.10GHz",
-    "CPU_Mark":"5,910",
-    "Thread_Mark":"2,258",
-    "TEST_Date":"Jul 2015"
-    },
-    {
-    "CPU_name":"AMD Athlon Gold PRO 3150GE",
-    "CPU_Mark":"7,578",
-    "Thread_Mark":"2,257",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i7-6800K @ 3.40GHz",
-    "CPU_Mark":"10,532",
-    "Thread_Mark":"2,257",
-    "TEST_Date":"May 2016"
-    },
-    {
-    "CPU_name":"Intel Core i3-8100 @ 3.60GHz",
-    "CPU_Mark":"6,154",
-    "Thread_Mark":"2,255",
-    "TEST_Date":"Oct 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-5675C @ 3.10GHz",
-    "CPU_Mark":"6,089",
-    "Thread_Mark":"2,249",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 3200G",
-    "CPU_Mark":"7,056",
-    "Thread_Mark":"2,249",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-7600T @ 2.80GHz",
-    "CPU_Mark":"5,961",
-    "Thread_Mark":"2,247",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 3200GE",
-    "CPU_Mark":"7,555",
-    "Thread_Mark":"2,239",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 2700",
-    "CPU_Mark":"15,049",
-    "Thread_Mark":"2,237",
-    "TEST_Date":"Aug 2018"
-    },
-    {
-    "CPU_name":"Intel Core i3-6100 @ 3.70GHz",
-    "CPU_Mark":"4,147",
-    "Thread_Mark":"2,236",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 3200G",
-    "CPU_Mark":"7,241",
-    "Thread_Mark":"2,232",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-4790 @ 3.60GHz",
-    "CPU_Mark":"7,205",
-    "Thread_Mark":"2,229",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 1300",
-    "CPU_Mark":"7,717",
-    "Thread_Mark":"2,229",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-5675R @ 3.10GHz",
-    "CPU_Mark":"5,906",
-    "Thread_Mark":"2,227",
-    "TEST_Date":"Jun 2016"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 2700",
-    "CPU_Mark":"15,713",
-    "Thread_Mark":"2,210",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 1700X",
-    "CPU_Mark":"15,697",
-    "Thread_Mark":"2,209",
-    "TEST_Date":"Jun 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4690 @ 3.50GHz",
-    "CPU_Mark":"5,615",
-    "Thread_Mark":"2,202",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-4790S @ 3.20GHz",
-    "CPU_Mark":"6,977",
-    "Thread_Mark":"2,202",
-    "TEST_Date":"Jun 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-10400T @ 2.00GHz",
-    "CPU_Mark":"10,453",
-    "Thread_Mark":"2,196",
-    "TEST_Date":"Aug 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 1600X",
-    "CPU_Mark":"13,070",
-    "Thread_Mark":"2,194",
-    "TEST_Date":"Apr 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4690S @ 3.20GHz",
-    "CPU_Mark":"5,283",
-    "Thread_Mark":"2,193",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-4690K @ 3.50GHz",
-    "CPU_Mark":"5,588",
-    "Thread_Mark":"2,191",
-    "TEST_Date":"Jun 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-4771 @ 3.50GHz",
-    "CPU_Mark":"7,012",
-    "Thread_Mark":"2,187",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"Intel Core i3-9100T @ 3.10GHz",
-    "CPU_Mark":"5,574",
-    "Thread_Mark":"2,186",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-9500T @ 2.20GHz",
-    "CPU_Mark":"8,164",
-    "Thread_Mark":"2,180",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 1800X",
-    "CPU_Mark":"16,243",
-    "Thread_Mark":"2,179",
-    "TEST_Date":"Feb 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-4790T @ 2.70GHz",
-    "CPU_Mark":"6,519",
-    "Thread_Mark":"2,174",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770 @ 3.40GHz",
-    "CPU_Mark":"7,033",
-    "Thread_Mark":"2,174",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 3400GE",
-    "CPU_Mark":"8,545",
-    "Thread_Mark":"2,174",
-    "TEST_Date":"Apr 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 1500",
-    "CPU_Mark":"9,434",
-    "Thread_Mark":"2,171",
-    "TEST_Date":"Jul 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 2400G",
-    "CPU_Mark":"8,773",
-    "Thread_Mark":"2,170",
-    "TEST_Date":"Feb 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770S @ 3.10GHz",
-    "CPU_Mark":"6,851",
-    "Thread_Mark":"2,165",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670R @ 3.00GHz",
-    "CPU_Mark":"5,335",
-    "Thread_Mark":"2,164",
-    "TEST_Date":"Jul 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 2400GE",
-    "CPU_Mark":"7,624",
-    "Thread_Mark":"2,157",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670 @ 3.40GHz",
-    "CPU_Mark":"5,465",
-    "Thread_Mark":"2,149",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770K @ 3.50GHz",
-    "CPU_Mark":"7,044",
-    "Thread_Mark":"2,146",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670K @ 3.40GHz",
-    "CPU_Mark":"5,513",
-    "Thread_Mark":"2,144",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 2400GE",
-    "CPU_Mark":"7,619",
-    "Thread_Mark":"2,143",
-    "TEST_Date":"Jun 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 2400G",
-    "CPU_Mark":"8,457",
-    "Thread_Mark":"2,141",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-9850HL @ 1.90GHz",
-    "CPU_Mark":"9,112",
-    "Thread_Mark":"2,139",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770R @ 3.20GHz",
-    "CPU_Mark":"6,666",
-    "Thread_Mark":"2,139",
-    "TEST_Date":"Jan 2014"
-    },
-    {
-    "CPU_name":"Intel Core i3-7300T @ 3.50GHz",
-    "CPU_Mark":"4,159",
-    "Thread_Mark":"2,128",
-    "TEST_Date":"May 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen Embedded V1756B",
-    "CPU_Mark":"8,133",
-    "Thread_Mark":"2,128",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"Intel Xeon W-3175X @ 3.10GHz",
-    "CPU_Mark":"31,814",
-    "Thread_Mark":"2,126",
-    "TEST_Date":"Mar 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-6500 @ 3.20GHz",
-    "CPU_Mark":"5,659",
-    "Thread_Mark":"2,123",
-    "TEST_Date":"Sep 2015"
-    },
-    {
-    "CPU_name":"Intel Core i5-6600T @ 2.70GHz",
-    "CPU_Mark":"5,595",
-    "Thread_Mark":"2,121",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"AMD Athlon 300GE",
-    "CPU_Mark":"4,905",
-    "Thread_Mark":"2,119",
-    "TEST_Date":"Dec 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 2200GE",
-    "CPU_Mark":"6,433",
-    "Thread_Mark":"2,117",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-6700T @ 2.80GHz",
-    "CPU_Mark":"7,239",
-    "Thread_Mark":"2,117",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670S @ 3.10GHz",
-    "CPU_Mark":"5,048",
-    "Thread_Mark":"2,110",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 2200G",
-    "CPU_Mark":"6,632",
-    "Thread_Mark":"2,110",
-    "TEST_Date":"Mar 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-7400 @ 3.00GHz",
-    "CPU_Mark":"5,504",
-    "Thread_Mark":"2,107",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 1500X",
-    "CPU_Mark":"9,071",
-    "Thread_Mark":"2,099",
-    "TEST_Date":"Apr 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 1600",
-    "CPU_Mark":"12,417",
-    "Thread_Mark":"2,089",
-    "TEST_Date":"Mar 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-6700TE @ 2.40GHz",
-    "CPU_Mark":"6,600",
-    "Thread_Mark":"2,087",
-    "TEST_Date":"Jun 2016"
-    },
-    {
-    "CPU_name":"Intel Core i5-8500T @ 2.10GHz",
-    "CPU_Mark":"7,910",
-    "Thread_Mark":"2,085",
-    "TEST_Date":"Apr 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 1300X",
-    "CPU_Mark":"6,986",
-    "Thread_Mark":"2,082",
-    "TEST_Date":"Aug 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4590 @ 3.30GHz",
-    "CPU_Mark":"5,296",
-    "Thread_Mark":"2,081",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-3770K @ 3.50GHz",
-    "CPU_Mark":"6,445",
-    "Thread_Mark":"2,076",
-    "TEST_Date":"Apr 2012"
-    },
-    {
-    "CPU_name":"Intel Core i3-6098P @ 3.60GHz",
-    "CPU_Mark":"4,178",
-    "Thread_Mark":"2,075",
-    "TEST_Date":"Feb 2016"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770T @ 2.50GHz",
-    "CPU_Mark":"5,957",
-    "Thread_Mark":"2,074",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 1700X",
-    "CPU_Mark":"15,536",
-    "Thread_Mark":"2,074",
-    "TEST_Date":"Mar 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4590S @ 3.00GHz",
-    "CPU_Mark":"5,091",
-    "Thread_Mark":"2,070",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-3770 @ 3.40GHz",
-    "CPU_Mark":"6,359",
-    "Thread_Mark":"2,069",
-    "TEST_Date":"Mar 2012"
-    },
-    {
-    "CPU_name":"AMD Athlon Silver PRO 3125GE",
-    "CPU_Mark":"4,701",
-    "Thread_Mark":"2,067",
-    "TEST_Date":"Jul 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-6402P @ 2.80GHz",
-    "CPU_Mark":"5,554",
-    "Thread_Mark":"2,060",
-    "TEST_Date":"Apr 2016"
-    },
-    {
-    "CPU_name":"Intel Core i7-5930K @ 3.50GHz",
-    "CPU_Mark":"10,277",
-    "Thread_Mark":"2,056",
-    "TEST_Date":"Aug 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-9400T @ 1.80GHz",
-    "CPU_Mark":"7,769",
-    "Thread_Mark":"2,054",
-    "TEST_Date":"Jul 2019"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 2200G",
-    "CPU_Mark":"6,768",
-    "Thread_Mark":"2,053",
-    "TEST_Date":"Feb 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-5575R @ 2.80GHz",
-    "CPU_Mark":"5,550",
-    "Thread_Mark":"2,052",
-    "TEST_Date":"Dec 2015"
-    },
-    {
-    "CPU_name":"Intel Core i7-3770S @ 3.10GHz",
-    "CPU_Mark":"6,221",
-    "Thread_Mark":"2,052",
-    "TEST_Date":"May 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-3570K @ 3.40GHz",
-    "CPU_Mark":"4,938",
-    "Thread_Mark":"2,046",
-    "TEST_Date":"Apr 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-4960X @ 3.60GHz",
-    "CPU_Mark":"9,876",
-    "Thread_Mark":"2,045",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"AMD Ryzen Embedded R1606G",
-    "CPU_Mark":"4,544",
-    "Thread_Mark":"2,044",
-    "TEST_Date":"Jan 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-3570 @ 3.40GHz",
-    "CPU_Mark":"4,885",
-    "Thread_Mark":"2,042",
-    "TEST_Date":"Jul 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670K CPT @ 3.40GHz",
-    "CPU_Mark":"5,034",
-    "Thread_Mark":"2,042",
-    "TEST_Date":"Dec 2014"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 2200GE",
-    "CPU_Mark":"6,292",
-    "Thread_Mark":"2,040",
-    "TEST_Date":"Aug 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 PRO 1700",
-    "CPU_Mark":"14,442",
-    "Thread_Mark":"2,039",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4570 @ 3.20GHz",
-    "CPU_Mark":"5,152",
-    "Thread_Mark":"2,020",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-4570S @ 2.90GHz",
-    "CPU_Mark":"4,963",
-    "Thread_Mark":"2,013",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i7-5820K @ 3.30GHz",
-    "CPU_Mark":"9,771",
-    "Thread_Mark":"2,008",
-    "TEST_Date":"Sep 2014"
-    },
-    {
-    "CPU_name":"Intel Core i3-8300T @ 3.20GHz",
-    "CPU_Mark":"5,827",
-    "Thread_Mark":"2,005",
-    "TEST_Date":"Jun 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-3570S @ 3.10GHz",
-    "CPU_Mark":"4,628",
-    "Thread_Mark":"2,004",
-    "TEST_Date":"Jul 2012"
-    },
-    {
-    "CPU_name":"AMD Athlon 240GE",
-    "CPU_Mark":"4,628",
-    "Thread_Mark":"2,003",
-    "TEST_Date":"Jan 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-3550 @ 3.30GHz",
-    "CPU_Mark":"4,794",
-    "Thread_Mark":"2,002",
-    "TEST_Date":"Mar 2012"
-    },
-    {
-    "CPU_name":"AMD Athlon 3000G",
-    "CPU_Mark":"4,469",
-    "Thread_Mark":"1,996",
-    "TEST_Date":"Nov 2019"
-    },
-    {
-    "CPU_name":"Intel Core i7-5960X @ 3.00GHz",
-    "CPU_Mark":"12,703",
-    "Thread_Mark":"1,991",
-    "TEST_Date":"Aug 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-7500T @ 2.70GHz",
-    "CPU_Mark":"5,345",
-    "Thread_Mark":"1,990",
-    "TEST_Date":"Jan 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 7 1700",
-    "CPU_Mark":"14,634",
-    "Thread_Mark":"1,987",
-    "TEST_Date":"Mar 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-6400 @ 2.70GHz",
-    "CPU_Mark":"5,159",
-    "Thread_Mark":"1,972",
-    "TEST_Date":"Aug 2015"
-    },
-    {
-    "CPU_name":"Intel Core i7-3770T @ 2.50GHz",
-    "CPU_Mark":"5,511",
-    "Thread_Mark":"1,954",
-    "TEST_Date":"May 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-3550S @ 3.00GHz",
-    "CPU_Mark":"4,422",
-    "Thread_Mark":"1,940",
-    "TEST_Date":"Jun 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-4930K @ 3.40GHz",
-    "CPU_Mark":"9,243",
-    "Thread_Mark":"1,940",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"Intel Core i7-4820K @ 3.70GHz",
-    "CPU_Mark":"6,559",
-    "Thread_Mark":"1,934",
-    "TEST_Date":"Jul 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-3470 @ 3.20GHz",
-    "CPU_Mark":"4,625",
-    "Thread_Mark":"1,932",
-    "TEST_Date":"Jul 2012"
-    },
-    {
-    "CPU_name":"Intel Core i3-8100T @ 3.10GHz",
-    "CPU_Mark":"5,319",
-    "Thread_Mark":"1,932",
-    "TEST_Date":"Aug 2018"
-    },
-    {
-    "CPU_name":"AMD Ryzen Embedded V1404I",
-    "CPU_Mark":"5,491",
-    "Thread_Mark":"1,932",
-    "TEST_Date":"Jan 2020"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 1200",
-    "CPU_Mark":"6,322",
-    "Thread_Mark":"1,924",
-    "TEST_Date":"Jun 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 1200",
-    "CPU_Mark":"6,376",
-    "Thread_Mark":"1,924",
-    "TEST_Date":"Aug 2017"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 1400",
-    "CPU_Mark":"7,865",
-    "Thread_Mark":"1,922",
-    "TEST_Date":"Apr 2017"
-    },
-    {
-    "CPU_name":"Intel Core i5-4690T @ 2.50GHz",
-    "CPU_Mark":"4,347",
-    "Thread_Mark":"1,921",
-    "TEST_Date":"Dec 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-8400T @ 1.70GHz",
-    "CPU_Mark":"7,365",
-    "Thread_Mark":"1,919",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-6500TE @ 2.30GHz",
-    "CPU_Mark":"5,329",
-    "Thread_Mark":"1,916",
-    "TEST_Date":"Dec 2015"
-    },
-    {
-    "CPU_name":"AMD Ryzen 3 PRO 2100GE",
-    "CPU_Mark":"4,308",
-    "Thread_Mark":"1,901",
-    "TEST_Date":"May 2019"
-    },
-    {
-    "CPU_name":"Intel Core i5-4460 @ 3.20GHz",
-    "CPU_Mark":"4,798",
-    "Thread_Mark":"1,893",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"Intel Core i5-3470S @ 2.90GHz",
-    "CPU_Mark":"4,307",
-    "Thread_Mark":"1,888",
-    "TEST_Date":"Jul 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-6500T @ 2.50GHz",
-    "CPU_Mark":"4,886",
-    "Thread_Mark":"1,869",
-    "TEST_Date":"Oct 2015"
-    },
-    {
-    "CPU_name":"Intel Core i5-3450 @ 3.10GHz",
-    "CPU_Mark":"4,381",
-    "Thread_Mark":"1,865",
-    "TEST_Date":"Apr 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-4570R @ 2.70GHz",
-    "CPU_Mark":"4,820",
-    "Thread_Mark":"1,863",
-    "TEST_Date":"Apr 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-4440 @ 3.10GHz",
-    "CPU_Mark":"4,658",
-    "Thread_Mark":"1,856",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"Intel Core i7-4700EQ @ 2.40GHz",
-    "CPU_Mark":"4,941",
-    "Thread_Mark":"1,842",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"AMD Athlon PRO 300GE",
-    "CPU_Mark":"4,337",
-    "Thread_Mark":"1,840",
-    "TEST_Date":"Oct 2019"
-    },
-    {
-    "CPU_name":"AMD Athlon 200GE",
-    "CPU_Mark":"4,185",
-    "Thread_Mark":"1,838",
-    "TEST_Date":"Sep 2018"
-    },
-    {
-    "CPU_name":"Intel Core i5-4430 @ 3.00GHz",
-    "CPU_Mark":"4,718",
-    "Thread_Mark":"1,837",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-4460S @ 2.90GHz",
-    "CPU_Mark":"4,434",
-    "Thread_Mark":"1,829",
-    "TEST_Date":"May 2014"
-    },
-    {
-    "CPU_name":"AMD FX-9590 Eight-Core",
-    "CPU_Mark":"6,709",
-    "Thread_Mark":"1,828",
-    "TEST_Date":"Aug 2013"
-    },
-    {
-    "CPU_name":"AMD Athlon PRO 200GE",
-    "CPU_Mark":"4,139",
-    "Thread_Mark":"1,821",
-    "TEST_Date":"May 2018"
-    },
-    {
-    "CPU_name":"Intel Core i7-3970X @ 3.50GHz",
-    "CPU_Mark":"8,460",
-    "Thread_Mark":"1,820",
-    "TEST_Date":"Jan 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-7400T @ 2.40GHz",
-    "CPU_Mark":"4,581",
-    "Thread_Mark":"1,806",
-    "TEST_Date":"Nov 2016"
-    },
-    {
-    "CPU_name":"Intel Core i5-3340 @ 3.10GHz",
-    "CPU_Mark":"4,233",
-    "Thread_Mark":"1,796",
-    "TEST_Date":"Oct 2013"
-    },
-    {
-    "CPU_name":"Intel Core i5-3450S @ 2.80GHz",
-    "CPU_Mark":"4,154",
-    "Thread_Mark":"1,794",
-    "TEST_Date":"May 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-3960X @ 3.30GHz",
-    "CPU_Mark":"8,636",
-    "Thread_Mark":"1,793",
-    "TEST_Date":"Nov 2011"
-    },
-    {
-    "CPU_name":"Intel Core i5-4670T @ 2.30GHz",
-    "CPU_Mark":"4,453",
-    "Thread_Mark":"1,782",
-    "TEST_Date":"Jun 2013"
-    },
-    {
-    "CPU_name":"Intel Core i7-3820 @ 3.60GHz",
-    "CPU_Mark":"5,878",
-    "Thread_Mark":"1,778",
-    "TEST_Date":"Jan 2012"
-    },
-    {
-    "CPU_name":"Intel Core i5-3350P @ 3.10GHz",
-    "CPU_Mark":"4,239",
-    "Thread_Mark":"1,773",
-    "TEST_Date":"Oct 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-2700K @ 3.50GHz",
-    "CPU_Mark":"5,494",
-    "Thread_Mark":"1,773",
-    "TEST_Date":"Oct 2011"
-    },
-    {
-    "CPU_name":"Intel Core i5-4470S @ 3.00GHz",
-    "CPU_Mark":"4,742",
-    "Thread_Mark":"1,756",
-    "TEST_Date":"Sep 2020"
-    },
-    {
-    "CPU_name":"Intel Core i5-2550K @ 3.40GHz",
-    "CPU_Mark":"4,132",
-    "Thread_Mark":"1,750",
-    "TEST_Date":"Feb 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-3930K @ 3.20GHz",
-    "CPU_Mark":"8,139",
-    "Thread_Mark":"1,742",
-    "TEST_Date":"Nov 2011"
-    },
-    {
-    "CPU_name":"Intel Core i7-4785T @ 2.20GHz",
-    "CPU_Mark":"5,324",
-    "Thread_Mark":"1,733",
-    "TEST_Date":"Jun 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-2600 @ 3.40GHz",
-    "CPU_Mark":"5,332",
-    "Thread_Mark":"1,733",
-    "TEST_Date":"Dec 2010"
-    },
-    {
-    "CPU_name":"Intel Core i7-2600K @ 3.40GHz",
-    "CPU_Mark":"5,436",
-    "Thread_Mark":"1,733",
-    "TEST_Date":"Nov 2010"
-    },
-    {
-    "CPU_name":"Intel Core i5-3570T @ 2.30GHz",
-    "CPU_Mark":"4,120",
-    "Thread_Mark":"1,722",
-    "TEST_Date":"Sep 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-2600S @ 2.80GHz",
-    "CPU_Mark":"4,404",
-    "Thread_Mark":"1,685",
-    "TEST_Date":"Feb 2011"
-    },
-    {
-    "CPU_name":"AMD Ryzen 5 PRO 1600",
-    "CPU_Mark":"10,401",
-    "Thread_Mark":"1,685",
-    "TEST_Date":"Sep 2017"
-    },
-    {
-    "CPU_name":"Intel Core i7-995X @ 3.60GHz",
-    "CPU_Mark":"7,079",
-    "Thread_Mark":"1,683",
-    "TEST_Date":"Sep 2010"
-    },
-    {
-    "CPU_name":"Intel Core i5-6400T @ 2.20GHz",
-    "CPU_Mark":"4,410",
-    "Thread_Mark":"1,678",
-    "TEST_Date":"Dec 2015"
-    },
-    {
-    "CPU_name":"AMD FX-9370 Eight-Core",
-    "CPU_Mark":"5,976",
-    "Thread_Mark":"1,670",
-    "TEST_Date":"Jul 2013"
-    },
-    {
-    "CPU_name":"AMD FX-8370 Eight-Core",
-    "CPU_Mark":"6,161",
-    "Thread_Mark":"1,639",
-    "TEST_Date":"Sep 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-990X @ 3.47GHz",
-    "CPU_Mark":"7,314",
-    "Thread_Mark":"1,610",
-    "TEST_Date":"Jan 2011"
-    },
-    {
-    "CPU_name":"AMD FX-8350 Eight-Core",
-    "CPU_Mark":"5,921",
-    "Thread_Mark":"1,567",
-    "TEST_Date":"Oct 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-4765T @ 2.00GHz",
-    "CPU_Mark":"4,891",
-    "Thread_Mark":"1,560",
-    "TEST_Date":"Apr 2013"
-    },
-    {
-    "CPU_name":"AMD FX-6350 Six-Core",
-    "CPU_Mark":"4,467",
-    "Thread_Mark":"1,557",
-    "TEST_Date":"May 2013"
-    },
-    {
-    "CPU_name":"AMD FX-6330 Six-Core",
-    "CPU_Mark":"4,479",
-    "Thread_Mark":"1,556",
-    "TEST_Date":"Nov 2016"
-    },
-    {
-    "CPU_name":"Intel Core i7-980 @ 3.33GHz",
-    "CPU_Mark":"6,910",
-    "Thread_Mark":"1,546",
-    "TEST_Date":"Jul 2011"
-    },
-    {
-    "CPU_name":"Intel Core i7-980X @ 3.33GHz",
-    "CPU_Mark":"6,681",
-    "Thread_Mark":"1,534",
-    "TEST_Date":"Mar 2010"
-    },
-    {
-    "CPU_name":"AMD FX-8310 Eight-Core",
-    "CPU_Mark":"5,215",
-    "Thread_Mark":"1,528",
-    "TEST_Date":"Oct 2014"
-    },
-    {
-    "CPU_name":"Intel Core i7-970 @ 3.20GHz",
-    "CPU_Mark":"6,759",
-    "Thread_Mark":"1,499",
-    "TEST_Date":"Jul 2010"
-    },
-    {
-    "CPU_name":"AMD FX-6300 Six-Core",
-    "CPU_Mark":"4,113",
-    "Thread_Mark":"1,476",
-    "TEST_Date":"Oct 2012"
-    },
-    {
-    "CPU_name":"AMD FX-8300 Eight-Core",
-    "CPU_Mark":"5,269",
-    "Thread_Mark":"1,476",
-    "TEST_Date":"Jan 2013"
-    },
-    {
-    "CPU_name":"AMD FX-8320 Eight-Core",
-    "CPU_Mark":"5,358",
-    "Thread_Mark":"1,465",
-    "TEST_Date":"Oct 2012"
-    },
-    {
-    "CPU_name":"Intel Core i7-4770TE @ 2.30GHz",
-    "CPU_Mark":"4,257",
-    "Thread_Mark":"1,458",
-    "TEST_Date":"Jul 2015"
-    },
-    {
-    "CPU_name":"AMD FX-8370E Eight-Core",
-    "CPU_Mark":"5,113",
-    "Thread_Mark":"1,440",
-    "TEST_Date":"Sep 2014"
-    },
-    {
-    "CPU_name":"AMD FX-8320E Eight-Core",
-    "CPU_Mark":"4,952",
-    "Thread_Mark":"1,404",
-    "TEST_Date":"Oct 2014"
-    },
-    {
-    "CPU_name":"AMD FX-6130 Six-Core",
-    "CPU_Mark":"4,353",
-    "Thread_Mark":"1,390",
-    "TEST_Date":"Mar 2013"
-    },
-    {
-    "CPU_name":"AMD FX-8150 Eight-Core",
-    "CPU_Mark":"5,024",
-    "Thread_Mark":"1,389",
-    "TEST_Date":"Sep 2011"
-    },
-    {
-    "CPU_name":"AMD FX-8140 Eight-Core",
-    "CPU_Mark":"4,953",
-    "Thread_Mark":"1,336",
-    "TEST_Date":"Mar 2012"
-    },
-    {
-    "CPU_name":"AMD FX-8120 Eight-Core",
-    "CPU_Mark":"4,427",
-    "Thread_Mark":"1,307",
-    "TEST_Date":"Oct 2011"
-    }
+    "CPUS": [
+        {
+            "CPU_name": "AMD Ryzen 9 5900X",
+            "TEST_Date": "Nov 2020",
+            "CPU_Mark": "39,727",
+            "Thread_Mark": "3,551"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 5950X",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "46,625",
+            "Thread_Mark": "3,550"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 5800X",
+            "TEST_Date": "Nov 2020",
+            "CPU_Mark": "28,702",
+            "Thread_Mark": "3,482"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 5600X",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "22,094",
+            "Thread_Mark": "3,373"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900K @ 3.70GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "24,221",
+            "Thread_Mark": "3,178"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900KF @ 3.70GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "23,766",
+            "Thread_Mark": "3,145"
+        },
+        {
+            "CPU_name": "Intel Core i9-10850K @ 3.60GHz",
+            "TEST_Date": "Aug 2020",
+            "CPU_Mark": "23,332",
+            "Thread_Mark": "3,110"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900 @ 2.80GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "21,301",
+            "Thread_Mark": "3,109"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900F @ 2.80GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "21,465",
+            "Thread_Mark": "3,108"
+        },
+        {
+            "CPU_name": "Intel Core i9-9990XE @ 4.00GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "31,941",
+            "Thread_Mark": "3,104"
+        },
+        {
+            "CPU_name": "Intel Core i9-10910 @ 3.60GHz",
+            "TEST_Date": "Aug 2020",
+            "CPU_Mark": "22,289",
+            "Thread_Mark": "3,101"
+        },
+        {
+            "CPU_name": "Intel Core i7-10700K @ 3.80GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "19,683",
+            "Thread_Mark": "3,088"
+        },
+        {
+            "CPU_name": "Intel Core i7-10700KF @ 3.80GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "19,532",
+            "Thread_Mark": "3,086"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900KS @ 4.00GHz",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "19,460",
+            "Thread_Mark": "3,031"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900KF @ 3.60GHz",
+            "TEST_Date": "Apr 2019",
+            "CPU_Mark": "18,942",
+            "Thread_Mark": "3,008"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900K @ 3.60GHz",
+            "TEST_Date": "Oct 2018",
+            "CPU_Mark": "18,881",
+            "Thread_Mark": "2,978"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700KF @ 3.60GHz",
+            "TEST_Date": "Apr 2019",
+            "CPU_Mark": "14,731",
+            "Thread_Mark": "2,949"
+        },
+        {
+            "CPU_name": "Intel Core i7-8086K @ 4.00GHz",
+            "TEST_Date": "Jun 2018",
+            "CPU_Mark": "14,752",
+            "Thread_Mark": "2,947"
+        },
+        {
+            "CPU_name": "Intel Core i5-10600KF @ 4.10GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "14,963",
+            "Thread_Mark": "2,938"
+        },
+        {
+            "CPU_name": "Intel Core i7-10700 @ 2.90GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "17,480",
+            "Thread_Mark": "2,931"
+        },
+        {
+            "CPU_name": "Intel Core i5-10600K @ 4.10GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "14,638",
+            "Thread_Mark": "2,930"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700K @ 3.60GHz",
+            "TEST_Date": "Oct 2018",
+            "CPU_Mark": "14,616",
+            "Thread_Mark": "2,914"
+        },
+        {
+            "CPU_name": "Intel Core i7-10700F @ 2.90GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "17,238",
+            "Thread_Mark": "2,905"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900 @ 3.10GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "17,156",
+            "Thread_Mark": "2,895"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 3800XT",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "23,960",
+            "Thread_Mark": "2,859"
+        },
+        {
+            "CPU_name": "Intel Core i5-10600 @ 3.30GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "14,114",
+            "Thread_Mark": "2,857"
+        },
+        {
+            "CPU_name": "Intel Core i3-9350K @ 4.00GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "7,797",
+            "Thread_Mark": "2,846"
+        },
+        {
+            "CPU_name": "Intel Core i7-7740X @ 4.30GHz",
+            "TEST_Date": "Jul 2017",
+            "CPU_Mark": "9,906",
+            "Thread_Mark": "2,839"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700F @ 3.00GHz",
+            "TEST_Date": "Jun 2019",
+            "CPU_Mark": "13,822",
+            "Thread_Mark": "2,837"
+        },
+        {
+            "CPU_name": "Intel Core i3-9350KF @ 4.00GHz",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "7,913",
+            "Thread_Mark": "2,823"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3600XT",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "18,944",
+            "Thread_Mark": "2,813"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700 @ 3.00GHz",
+            "TEST_Date": "Jun 2019",
+            "CPU_Mark": "13,568",
+            "Thread_Mark": "2,808"
+        },
+        {
+            "CPU_name": "Intel Core i5-9600KF @ 3.70GHz",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "10,923",
+            "Thread_Mark": "2,806"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 3900XT",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "33,114",
+            "Thread_Mark": "2,801"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 4700G",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "21,164",
+            "Thread_Mark": "2,797"
+        },
+        {
+            "CPU_name": "Intel Core i7-8700K @ 3.70GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "13,899",
+            "Thread_Mark": "2,791"
+        },
+        {
+            "CPU_name": "Intel Core i5-9600K @ 3.70GHz",
+            "TEST_Date": "Oct 2018",
+            "CPU_Mark": "10,875",
+            "Thread_Mark": "2,790"
+        },
+        {
+            "CPU_name": "Intel Core i5-9600 @ 3.10GHz",
+            "TEST_Date": "Sep 2019",
+            "CPU_Mark": "10,741",
+            "Thread_Mark": "2,784"
+        },
+        {
+            "CPU_name": "Intel Xeon W-2255 @ 3.70GHz",
+            "TEST_Date": "Mar 2020",
+            "CPU_Mark": "22,687",
+            "Thread_Mark": "2,776"
+        },
+        {
+            "CPU_name": "Intel Core i7-7700K @ 4.20GHz",
+            "TEST_Date": "Oct 2016",
+            "CPU_Mark": "9,720",
+            "Thread_Mark": "2,768"
+        },
+        {
+            "CPU_name": "Intel Core i5-10500 @ 3.10GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "13,348",
+            "Thread_Mark": "2,759"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper PRO 3955WX",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "42,095",
+            "Thread_Mark": "2,759"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 4750G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "21,304",
+            "Thread_Mark": "2,757"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 3800X",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "23,362",
+            "Thread_Mark": "2,745"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 3950X",
+            "TEST_Date": "Nov 2019",
+            "CPU_Mark": "39,231",
+            "Thread_Mark": "2,743"
+        },
+        {
+            "CPU_name": "Intel Core i9-10920X @ 3.50GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "26,318",
+            "Thread_Mark": "2,741"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 4750GE",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "20,456",
+            "Thread_Mark": "2,737"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 4700GE",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "20,671",
+            "Thread_Mark": "2,737"
+        },
+        {
+            "CPU_name": "Intel Core i9-10940X @ 3.30GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "29,831",
+            "Thread_Mark": "2,732"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 3900X",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "32,866",
+            "Thread_Mark": "2,731"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900X @ 3.70GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "22,683",
+            "Thread_Mark": "2,727"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper PRO 3945WX",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "34,762",
+            "Thread_Mark": "2,725"
+        },
+        {
+            "CPU_name": "Intel Core i9-9960X @ 3.10GHz",
+            "TEST_Date": "Feb 2019",
+            "CPU_Mark": "31,554",
+            "Thread_Mark": "2,714"
+        },
+        {
+            "CPU_name": "Intel Core i3-9320 @ 3.70GHz",
+            "TEST_Date": "Sep 2019",
+            "CPU_Mark": "7,358",
+            "Thread_Mark": "2,711"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 3970X",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "64,224",
+            "Thread_Mark": "2,711"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 4600G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "17,197",
+            "Thread_Mark": "2,707"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 3960X",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "55,373",
+            "Thread_Mark": "2,703"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 4700G",
+            "TEST_Date": "Aug 2020",
+            "CPU_Mark": "20,848",
+            "Thread_Mark": "2,700"
+        },
+        {
+            "CPU_name": "Intel Core i5-9500F @ 3.00GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "10,294",
+            "Thread_Mark": "2,696"
+        },
+        {
+            "CPU_name": "Intel Core i7-10700T @ 2.00GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "12,505",
+            "Thread_Mark": "2,695"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 3300X",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "12,788",
+            "Thread_Mark": "2,690"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 3700X",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "22,824",
+            "Thread_Mark": "2,690"
+        },
+        {
+            "CPU_name": "Intel Core i3-9300 @ 3.70GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "7,267",
+            "Thread_Mark": "2,687"
+        },
+        {
+            "CPU_name": "Intel Core i3-10300 @ 3.70GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "9,322",
+            "Thread_Mark": "2,685"
+        },
+        {
+            "CPU_name": "Intel Core i7-8700 @ 3.20GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "13,095",
+            "Thread_Mark": "2,685"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 4650G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "16,710",
+            "Thread_Mark": "2,679"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3600X",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "18,321",
+            "Thread_Mark": "2,677"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 4600GE",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "16,377",
+            "Thread_Mark": "2,676"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 4650GE",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "16,689",
+            "Thread_Mark": "2,675"
+        },
+        {
+            "CPU_name": "Intel Core i5-9500 @ 3.00GHz",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "9,933",
+            "Thread_Mark": "2,671"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper PRO 3995WX",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "88,323",
+            "Thread_Mark": "2,671"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper PRO 3975WX",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "65,674",
+            "Thread_Mark": "2,670"
+        },
+        {
+            "CPU_name": "Intel Core i5-10300H @ 2.50GHz",
+            "TEST_Date": "Jan 2020",
+            "CPU_Mark": "8,858",
+            "Thread_Mark": "2,660"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 4400G",
+            "TEST_Date": "Aug 2020",
+            "CPU_Mark": "16,335",
+            "Thread_Mark": "2,655"
+        },
+        {
+            "CPU_name": "Intel Core i9-9920X @ 3.50GHz",
+            "TEST_Date": "Dec 2018",
+            "CPU_Mark": "25,352",
+            "Thread_Mark": "2,655"
+        },
+        {
+            "CPU_name": "Intel Core i3-10100 @ 3.60GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "9,003",
+            "Thread_Mark": "2,651"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 3900",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "30,860",
+            "Thread_Mark": "2,647"
+        },
+        {
+            "CPU_name": "Intel Core i9-10980XE @ 3.00GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "34,296",
+            "Thread_Mark": "2,642"
+        },
+        {
+            "CPU_name": "Intel Core i5-8600K @ 3.60GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "10,248",
+            "Thread_Mark": "2,641"
+        },
+        {
+            "CPU_name": "AMD Ryzen 9 PRO 3900",
+            "TEST_Date": "Sep 2019",
+            "CPU_Mark": "31,800",
+            "Thread_Mark": "2,637"
+        },
+        {
+            "CPU_name": "Intel Core i3-10100F @ 3.60GHz",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "9,078",
+            "Thread_Mark": "2,636"
+        },
+        {
+            "CPU_name": "Intel Core i7-9800X @ 3.80GHz",
+            "TEST_Date": "Dec 2018",
+            "CPU_Mark": "18,274",
+            "Thread_Mark": "2,635"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 3700",
+            "TEST_Date": "Sep 2019",
+            "CPU_Mark": "21,904",
+            "Thread_Mark": "2,629"
+        },
+        {
+            "CPU_name": "Intel Core i9-9940X @ 3.30GHz",
+            "TEST_Date": "Nov 2018",
+            "CPU_Mark": "28,266",
+            "Thread_Mark": "2,625"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900X @ 3.50GHz",
+            "TEST_Date": "Dec 2018",
+            "CPU_Mark": "21,908",
+            "Thread_Mark": "2,615"
+        },
+        {
+            "CPU_name": "Intel Core i7-7900X @ 3.30GHz",
+            "TEST_Date": "Aug 2017",
+            "CPU_Mark": "19,358",
+            "Thread_Mark": "2,610"
+        },
+        {
+            "CPU_name": "Intel Core i5-10400F @ 2.90GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "12,695",
+            "Thread_Mark": "2,602"
+        },
+        {
+            "CPU_name": "Intel Core i9-7900X @ 3.30GHz",
+            "TEST_Date": "Jun 2017",
+            "CPU_Mark": "21,474",
+            "Thread_Mark": "2,601"
+        },
+        {
+            "CPU_name": "Intel Core i5-10400 @ 2.90GHz",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "12,588",
+            "Thread_Mark": "2,598"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 4300G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "11,714",
+            "Thread_Mark": "2,585"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 4300GE",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "11,878",
+            "Thread_Mark": "2,585"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3600",
+            "TEST_Date": "Jun 2019",
+            "CPU_Mark": "17,862",
+            "Thread_Mark": "2,584"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 3600",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "17,888",
+            "Thread_Mark": "2,583"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 4350GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "11,499",
+            "Thread_Mark": "2,580"
+        },
+        {
+            "CPU_name": "Intel Core i9-7960X @ 2.80GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "26,959",
+            "Thread_Mark": "2,580"
+        },
+        {
+            "CPU_name": "Intel Core i9-9980XE @ 3.00GHz",
+            "TEST_Date": "Dec 2018",
+            "CPU_Mark": "32,010",
+            "Thread_Mark": "2,577"
+        },
+        {
+            "CPU_name": "Intel Core i5-7600K @ 3.80GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "6,879",
+            "Thread_Mark": "2,572"
+        },
+        {
+            "CPU_name": "Intel Core i9-10900T @ 1.90GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "16,588",
+            "Thread_Mark": "2,571"
+        },
+        {
+            "CPU_name": "Intel Pentium Gold G6500 @ 4.10GHz",
+            "TEST_Date": "Oct 2020",
+            "CPU_Mark": "4,208",
+            "Thread_Mark": "2,558"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700E @ 2.60GHz",
+            "TEST_Date": "Nov 2020",
+            "CPU_Mark": "12,754",
+            "Thread_Mark": "2,556"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 4350G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "11,291",
+            "Thread_Mark": "2,551"
+        },
+        {
+            "CPU_name": "Intel Core i5-8600 @ 3.10GHz",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "9,813",
+            "Thread_Mark": "2,550"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 3990X",
+            "TEST_Date": "Feb 2020",
+            "CPU_Mark": "80,721",
+            "Thread_Mark": "2,550"
+        },
+        {
+            "CPU_name": "Intel Core i7-7820X @ 3.60GHz",
+            "TEST_Date": "Jun 2017",
+            "CPU_Mark": "17,476",
+            "Thread_Mark": "2,547"
+        },
+        {
+            "CPU_name": "Intel Core i3-9100 @ 3.60GHz",
+            "TEST_Date": "Jun 2019",
+            "CPU_Mark": "6,725",
+            "Thread_Mark": "2,541"
+        },
+        {
+            "CPU_name": "Intel Core i3-9100F @ 3.60GHz",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "6,813",
+            "Thread_Mark": "2,534"
+        },
+        {
+            "CPU_name": "Intel Core i9-7940X @ 3.10GHz",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "26,931",
+            "Thread_Mark": "2,534"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700T @ 2.00GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "10,885",
+            "Thread_Mark": "2,533"
+        },
+        {
+            "CPU_name": "Intel Core i7-6700K @ 4.00GHz",
+            "TEST_Date": "Jul 2015",
+            "CPU_Mark": "8,955",
+            "Thread_Mark": "2,531"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3500X",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "13,407",
+            "Thread_Mark": "2,531"
+        },
+        {
+            "CPU_name": "Intel Core i3-8350K @ 4.00GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "7,008",
+            "Thread_Mark": "2,518"
+        },
+        {
+            "CPU_name": "Intel Core i5-10600T @ 2.40GHz",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "11,330",
+            "Thread_Mark": "2,517"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3500",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "12,783",
+            "Thread_Mark": "2,510"
+        },
+        {
+            "CPU_name": "Intel Core i5-9400 @ 2.90GHz",
+            "TEST_Date": "Mar 2019",
+            "CPU_Mark": "9,569",
+            "Thread_Mark": "2,507"
+        },
+        {
+            "CPU_name": "Intel Core i9-7920X @ 2.90GHz",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "23,489",
+            "Thread_Mark": "2,505"
+        },
+        {
+            "CPU_name": "Intel Core i9-7980XE @ 2.60GHz",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "29,805",
+            "Thread_Mark": "2,501"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 2920X",
+            "TEST_Date": "Nov 2018",
+            "CPU_Mark": "25,687",
+            "Thread_Mark": "2,496"
+        },
+        {
+            "CPU_name": "Intel Core i3-7300 @ 4.00GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "4,778",
+            "Thread_Mark": "2,492"
+        },
+        {
+            "CPU_name": "Intel Core i5-9400F @ 2.90GHz",
+            "TEST_Date": "Feb 2019",
+            "CPU_Mark": "9,599",
+            "Thread_Mark": "2,491"
+        },
+        {
+            "CPU_name": "Intel Pentium Gold G6400 @ 4.00GHz",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "4,243",
+            "Thread_Mark": "2,489"
+        },
+        {
+            "CPU_name": "Intel Core i5-7640X @ 4.00GHz",
+            "TEST_Date": "Jul 2017",
+            "CPU_Mark": "6,467",
+            "Thread_Mark": "2,487"
+        },
+        {
+            "CPU_name": "Intel Core i7-7700 @ 3.60GHz",
+            "TEST_Date": "Dec 2016",
+            "CPU_Mark": "8,646",
+            "Thread_Mark": "2,486"
+        },
+        {
+            "CPU_name": "Intel Core i5-8500 @ 3.00GHz",
+            "TEST_Date": "Mar 2018",
+            "CPU_Mark": "9,509",
+            "Thread_Mark": "2,482"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 2950X",
+            "TEST_Date": "Sep 2018",
+            "CPU_Mark": "30,106",
+            "Thread_Mark": "2,480"
+        },
+        {
+            "CPU_name": "Intel Core i5-7600 @ 3.50GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "6,591",
+            "Thread_Mark": "2,476"
+        },
+        {
+            "CPU_name": "Intel Core i7-4790K @ 4.00GHz",
+            "TEST_Date": "Jun 2014",
+            "CPU_Mark": "8,045",
+            "Thread_Mark": "2,466"
+        },
+        {
+            "CPU_name": "Intel Core i3-10300T @ 3.00GHz",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "8,355",
+            "Thread_Mark": "2,451"
+        },
+        {
+            "CPU_name": "Intel Core i9-9900T @ 2.10GHz",
+            "TEST_Date": "Nov 2019",
+            "CPU_Mark": "13,664",
+            "Thread_Mark": "2,440"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 3100",
+            "TEST_Date": "May 2020",
+            "CPU_Mark": "11,749",
+            "Thread_Mark": "2,439"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 2700X",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "17,582",
+            "Thread_Mark": "2,438"
+        },
+        {
+            "CPU_name": "Intel Core i3-7350K @ 4.20GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "4,804",
+            "Thread_Mark": "2,431"
+        },
+        {
+            "CPU_name": "Intel Core i3-7320 @ 4.10GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "4,862",
+            "Thread_Mark": "2,430"
+        },
+        {
+            "CPU_name": "Intel Pentium Gold G5620 @ 4.00GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "4,102",
+            "Thread_Mark": "2,424"
+        },
+        {
+            "CPU_name": "Intel Core i9-9820X @ 3.30GHz",
+            "TEST_Date": "Dec 2018",
+            "CPU_Mark": "20,510",
+            "Thread_Mark": "2,420"
+        },
+        {
+            "CPU_name": "Intel Core i5-9600T @ 2.30GHz",
+            "TEST_Date": "Nov 2019",
+            "CPU_Mark": "9,406",
+            "Thread_Mark": "2,419"
+        },
+        {
+            "CPU_name": "Intel Core i5-8400 @ 2.80GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "9,201",
+            "Thread_Mark": "2,416"
+        },
+        {
+            "CPU_name": "Intel Core i7-6850K @ 3.60GHz",
+            "TEST_Date": "Jun 2016",
+            "CPU_Mark": "11,273",
+            "Thread_Mark": "2,415"
+        },
+        {
+            "CPU_name": "Intel Pentium Gold G5600F @ 3.90GHz",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "4,161",
+            "Thread_Mark": "2,414"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 2600X",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "14,073",
+            "Thread_Mark": "2,410"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 2700E",
+            "TEST_Date": "Sep 2019",
+            "CPU_Mark": "14,657",
+            "Thread_Mark": "2,410"
+        },
+        {
+            "CPU_name": "Intel Core i7-7800X @ 3.50GHz",
+            "TEST_Date": "Jun 2017",
+            "CPU_Mark": "12,540",
+            "Thread_Mark": "2,406"
+        },
+        {
+            "CPU_name": "Intel Core i7-8700T @ 2.40GHz",
+            "TEST_Date": "Mar 2018",
+            "CPU_Mark": "10,858",
+            "Thread_Mark": "2,402"
+        },
+        {
+            "CPU_name": "Intel Core i7-6950X @ 3.00GHz",
+            "TEST_Date": "Jun 2016",
+            "CPU_Mark": "17,391",
+            "Thread_Mark": "2,395"
+        },
+        {
+            "CPU_name": "Intel Core i5-10500T @ 2.30GHz",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "10,808",
+            "Thread_Mark": "2,384"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3400G",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "9,399",
+            "Thread_Mark": "2,381"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 2300X",
+            "TEST_Date": "Jan 2019",
+            "CPU_Mark": "7,777",
+            "Thread_Mark": "2,376"
+        },
+        {
+            "CPU_name": "Intel Core i3-6320 @ 3.90GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "4,432",
+            "Thread_Mark": "2,373"
+        },
+        {
+            "CPU_name": "Intel Core i3-9300T @ 3.20GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "6,367",
+            "Thread_Mark": "2,373"
+        },
+        {
+            "CPU_name": "Intel Core i7-6900K @ 3.20GHz",
+            "TEST_Date": "Jun 2016",
+            "CPU_Mark": "13,700",
+            "Thread_Mark": "2,373"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 2990X",
+            "TEST_Date": "Oct 2018",
+            "CPU_Mark": "20,885",
+            "Thread_Mark": "2,372"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 2700X",
+            "TEST_Date": "Jul 2018",
+            "CPU_Mark": "16,846",
+            "Thread_Mark": "2,362"
+        },
+        {
+            "CPU_name": "Intel Core i3-6300 @ 3.80GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "4,354",
+            "Thread_Mark": "2,361"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 2500X",
+            "TEST_Date": "Feb 2019",
+            "CPU_Mark": "9,671",
+            "Thread_Mark": "2,359"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 3400G",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "9,502",
+            "Thread_Mark": "2,353"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 1900X",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "16,698",
+            "Thread_Mark": "2,344"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3350GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "9,684",
+            "Thread_Mark": "2,342"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 3350G",
+            "TEST_Date": "Jun 2020",
+            "CPU_Mark": "9,582",
+            "Thread_Mark": "2,341"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 3350GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "9,643",
+            "Thread_Mark": "2,340"
+        },
+        {
+            "CPU_name": "Intel Core i3-7100 @ 3.90GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "4,300",
+            "Thread_Mark": "2,339"
+        },
+        {
+            "CPU_name": "Intel Core i5-6600K @ 3.50GHz",
+            "TEST_Date": "Aug 2015",
+            "CPU_Mark": "6,267",
+            "Thread_Mark": "2,328"
+        },
+        {
+            "CPU_name": "AMD Athlon Gold PRO 3150G",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "7,702",
+            "Thread_Mark": "2,321"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 2990WX",
+            "TEST_Date": "Aug 2018",
+            "CPU_Mark": "31,991",
+            "Thread_Mark": "2,318"
+        },
+        {
+            "CPU_name": "Intel Core i7-5775C @ 3.30GHz",
+            "TEST_Date": "Jun 2015",
+            "CPU_Mark": "7,844",
+            "Thread_Mark": "2,314"
+        },
+        {
+            "CPU_name": "Intel Core i3-8300 @ 3.70GHz",
+            "TEST_Date": "Jun 2018",
+            "CPU_Mark": "6,317",
+            "Thread_Mark": "2,308"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 1920X",
+            "TEST_Date": "Aug 2017",
+            "CPU_Mark": "23,199",
+            "Thread_Mark": "2,308"
+        },
+        {
+            "CPU_name": "Intel Core i7-6700 @ 3.40GHz",
+            "TEST_Date": "Sep 2015",
+            "CPU_Mark": "8,056",
+            "Thread_Mark": "2,306"
+        },
+        {
+            "CPU_name": "Intel Core i7-5775R @ 3.30GHz",
+            "TEST_Date": "May 2016",
+            "CPU_Mark": "7,819",
+            "Thread_Mark": "2,295"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 2970WX",
+            "TEST_Date": "Nov 2018",
+            "CPU_Mark": "28,071",
+            "Thread_Mark": "2,292"
+        },
+        {
+            "CPU_name": "Intel Core i5-7500 @ 3.40GHz",
+            "TEST_Date": "Dec 2016",
+            "CPU_Mark": "6,137",
+            "Thread_Mark": "2,289"
+        },
+        {
+            "CPU_name": "AMD Ryzen Threadripper 1950X",
+            "TEST_Date": "Aug 2017",
+            "CPU_Mark": "26,502",
+            "Thread_Mark": "2,281"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 2600",
+            "TEST_Date": "Aug 2018",
+            "CPU_Mark": "13,662",
+            "Thread_Mark": "2,279"
+        },
+        {
+            "CPU_name": "Intel Core i5-8600T @ 2.30GHz",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "8,860",
+            "Thread_Mark": "2,274"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 3400GE",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "8,219",
+            "Thread_Mark": "2,273"
+        },
+        {
+            "CPU_name": "Intel Core i7-9700TE @ 1.80GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "10,680",
+            "Thread_Mark": "2,269"
+        },
+        {
+            "CPU_name": "Intel Core i7-7700T @ 2.90GHz",
+            "TEST_Date": "Feb 2017",
+            "CPU_Mark": "7,827",
+            "Thread_Mark": "2,266"
+        },
+        {
+            "CPU_name": "Intel Core i5-6600 @ 3.30GHz",
+            "TEST_Date": "Sep 2015",
+            "CPU_Mark": "6,066",
+            "Thread_Mark": "2,263"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 2600",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "13,220",
+            "Thread_Mark": "2,261"
+        },
+        {
+            "CPU_name": "Intel Core i5-5675C @ 3.10GHz",
+            "TEST_Date": "Jul 2015",
+            "CPU_Mark": "5,910",
+            "Thread_Mark": "2,258"
+        },
+        {
+            "CPU_name": "AMD Athlon Gold PRO 3150GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "7,578",
+            "Thread_Mark": "2,257"
+        },
+        {
+            "CPU_name": "Intel Core i7-6800K @ 3.40GHz",
+            "TEST_Date": "May 2016",
+            "CPU_Mark": "10,532",
+            "Thread_Mark": "2,257"
+        },
+        {
+            "CPU_name": "Intel Core i3-8100 @ 3.60GHz",
+            "TEST_Date": "Oct 2017",
+            "CPU_Mark": "6,154",
+            "Thread_Mark": "2,255"
+        },
+        {
+            "CPU_name": "Intel Core i7-5675C @ 3.10GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "6,089",
+            "Thread_Mark": "2,249"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 3200G",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "7,056",
+            "Thread_Mark": "2,249"
+        },
+        {
+            "CPU_name": "Intel Core i5-7600T @ 2.80GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "5,961",
+            "Thread_Mark": "2,247"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 3200GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "7,555",
+            "Thread_Mark": "2,239"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 2700",
+            "TEST_Date": "Aug 2018",
+            "CPU_Mark": "15,049",
+            "Thread_Mark": "2,237"
+        },
+        {
+            "CPU_name": "Intel Core i3-6100 @ 3.70GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "4,147",
+            "Thread_Mark": "2,236"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 3200G",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "7,241",
+            "Thread_Mark": "2,232"
+        },
+        {
+            "CPU_name": "Intel Core i7-4790 @ 3.60GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "7,205",
+            "Thread_Mark": "2,229"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 1300",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "7,717",
+            "Thread_Mark": "2,229"
+        },
+        {
+            "CPU_name": "Intel Core i5-5675R @ 3.10GHz",
+            "TEST_Date": "Jun 2016",
+            "CPU_Mark": "5,906",
+            "Thread_Mark": "2,227"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 2700",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "15,713",
+            "Thread_Mark": "2,210"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 1700X",
+            "TEST_Date": "Jun 2017",
+            "CPU_Mark": "15,697",
+            "Thread_Mark": "2,209"
+        },
+        {
+            "CPU_name": "Intel Core i5-4690 @ 3.50GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "5,615",
+            "Thread_Mark": "2,202"
+        },
+        {
+            "CPU_name": "Intel Core i7-4790S @ 3.20GHz",
+            "TEST_Date": "Jun 2014",
+            "CPU_Mark": "6,977",
+            "Thread_Mark": "2,202"
+        },
+        {
+            "CPU_name": "Intel Core i5-10400T @ 2.00GHz",
+            "TEST_Date": "Aug 2020",
+            "CPU_Mark": "10,453",
+            "Thread_Mark": "2,196"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 1600X",
+            "TEST_Date": "Apr 2017",
+            "CPU_Mark": "13,070",
+            "Thread_Mark": "2,194"
+        },
+        {
+            "CPU_name": "Intel Core i5-4690S @ 3.20GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "5,283",
+            "Thread_Mark": "2,193"
+        },
+        {
+            "CPU_name": "Intel Core i5-4690K @ 3.50GHz",
+            "TEST_Date": "Jun 2014",
+            "CPU_Mark": "5,588",
+            "Thread_Mark": "2,191"
+        },
+        {
+            "CPU_name": "Intel Core i7-4771 @ 3.50GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "7,012",
+            "Thread_Mark": "2,187"
+        },
+        {
+            "CPU_name": "Intel Core i3-9100T @ 3.10GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "5,574",
+            "Thread_Mark": "2,186"
+        },
+        {
+            "CPU_name": "Intel Core i5-9500T @ 2.20GHz",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "8,164",
+            "Thread_Mark": "2,180"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 1800X",
+            "TEST_Date": "Feb 2017",
+            "CPU_Mark": "16,243",
+            "Thread_Mark": "2,179"
+        },
+        {
+            "CPU_name": "Intel Core i7-4790T @ 2.70GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "6,519",
+            "Thread_Mark": "2,174"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770 @ 3.40GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "7,033",
+            "Thread_Mark": "2,174"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 3400GE",
+            "TEST_Date": "Apr 2020",
+            "CPU_Mark": "8,545",
+            "Thread_Mark": "2,174"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 1500",
+            "TEST_Date": "Jul 2017",
+            "CPU_Mark": "9,434",
+            "Thread_Mark": "2,171"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 2400G",
+            "TEST_Date": "Feb 2018",
+            "CPU_Mark": "8,773",
+            "Thread_Mark": "2,170"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770S @ 3.10GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "6,851",
+            "Thread_Mark": "2,165"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670R @ 3.00GHz",
+            "TEST_Date": "Jul 2018",
+            "CPU_Mark": "5,335",
+            "Thread_Mark": "2,164"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 2400GE",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "7,624",
+            "Thread_Mark": "2,157"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670 @ 3.40GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "5,465",
+            "Thread_Mark": "2,149"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770K @ 3.50GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "7,044",
+            "Thread_Mark": "2,146"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670K @ 3.40GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "5,513",
+            "Thread_Mark": "2,144"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 2400GE",
+            "TEST_Date": "Jun 2018",
+            "CPU_Mark": "7,619",
+            "Thread_Mark": "2,143"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 2400G",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "8,457",
+            "Thread_Mark": "2,141"
+        },
+        {
+            "CPU_name": "Intel Core i7-9850HL @ 1.90GHz",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "9,112",
+            "Thread_Mark": "2,139"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770R @ 3.20GHz",
+            "TEST_Date": "Jan 2014",
+            "CPU_Mark": "6,666",
+            "Thread_Mark": "2,139"
+        },
+        {
+            "CPU_name": "Intel Core i3-7300T @ 3.50GHz",
+            "TEST_Date": "May 2017",
+            "CPU_Mark": "4,159",
+            "Thread_Mark": "2,128"
+        },
+        {
+            "CPU_name": "AMD Ryzen Embedded V1756B",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "8,133",
+            "Thread_Mark": "2,128"
+        },
+        {
+            "CPU_name": "Intel Xeon W-3175X @ 3.10GHz",
+            "TEST_Date": "Mar 2019",
+            "CPU_Mark": "31,814",
+            "Thread_Mark": "2,126"
+        },
+        {
+            "CPU_name": "Intel Core i5-6500 @ 3.20GHz",
+            "TEST_Date": "Sep 2015",
+            "CPU_Mark": "5,659",
+            "Thread_Mark": "2,123"
+        },
+        {
+            "CPU_name": "Intel Core i5-6600T @ 2.70GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "5,595",
+            "Thread_Mark": "2,121"
+        },
+        {
+            "CPU_name": "AMD Athlon 300GE",
+            "TEST_Date": "Dec 2019",
+            "CPU_Mark": "4,905",
+            "Thread_Mark": "2,119"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 2200GE",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "6,433",
+            "Thread_Mark": "2,117"
+        },
+        {
+            "CPU_name": "Intel Core i7-6700T @ 2.80GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "7,239",
+            "Thread_Mark": "2,117"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670S @ 3.10GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "5,048",
+            "Thread_Mark": "2,110"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 2200G",
+            "TEST_Date": "Mar 2018",
+            "CPU_Mark": "6,632",
+            "Thread_Mark": "2,110"
+        },
+        {
+            "CPU_name": "Intel Core i5-7400 @ 3.00GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "5,504",
+            "Thread_Mark": "2,107"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 1500X",
+            "TEST_Date": "Apr 2017",
+            "CPU_Mark": "9,071",
+            "Thread_Mark": "2,099"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 1600",
+            "TEST_Date": "Mar 2017",
+            "CPU_Mark": "12,417",
+            "Thread_Mark": "2,089"
+        },
+        {
+            "CPU_name": "Intel Core i7-6700TE @ 2.40GHz",
+            "TEST_Date": "Jun 2016",
+            "CPU_Mark": "6,600",
+            "Thread_Mark": "2,087"
+        },
+        {
+            "CPU_name": "Intel Core i5-8500T @ 2.10GHz",
+            "TEST_Date": "Apr 2018",
+            "CPU_Mark": "7,910",
+            "Thread_Mark": "2,085"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 1300X",
+            "TEST_Date": "Aug 2017",
+            "CPU_Mark": "6,986",
+            "Thread_Mark": "2,082"
+        },
+        {
+            "CPU_name": "Intel Core i5-4590 @ 3.30GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "5,296",
+            "Thread_Mark": "2,081"
+        },
+        {
+            "CPU_name": "Intel Core i7-3770K @ 3.50GHz",
+            "TEST_Date": "Apr 2012",
+            "CPU_Mark": "6,445",
+            "Thread_Mark": "2,076"
+        },
+        {
+            "CPU_name": "Intel Core i3-6098P @ 3.60GHz",
+            "TEST_Date": "Feb 2016",
+            "CPU_Mark": "4,178",
+            "Thread_Mark": "2,075"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770T @ 2.50GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "5,957",
+            "Thread_Mark": "2,074"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 1700X",
+            "TEST_Date": "Mar 2017",
+            "CPU_Mark": "15,536",
+            "Thread_Mark": "2,074"
+        },
+        {
+            "CPU_name": "Intel Core i5-4590S @ 3.00GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "5,091",
+            "Thread_Mark": "2,070"
+        },
+        {
+            "CPU_name": "Intel Core i7-3770 @ 3.40GHz",
+            "TEST_Date": "Mar 2012",
+            "CPU_Mark": "6,359",
+            "Thread_Mark": "2,069"
+        },
+        {
+            "CPU_name": "AMD Athlon Silver PRO 3125GE",
+            "TEST_Date": "Jul 2020",
+            "CPU_Mark": "4,701",
+            "Thread_Mark": "2,067"
+        },
+        {
+            "CPU_name": "Intel Core i5-6402P @ 2.80GHz",
+            "TEST_Date": "Apr 2016",
+            "CPU_Mark": "5,554",
+            "Thread_Mark": "2,060"
+        },
+        {
+            "CPU_name": "Intel Core i7-5930K @ 3.50GHz",
+            "TEST_Date": "Aug 2014",
+            "CPU_Mark": "10,277",
+            "Thread_Mark": "2,056"
+        },
+        {
+            "CPU_name": "Intel Core i5-9400T @ 1.80GHz",
+            "TEST_Date": "Jul 2019",
+            "CPU_Mark": "7,769",
+            "Thread_Mark": "2,054"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 2200G",
+            "TEST_Date": "Feb 2018",
+            "CPU_Mark": "6,768",
+            "Thread_Mark": "2,053"
+        },
+        {
+            "CPU_name": "Intel Core i5-5575R @ 2.80GHz",
+            "TEST_Date": "Dec 2015",
+            "CPU_Mark": "5,550",
+            "Thread_Mark": "2,052"
+        },
+        {
+            "CPU_name": "Intel Core i7-3770S @ 3.10GHz",
+            "TEST_Date": "May 2012",
+            "CPU_Mark": "6,221",
+            "Thread_Mark": "2,052"
+        },
+        {
+            "CPU_name": "Intel Core i5-3570K @ 3.40GHz",
+            "TEST_Date": "Apr 2012",
+            "CPU_Mark": "4,938",
+            "Thread_Mark": "2,046"
+        },
+        {
+            "CPU_name": "Intel Core i7-4960X @ 3.60GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "9,876",
+            "Thread_Mark": "2,045"
+        },
+        {
+            "CPU_name": "AMD Ryzen Embedded R1606G",
+            "TEST_Date": "Jan 2020",
+            "CPU_Mark": "4,544",
+            "Thread_Mark": "2,044"
+        },
+        {
+            "CPU_name": "Intel Core i5-3570 @ 3.40GHz",
+            "TEST_Date": "Jul 2012",
+            "CPU_Mark": "4,885",
+            "Thread_Mark": "2,042"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670K CPT @ 3.40GHz",
+            "TEST_Date": "Dec 2014",
+            "CPU_Mark": "5,034",
+            "Thread_Mark": "2,042"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 2200GE",
+            "TEST_Date": "Aug 2018",
+            "CPU_Mark": "6,292",
+            "Thread_Mark": "2,040"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 PRO 1700",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "14,442",
+            "Thread_Mark": "2,039"
+        },
+        {
+            "CPU_name": "Intel Core i5-4570 @ 3.20GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "5,152",
+            "Thread_Mark": "2,020"
+        },
+        {
+            "CPU_name": "Intel Core i5-4570S @ 2.90GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "4,963",
+            "Thread_Mark": "2,013"
+        },
+        {
+            "CPU_name": "Intel Core i7-5820K @ 3.30GHz",
+            "TEST_Date": "Sep 2014",
+            "CPU_Mark": "9,771",
+            "Thread_Mark": "2,008"
+        },
+        {
+            "CPU_name": "Intel Core i3-8300T @ 3.20GHz",
+            "TEST_Date": "Jun 2018",
+            "CPU_Mark": "5,827",
+            "Thread_Mark": "2,005"
+        },
+        {
+            "CPU_name": "Intel Core i5-3570S @ 3.10GHz",
+            "TEST_Date": "Jul 2012",
+            "CPU_Mark": "4,628",
+            "Thread_Mark": "2,004"
+        },
+        {
+            "CPU_name": "AMD Athlon 240GE",
+            "TEST_Date": "Jan 2019",
+            "CPU_Mark": "4,628",
+            "Thread_Mark": "2,003"
+        },
+        {
+            "CPU_name": "Intel Core i5-3550 @ 3.30GHz",
+            "TEST_Date": "Mar 2012",
+            "CPU_Mark": "4,794",
+            "Thread_Mark": "2,002"
+        },
+        {
+            "CPU_name": "AMD Athlon 3000G",
+            "TEST_Date": "Nov 2019",
+            "CPU_Mark": "4,469",
+            "Thread_Mark": "1,996"
+        },
+        {
+            "CPU_name": "Intel Core i7-5960X @ 3.00GHz",
+            "TEST_Date": "Aug 2014",
+            "CPU_Mark": "12,703",
+            "Thread_Mark": "1,991"
+        },
+        {
+            "CPU_name": "Intel Core i5-7500T @ 2.70GHz",
+            "TEST_Date": "Jan 2017",
+            "CPU_Mark": "5,345",
+            "Thread_Mark": "1,990"
+        },
+        {
+            "CPU_name": "AMD Ryzen 7 1700",
+            "TEST_Date": "Mar 2017",
+            "CPU_Mark": "14,634",
+            "Thread_Mark": "1,987"
+        },
+        {
+            "CPU_name": "Intel Core i5-6400 @ 2.70GHz",
+            "TEST_Date": "Aug 2015",
+            "CPU_Mark": "5,159",
+            "Thread_Mark": "1,972"
+        },
+        {
+            "CPU_name": "Intel Core i7-3770T @ 2.50GHz",
+            "TEST_Date": "May 2012",
+            "CPU_Mark": "5,511",
+            "Thread_Mark": "1,954"
+        },
+        {
+            "CPU_name": "Intel Core i5-3550S @ 3.00GHz",
+            "TEST_Date": "Jun 2012",
+            "CPU_Mark": "4,422",
+            "Thread_Mark": "1,940"
+        },
+        {
+            "CPU_name": "Intel Core i7-4930K @ 3.40GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "9,243",
+            "Thread_Mark": "1,940"
+        },
+        {
+            "CPU_name": "Intel Core i7-4820K @ 3.70GHz",
+            "TEST_Date": "Jul 2013",
+            "CPU_Mark": "6,559",
+            "Thread_Mark": "1,934"
+        },
+        {
+            "CPU_name": "Intel Core i5-3470 @ 3.20GHz",
+            "TEST_Date": "Jul 2012",
+            "CPU_Mark": "4,625",
+            "Thread_Mark": "1,932"
+        },
+        {
+            "CPU_name": "Intel Core i3-8100T @ 3.10GHz",
+            "TEST_Date": "Aug 2018",
+            "CPU_Mark": "5,319",
+            "Thread_Mark": "1,932"
+        },
+        {
+            "CPU_name": "AMD Ryzen Embedded V1404I",
+            "TEST_Date": "Jan 2020",
+            "CPU_Mark": "5,491",
+            "Thread_Mark": "1,932"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 1200",
+            "TEST_Date": "Jun 2017",
+            "CPU_Mark": "6,322",
+            "Thread_Mark": "1,924"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 1200",
+            "TEST_Date": "Aug 2017",
+            "CPU_Mark": "6,376",
+            "Thread_Mark": "1,924"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 1400",
+            "TEST_Date": "Apr 2017",
+            "CPU_Mark": "7,865",
+            "Thread_Mark": "1,922"
+        },
+        {
+            "CPU_name": "Intel Core i5-4690T @ 2.50GHz",
+            "TEST_Date": "Dec 2014",
+            "CPU_Mark": "4,347",
+            "Thread_Mark": "1,921"
+        },
+        {
+            "CPU_name": "Intel Core i5-8400T @ 1.70GHz",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "7,365",
+            "Thread_Mark": "1,919"
+        },
+        {
+            "CPU_name": "Intel Core i5-6500TE @ 2.30GHz",
+            "TEST_Date": "Dec 2015",
+            "CPU_Mark": "5,329",
+            "Thread_Mark": "1,916"
+        },
+        {
+            "CPU_name": "AMD Ryzen 3 PRO 2100GE",
+            "TEST_Date": "May 2019",
+            "CPU_Mark": "4,308",
+            "Thread_Mark": "1,901"
+        },
+        {
+            "CPU_name": "Intel Core i5-4460 @ 3.20GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "4,798",
+            "Thread_Mark": "1,893"
+        },
+        {
+            "CPU_name": "Intel Core i5-3470S @ 2.90GHz",
+            "TEST_Date": "Jul 2012",
+            "CPU_Mark": "4,307",
+            "Thread_Mark": "1,888"
+        },
+        {
+            "CPU_name": "Intel Core i5-6500T @ 2.50GHz",
+            "TEST_Date": "Oct 2015",
+            "CPU_Mark": "4,886",
+            "Thread_Mark": "1,869"
+        },
+        {
+            "CPU_name": "Intel Core i5-3450 @ 3.10GHz",
+            "TEST_Date": "Apr 2012",
+            "CPU_Mark": "4,381",
+            "Thread_Mark": "1,865"
+        },
+        {
+            "CPU_name": "Intel Core i5-4570R @ 2.70GHz",
+            "TEST_Date": "Apr 2013",
+            "CPU_Mark": "4,820",
+            "Thread_Mark": "1,863"
+        },
+        {
+            "CPU_name": "Intel Core i5-4440 @ 3.10GHz",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "4,658",
+            "Thread_Mark": "1,856"
+        },
+        {
+            "CPU_name": "Intel Core i7-4700EQ @ 2.40GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "4,941",
+            "Thread_Mark": "1,842"
+        },
+        {
+            "CPU_name": "AMD Athlon PRO 300GE",
+            "TEST_Date": "Oct 2019",
+            "CPU_Mark": "4,337",
+            "Thread_Mark": "1,840"
+        },
+        {
+            "CPU_name": "AMD Athlon 200GE",
+            "TEST_Date": "Sep 2018",
+            "CPU_Mark": "4,185",
+            "Thread_Mark": "1,838"
+        },
+        {
+            "CPU_name": "Intel Core i5-4430 @ 3.00GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "4,718",
+            "Thread_Mark": "1,837"
+        },
+        {
+            "CPU_name": "Intel Core i5-4460S @ 2.90GHz",
+            "TEST_Date": "May 2014",
+            "CPU_Mark": "4,434",
+            "Thread_Mark": "1,829"
+        },
+        {
+            "CPU_name": "AMD FX-9590 Eight-Core",
+            "TEST_Date": "Aug 2013",
+            "CPU_Mark": "6,709",
+            "Thread_Mark": "1,828"
+        },
+        {
+            "CPU_name": "AMD Athlon PRO 200GE",
+            "TEST_Date": "May 2018",
+            "CPU_Mark": "4,139",
+            "Thread_Mark": "1,821"
+        },
+        {
+            "CPU_name": "Intel Core i7-3970X @ 3.50GHz",
+            "TEST_Date": "Jan 2012",
+            "CPU_Mark": "8,460",
+            "Thread_Mark": "1,820"
+        },
+        {
+            "CPU_name": "Intel Core i5-7400T @ 2.40GHz",
+            "TEST_Date": "Nov 2016",
+            "CPU_Mark": "4,581",
+            "Thread_Mark": "1,806"
+        },
+        {
+            "CPU_name": "Intel Core i5-3340 @ 3.10GHz",
+            "TEST_Date": "Oct 2013",
+            "CPU_Mark": "4,233",
+            "Thread_Mark": "1,796"
+        },
+        {
+            "CPU_name": "Intel Core i5-3450S @ 2.80GHz",
+            "TEST_Date": "May 2012",
+            "CPU_Mark": "4,154",
+            "Thread_Mark": "1,794"
+        },
+        {
+            "CPU_name": "Intel Core i7-3960X @ 3.30GHz",
+            "TEST_Date": "Nov 2011",
+            "CPU_Mark": "8,636",
+            "Thread_Mark": "1,793"
+        },
+        {
+            "CPU_name": "Intel Core i5-4670T @ 2.30GHz",
+            "TEST_Date": "Jun 2013",
+            "CPU_Mark": "4,453",
+            "Thread_Mark": "1,782"
+        },
+        {
+            "CPU_name": "Intel Core i7-3820 @ 3.60GHz",
+            "TEST_Date": "Jan 2012",
+            "CPU_Mark": "5,878",
+            "Thread_Mark": "1,778"
+        },
+        {
+            "CPU_name": "Intel Core i5-3350P @ 3.10GHz",
+            "TEST_Date": "Oct 2012",
+            "CPU_Mark": "4,239",
+            "Thread_Mark": "1,773"
+        },
+        {
+            "CPU_name": "Intel Core i7-2700K @ 3.50GHz",
+            "TEST_Date": "Oct 2011",
+            "CPU_Mark": "5,494",
+            "Thread_Mark": "1,773"
+        },
+        {
+            "CPU_name": "Intel Core i5-4470S @ 3.00GHz",
+            "TEST_Date": "Sep 2020",
+            "CPU_Mark": "4,742",
+            "Thread_Mark": "1,756"
+        },
+        {
+            "CPU_name": "Intel Core i5-2550K @ 3.40GHz",
+            "TEST_Date": "Feb 2012",
+            "CPU_Mark": "4,132",
+            "Thread_Mark": "1,750"
+        },
+        {
+            "CPU_name": "Intel Core i7-3930K @ 3.20GHz",
+            "TEST_Date": "Nov 2011",
+            "CPU_Mark": "8,139",
+            "Thread_Mark": "1,742"
+        },
+        {
+            "CPU_name": "Intel Core i7-4785T @ 2.20GHz",
+            "TEST_Date": "Jun 2014",
+            "CPU_Mark": "5,324",
+            "Thread_Mark": "1,733"
+        },
+        {
+            "CPU_name": "Intel Core i7-2600 @ 3.40GHz",
+            "TEST_Date": "Dec 2010",
+            "CPU_Mark": "5,332",
+            "Thread_Mark": "1,733"
+        },
+        {
+            "CPU_name": "Intel Core i7-2600K @ 3.40GHz",
+            "TEST_Date": "Nov 2010",
+            "CPU_Mark": "5,436",
+            "Thread_Mark": "1,733"
+        },
+        {
+            "CPU_name": "Intel Core i5-3570T @ 2.30GHz",
+            "TEST_Date": "Sep 2012",
+            "CPU_Mark": "4,120",
+            "Thread_Mark": "1,722"
+        },
+        {
+            "CPU_name": "Intel Core i7-2600S @ 2.80GHz",
+            "TEST_Date": "Feb 2011",
+            "CPU_Mark": "4,404",
+            "Thread_Mark": "1,685"
+        },
+        {
+            "CPU_name": "AMD Ryzen 5 PRO 1600",
+            "TEST_Date": "Sep 2017",
+            "CPU_Mark": "10,401",
+            "Thread_Mark": "1,685"
+        },
+        {
+            "CPU_name": "Intel Core i7-995X @ 3.60GHz",
+            "TEST_Date": "Sep 2010",
+            "CPU_Mark": "7,079",
+            "Thread_Mark": "1,683"
+        },
+        {
+            "CPU_name": "Intel Core i5-6400T @ 2.20GHz",
+            "TEST_Date": "Dec 2015",
+            "CPU_Mark": "4,410",
+            "Thread_Mark": "1,678"
+        },
+        {
+            "CPU_name": "AMD FX-9370 Eight-Core",
+            "TEST_Date": "Jul 2013",
+            "CPU_Mark": "5,976",
+            "Thread_Mark": "1,670"
+        },
+        {
+            "CPU_name": "AMD FX-8370 Eight-Core",
+            "TEST_Date": "Sep 2014",
+            "CPU_Mark": "6,161",
+            "Thread_Mark": "1,639"
+        },
+        {
+            "CPU_name": "Intel Core i7-990X @ 3.47GHz",
+            "TEST_Date": "Jan 2011",
+            "CPU_Mark": "7,314",
+            "Thread_Mark": "1,610"
+        },
+        {
+            "CPU_name": "AMD FX-8350 Eight-Core",
+            "TEST_Date": "Oct 2012",
+            "CPU_Mark": "5,921",
+            "Thread_Mark": "1,567"
+        },
+        {
+            "CPU_name": "Intel Core i7-4765T @ 2.00GHz",
+            "TEST_Date": "Apr 2013",
+            "CPU_Mark": "4,891",
+            "Thread_Mark": "1,560"
+        },
+        {
+            "CPU_name": "AMD FX-6350 Six-Core",
+            "TEST_Date": "May 2013",
+            "CPU_Mark": "4,467",
+            "Thread_Mark": "1,557"
+        },
+        {
+            "CPU_name": "AMD FX-6330 Six-Core",
+            "TEST_Date": "Nov 2016",
+            "CPU_Mark": "4,479",
+            "Thread_Mark": "1,556"
+        },
+        {
+            "CPU_name": "Intel Core i7-980 @ 3.33GHz",
+            "TEST_Date": "Jul 2011",
+            "CPU_Mark": "6,910",
+            "Thread_Mark": "1,546"
+        },
+        {
+            "CPU_name": "Intel Core i7-980X @ 3.33GHz",
+            "TEST_Date": "Mar 2010",
+            "CPU_Mark": "6,681",
+            "Thread_Mark": "1,534"
+        },
+        {
+            "CPU_name": "AMD FX-8310 Eight-Core",
+            "TEST_Date": "Oct 2014",
+            "CPU_Mark": "5,215",
+            "Thread_Mark": "1,528"
+        },
+        {
+            "CPU_name": "Intel Core i7-970 @ 3.20GHz",
+            "TEST_Date": "Jul 2010",
+            "CPU_Mark": "6,759",
+            "Thread_Mark": "1,499"
+        },
+        {
+            "CPU_name": "AMD FX-6300 Six-Core",
+            "TEST_Date": "Oct 2012",
+            "CPU_Mark": "4,113",
+            "Thread_Mark": "1,476"
+        },
+        {
+            "CPU_name": "AMD FX-8300 Eight-Core",
+            "TEST_Date": "Jan 2013",
+            "CPU_Mark": "5,269",
+            "Thread_Mark": "1,476"
+        },
+        {
+            "CPU_name": "AMD FX-8320 Eight-Core",
+            "TEST_Date": "Oct 2012",
+            "CPU_Mark": "5,358",
+            "Thread_Mark": "1,465"
+        },
+        {
+            "CPU_name": "Intel Core i7-4770TE @ 2.30GHz",
+            "TEST_Date": "Jul 2015",
+            "CPU_Mark": "4,257",
+            "Thread_Mark": "1,458"
+        },
+        {
+            "CPU_name": "AMD FX-8370E Eight-Core",
+            "TEST_Date": "Sep 2014",
+            "CPU_Mark": "5,113",
+            "Thread_Mark": "1,440"
+        },
+        {
+            "CPU_name": "AMD FX-8320E Eight-Core",
+            "TEST_Date": "Oct 2014",
+            "CPU_Mark": "4,952",
+            "Thread_Mark": "1,404"
+        },
+        {
+            "CPU_name": "AMD FX-6130 Six-Core",
+            "TEST_Date": "Mar 2013",
+            "CPU_Mark": "4,353",
+            "Thread_Mark": "1,390"
+        },
+        {
+            "CPU_name": "AMD FX-8150 Eight-Core",
+            "TEST_Date": "Sep 2011",
+            "CPU_Mark": "5,024",
+            "Thread_Mark": "1,389"
+        },
+        {
+            "CPU_name": "AMD FX-8140 Eight-Core",
+            "TEST_Date": "Mar 2012",
+            "CPU_Mark": "4,953",
+            "Thread_Mark": "1,336"
+        },
+        {
+            "CPU_name": "AMD FX-8120 Eight-Core",
+            "TEST_Date": "Oct 2011",
+            "CPU_Mark": "4,427",
+            "Thread_Mark": "1,307"
+        }
     ]
-    }
+}
+
+/*
+[
+  {
+    "id": "1",
+    "CPU_name": "AMD Ryzen 9 5900X",
+    "TEST_Date": "Nov 2020",
+    "CPU_Mark": "39727",
+    "Thread_Mark": "3551"
+  },
+  {
+    "id": "2",
+    "CPU_name": "AMD Ryzen 7 5800X",
+    "TEST_Date": "Nov 2020",
+    "CPU_Mark": "28702",
+    "Thread_Mark": "3482"
+  },
+  {
+    "id": "3",
+    "CPU_name": "AMD Ryzen 9 5950X",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "46625",
+    "Thread_Mark": "3550"
+  },
+  {
+    "id": "4",
+    "CPU_name": "AMD Ryzen 5 5600X",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "22094",
+    "Thread_Mark": "3373"
+  },
+  {
+    "id": "5",
+    "CPU_name": "Intel Core i9-10900K @ 3.70GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "24221",
+    "Thread_Mark": "3178"
+  },
+  {
+    "id": "6",
+    "CPU_name": "Intel Core i9-10900KF @ 3.70GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "23766",
+    "Thread_Mark": "3145"
+  },
+  {
+    "id": "7",
+    "CPU_name": "Intel Core i9-10850K @ 3.60GHz",
+    "TEST_Date": "Aug 2020",
+    "CPU_Mark": "23332",
+    "Thread_Mark": "3110"
+  },
+  {
+    "id": "8",
+    "CPU_name": "Intel Core i9-10900 @ 2.80GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "21301",
+    "Thread_Mark": "3109"
+  },
+  {
+    "id": "9",
+    "CPU_name": "Intel Core i9-10900F @ 2.80GHz",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "21465",
+    "Thread_Mark": "3108"
+  },
+  {
+    "id": "10",
+    "CPU_name": "Intel Core i9-9990XE @ 4.00GHz",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "31941",
+    "Thread_Mark": "3104"
+  },
+  {
+    "id": "11",
+    "CPU_name": "Intel Core i9-10910 @ 3.60GHz",
+    "TEST_Date": "Aug 2020",
+    "CPU_Mark": "22289",
+    "Thread_Mark": "3101"
+  },
+  {
+    "id": "12",
+    "CPU_name": "Intel Core i7-10700K @ 3.80GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "19683",
+    "Thread_Mark": "3088"
+  },
+  {
+    "id": "13",
+    "CPU_name": "Intel Core i7-10700KF @ 3.80GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "19532",
+    "Thread_Mark": "3086"
+  },
+  {
+    "id": "14",
+    "CPU_name": "Intel Core i9-9900KS @ 4.00GHz",
+    "TEST_Date": "Oct 2019",
+    "CPU_Mark": "19460",
+    "Thread_Mark": "3031"
+  },
+  {
+    "id": "15",
+    "CPU_name": "Intel Core i9-9900KF @ 3.60GHz",
+    "TEST_Date": "Apr 2019",
+    "CPU_Mark": "18942",
+    "Thread_Mark": "3008"
+  },
+  {
+    "id": "16",
+    "CPU_name": "Intel Core i9-9900K @ 3.60GHz",
+    "TEST_Date": "Oct 2018",
+    "CPU_Mark": "18881",
+    "Thread_Mark": "2978"
+  },
+  {
+    "id": "17",
+    "CPU_name": "Intel Core i7-9700KF @ 3.60GHz",
+    "TEST_Date": "Apr 2019",
+    "CPU_Mark": "14731",
+    "Thread_Mark": "2949"
+  },
+  {
+    "id": "18",
+    "CPU_name": "Intel Core i7-8086K @ 4.00GHz",
+    "TEST_Date": "Jun 2018",
+    "CPU_Mark": "14752",
+    "Thread_Mark": "2947"
+  },
+  {
+    "id": "19",
+    "CPU_name": "Intel Core i5-10600KF @ 4.10GHz",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "14963",
+    "Thread_Mark": "2938"
+  },
+  {
+    "id": "20",
+    "CPU_name": "Intel Core i7-10700 @ 2.90GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "17480",
+    "Thread_Mark": "2931"
+  },
+  {
+    "id": "21",
+    "CPU_name": "Intel Core i5-10600K @ 4.10GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "14638",
+    "Thread_Mark": "2930"
+  },
+  {
+    "id": "22",
+    "CPU_name": "Intel Core i7-9700K @ 3.60GHz",
+    "TEST_Date": "Oct 2018",
+    "CPU_Mark": "14616",
+    "Thread_Mark": "2914"
+  },
+  {
+    "id": "23",
+    "CPU_name": "Intel Core i7-10700F @ 2.90GHz",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "17238",
+    "Thread_Mark": "2905"
+  },
+  {
+    "id": "24",
+    "CPU_name": "Intel Core i9-9900 @ 3.10GHz",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "17156",
+    "Thread_Mark": "2895"
+  },
+  {
+    "id": "25",
+    "CPU_name": "AMD Ryzen 7 3800XT",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "23960",
+    "Thread_Mark": "2859"
+  },
+  {
+    "id": "26",
+    "CPU_name": "Intel Core i5-10600 @ 3.30GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "14114",
+    "Thread_Mark": "2857"
+  },
+  {
+    "id": "27",
+    "CPU_name": "Intel Core i3-9350K @ 4.00GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "7797",
+    "Thread_Mark": "2846"
+  },
+  {
+    "id": "28",
+    "CPU_name": "Intel Core i7-7740X @ 4.30GHz",
+    "TEST_Date": "Jul 2017",
+    "CPU_Mark": "9906",
+    "Thread_Mark": "2839"
+  },
+  {
+    "id": "29",
+    "CPU_name": "Intel Core i7-9700F @ 3.00GHz",
+    "TEST_Date": "Jun 2019",
+    "CPU_Mark": "13822",
+    "Thread_Mark": "2837"
+  },
+  {
+    "id": "30",
+    "CPU_name": "Intel Core i3-9350KF @ 4.00GHz",
+    "TEST_Date": "May 2019",
+    "CPU_Mark": "7913",
+    "Thread_Mark": "2823"
+  },
+  {
+    "id": "31",
+    "CPU_name": "AMD Ryzen 5 3600XT",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "18944",
+    "Thread_Mark": "2813"
+  },
+  {
+    "id": "32",
+    "CPU_name": "Intel Core i7-9700 @ 3.00GHz",
+    "TEST_Date": "Jun 2019",
+    "CPU_Mark": "13568",
+    "Thread_Mark": "2808"
+  },
+  {
+    "id": "33",
+    "CPU_name": "Intel Core i5-9600KF @ 3.70GHz",
+    "TEST_Date": "May 2019",
+    "CPU_Mark": "10923",
+    "Thread_Mark": "2806"
+  },
+  {
+    "id": "34",
+    "CPU_name": "AMD Ryzen 9 3900XT",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "33114",
+    "Thread_Mark": "2801"
+  },
+  {
+    "id": "35",
+    "CPU_name": "AMD Ryzen 7 4700G",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "21164",
+    "Thread_Mark": "2797"
+  },
+  {
+    "id": "36",
+    "CPU_name": "Intel Core i7-8700K @ 3.70GHz",
+    "TEST_Date": "Oct 2017",
+    "CPU_Mark": "13899",
+    "Thread_Mark": "2791"
+  },
+  {
+    "id": "37",
+    "CPU_name": "Intel Core i5-9600K @ 3.70GHz",
+    "TEST_Date": "Oct 2018",
+    "CPU_Mark": "10875",
+    "Thread_Mark": "2790"
+  },
+  {
+    "id": "38",
+    "CPU_name": "Intel Core i5-9600 @ 3.10GHz",
+    "TEST_Date": "Sep 2019",
+    "CPU_Mark": "10741",
+    "Thread_Mark": "2784"
+  },
+  {
+    "id": "39",
+    "CPU_name": "Intel Xeon W-2255 @ 3.70GHz",
+    "TEST_Date": "Mar 2020",
+    "CPU_Mark": "22687",
+    "Thread_Mark": "2776"
+  },
+  {
+    "id": "40",
+    "CPU_name": "Intel Core i7-7700K @ 4.20GHz",
+    "TEST_Date": "Oct 2016",
+    "CPU_Mark": "9720",
+    "Thread_Mark": "2768"
+  },
+  {
+    "id": "41",
+    "CPU_name": "Intel Core i5-10500 @ 3.10GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "13348",
+    "Thread_Mark": "2759"
+  },
+  {
+    "id": "42",
+    "CPU_name": "AMD Ryzen Threadripper PRO 3955WX",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "42095",
+    "Thread_Mark": "2759"
+  },
+  {
+    "id": "43",
+    "CPU_name": "AMD Ryzen 7 PRO 4750G",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "21304",
+    "Thread_Mark": "2757"
+  },
+  {
+    "id": "44",
+    "CPU_name": "AMD Ryzen 7 3800X",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "23362",
+    "Thread_Mark": "2745"
+  },
+  {
+    "id": "45",
+    "CPU_name": "AMD Ryzen 9 3950X",
+    "TEST_Date": "Nov 2019",
+    "CPU_Mark": "39231",
+    "Thread_Mark": "2743"
+  },
+  {
+    "id": "46",
+    "CPU_name": "Intel Core i9-10920X @ 3.50GHz",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "26318",
+    "Thread_Mark": "2741"
+  },
+  {
+    "id": "47",
+    "CPU_name": "AMD Ryzen 7 PRO 4750GE",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "20456",
+    "Thread_Mark": "2737"
+  },
+  {
+    "id": "48",
+    "CPU_name": "AMD Ryzen 7 4700GE",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "20671",
+    "Thread_Mark": "2737"
+  },
+  {
+    "id": "49",
+    "CPU_name": "Intel Core i9-10940X @ 3.30GHz",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "29831",
+    "Thread_Mark": "2732"
+  },
+  {
+    "id": "50",
+    "CPU_name": "AMD Ryzen 9 3900X",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "32866",
+    "Thread_Mark": "2731"
+  },
+  {
+    "id": "51",
+    "CPU_name": "Intel Core i9-10900X @ 3.70GHz",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "22683",
+    "Thread_Mark": "2727"
+  },
+  {
+    "id": "52",
+    "CPU_name": "AMD Ryzen Threadripper PRO 3945WX",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "34762",
+    "Thread_Mark": "2725"
+  },
+  {
+    "id": "53",
+    "CPU_name": "Intel Core i9-9960X @ 3.10GHz",
+    "TEST_Date": "Feb 2019",
+    "CPU_Mark": "31554",
+    "Thread_Mark": "2714"
+  },
+  {
+    "id": "54",
+    "CPU_name": "Intel Core i3-9320 @ 3.70GHz",
+    "TEST_Date": "Sep 2019",
+    "CPU_Mark": "7358",
+    "Thread_Mark": "2711"
+  },
+  {
+    "id": "55",
+    "CPU_name": "AMD Ryzen Threadripper 3970X",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "64224",
+    "Thread_Mark": "2711"
+  },
+  {
+    "id": "56",
+    "CPU_name": "AMD Ryzen 5 4600G",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "17197",
+    "Thread_Mark": "2707"
+  },
+  {
+    "id": "57",
+    "CPU_name": "AMD Ryzen Threadripper 3960X",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "55373",
+    "Thread_Mark": "2703"
+  },
+  {
+    "id": "58",
+    "CPU_name": "AMD Ryzen 7 PRO 4700G",
+    "TEST_Date": "Aug 2020",
+    "CPU_Mark": "20848",
+    "Thread_Mark": "2700"
+  },
+  {
+    "id": "59",
+    "CPU_name": "Intel Core i5-9500F @ 3.00GHz",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "10294",
+    "Thread_Mark": "2696"
+  },
+  {
+    "id": "60",
+    "CPU_name": "Intel Core i7-10700T @ 2.00GHz",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "12505",
+    "Thread_Mark": "2695"
+  },
+  {
+    "id": "61",
+    "CPU_name": "AMD Ryzen 3 3300X",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "12788",
+    "Thread_Mark": "2690"
+  },
+  {
+    "id": "62",
+    "CPU_name": "AMD Ryzen 7 3700X",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "22824",
+    "Thread_Mark": "2690"
+  },
+  {
+    "id": "63",
+    "CPU_name": "Intel Core i3-9300 @ 3.70GHz",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "7267",
+    "Thread_Mark": "2687"
+  },
+  {
+    "id": "64",
+    "CPU_name": "Intel Core i3-10300 @ 3.70GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "9322",
+    "Thread_Mark": "2685"
+  },
+  {
+    "id": "65",
+    "CPU_name": "Intel Core i7-8700 @ 3.20GHz",
+    "TEST_Date": "Oct 2017",
+    "CPU_Mark": "13095",
+    "Thread_Mark": "2685"
+  },
+  {
+    "id": "66",
+    "CPU_name": "AMD Ryzen 5 PRO 4650G",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "16710",
+    "Thread_Mark": "2679"
+  },
+  {
+    "id": "67",
+    "CPU_name": "AMD Ryzen 5 3600X",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "18321",
+    "Thread_Mark": "2677"
+  },
+  {
+    "id": "68",
+    "CPU_name": "AMD Ryzen 5 4600GE",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "16377",
+    "Thread_Mark": "2676"
+  },
+  {
+    "id": "69",
+    "CPU_name": "AMD Ryzen 5 PRO 4650GE",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "16689",
+    "Thread_Mark": "2675"
+  },
+  {
+    "id": "70",
+    "CPU_name": "Intel Core i5-9500 @ 3.00GHz",
+    "TEST_Date": "May 2019",
+    "CPU_Mark": "9933",
+    "Thread_Mark": "2671"
+  },
+  {
+    "id": "71",
+    "CPU_name": "AMD Ryzen Threadripper PRO 3995WX",
+    "TEST_Date": "Sep 2020",
+    "CPU_Mark": "88323",
+    "Thread_Mark": "2671"
+  },
+  {
+    "id": "72",
+    "CPU_name": "AMD Ryzen Threadripper PRO 3975WX",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "65674",
+    "Thread_Mark": "2670"
+  },
+  {
+    "id": "73",
+    "CPU_name": "Intel Core i5-10300H @ 2.50GHz",
+    "TEST_Date": "Jan 2020",
+    "CPU_Mark": "8858",
+    "Thread_Mark": "2660"
+  },
+  {
+    "id": "74",
+    "CPU_name": "AMD Ryzen 5 PRO 4400G",
+    "TEST_Date": "Aug 2020",
+    "CPU_Mark": "16335",
+    "Thread_Mark": "2655"
+  },
+  {
+    "id": "75",
+    "CPU_name": "Intel Core i9-9920X @ 3.50GHz",
+    "TEST_Date": "Dec 2018",
+    "CPU_Mark": "25352",
+    "Thread_Mark": "2655"
+  },
+  {
+    "id": "76",
+    "CPU_name": "Intel Core i3-10100 @ 3.60GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "9003",
+    "Thread_Mark": "2651"
+  },
+  {
+    "id": "77",
+    "CPU_name": "AMD Ryzen 9 3900",
+    "TEST_Date": "Oct 2019",
+    "CPU_Mark": "30860",
+    "Thread_Mark": "2647"
+  },
+  {
+    "id": "78",
+    "CPU_name": "Intel Core i9-10980XE @ 3.00GHz",
+    "TEST_Date": "Dec 2019",
+    "CPU_Mark": "34296",
+    "Thread_Mark": "2642"
+  },
+  {
+    "id": "79",
+    "CPU_name": "Intel Core i5-8600K @ 3.60GHz",
+    "TEST_Date": "Oct 2017",
+    "CPU_Mark": "10248",
+    "Thread_Mark": "2641"
+  },
+  {
+    "id": "80",
+    "CPU_name": "AMD Ryzen 9 PRO 3900",
+    "TEST_Date": "Sep 2019",
+    "CPU_Mark": "31800",
+    "Thread_Mark": "2637"
+  },
+  {
+    "id": "81",
+    "CPU_name": "Intel Core i3-10100F @ 3.60GHz",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "9078",
+    "Thread_Mark": "2636"
+  },
+  {
+    "id": "82",
+    "CPU_name": "Intel Core i7-9800X @ 3.80GHz",
+    "TEST_Date": "Dec 2018",
+    "CPU_Mark": "18274",
+    "Thread_Mark": "2635"
+  },
+  {
+    "id": "83",
+    "CPU_name": "AMD Ryzen 7 PRO 3700",
+    "TEST_Date": "Sep 2019",
+    "CPU_Mark": "21904",
+    "Thread_Mark": "2629"
+  },
+  {
+    "id": "84",
+    "CPU_name": "Intel Core i9-9940X @ 3.30GHz",
+    "TEST_Date": "Nov 2018",
+    "CPU_Mark": "28266",
+    "Thread_Mark": "2625"
+  },
+  {
+    "id": "85",
+    "CPU_name": "Intel Core i9-9900X @ 3.50GHz",
+    "TEST_Date": "Dec 2018",
+    "CPU_Mark": "21908",
+    "Thread_Mark": "2615"
+  },
+  {
+    "id": "86",
+    "CPU_name": "Intel Core i7-7900X @ 3.30GHz",
+    "TEST_Date": "Aug 2017",
+    "CPU_Mark": "19358",
+    "Thread_Mark": "2610"
+  },
+  {
+    "id": "87",
+    "CPU_name": "Intel Core i5-10400F @ 2.90GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "12695",
+    "Thread_Mark": "2602"
+  },
+  {
+    "id": "88",
+    "CPU_name": "Intel Core i9-7900X @ 3.30GHz",
+    "TEST_Date": "Jun 2017",
+    "CPU_Mark": "21474",
+    "Thread_Mark": "2601"
+  },
+  {
+    "id": "89",
+    "CPU_name": "Intel Core i5-10400 @ 2.90GHz",
+    "TEST_Date": "May 2020",
+    "CPU_Mark": "12588",
+    "Thread_Mark": "2598"
+  },
+  {
+    "id": "90",
+    "CPU_name": "AMD Ryzen 3 4300G",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "11714",
+    "Thread_Mark": "2585"
+  },
+  {
+    "id": "91",
+    "CPU_name": "AMD Ryzen 3 4300GE",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "11878",
+    "Thread_Mark": "2585"
+  },
+  {
+    "id": "92",
+    "CPU_name": "AMD Ryzen 5 3600",
+    "TEST_Date": "Jun 2019",
+    "CPU_Mark": "17862",
+    "Thread_Mark": "2584"
+  },
+  {
+    "id": "93",
+    "CPU_name": "AMD Ryzen 5 PRO 3600",
+    "TEST_Date": "Jul 2019",
+    "CPU_Mark": "17888",
+    "Thread_Mark": "2583"
+  },
+  {
+    "id": "94",
+    "CPU_name": "AMD Ryzen 3 PRO 4350GE",
+    "TEST_Date": "Jul 2020",
+    "CPU_Mark": "11499",
+    "Thread_Mark": "2580"
+  },
+  {
+    "id": "95",
+    "CPU_name": "Intel Core i9-7960X @ 2.80GHz",
+    "TEST_Date": "Oct 2017",
+    "CPU_Mark": "26959",
+    "Thread_Mark": "2580"
+  },
+  {
+    "id": "96",
+    "CPU_name": "Intel Core i9-9980XE @ 3.00GHz",
+    "TEST_Date": "Dec 2018",
+    "CPU_Mark": "32010",
+    "Thread_Mark": "2577"
+  },
+  {
+    "id": "97",
+    "CPU_name": "Intel Core i5-7600K @ 3.80GHz",
+    "TEST_Date": "Jan 2017",
+    "CPU_Mark": "6879",
+    "Thread_Mark": "2572"
+  },
+  {
+    "id": "98",
+    "CPU_name": "Intel Core i9-10900T @ 1.90GHz",
+    "TEST_Date": "Jun 2020",
+    "CPU_Mark": "16588",
+    "Thread_Mark": "2571"
+  },
+  {
+    "id": "99",
+    "CPU_name": "Intel Pentium Gold G6500 @ 4.10GHz",
+    "TEST_Date": "Oct 2020",
+    "CPU_Mark": "4208",
+    "Thread_Mark": "2558"
+  },
+  {
+    "id": "100",
+    "CPU_name": "Intel Core i7-9700E @ 2.60GHz",
+    "TEST_Date": "Nov 2020",
+    "CPU_Mark": "12754",
+    "Thread_Mark": "2556"
+  }
+]
+
+*/

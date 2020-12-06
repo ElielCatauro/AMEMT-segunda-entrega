@@ -5,6 +5,7 @@ let tableHardEl = document.getElementById("tabla");
 let inputsEl = document.getElementById("inputs");
 let inputsBtnsEl = document.getElementById("inputsBtns");
 let tituloModalEL = document.getElementById("tituloModal");
+let dataParseada = [];
 
 let createBtnModel = () => {
   let btnOk = document.createElement('button');
@@ -40,7 +41,7 @@ let deleteRow = (elemento, i) => {
 
     let sip = () => {
       const row = document.getElementById(`row${i}`);
-      try{row.remove();}
+      try { row.remove(); }
       catch (error) {
       }
       inpEL.value = '';
@@ -87,44 +88,37 @@ let modifiRow = (elemento, i) => {
 
 
 let createInputs = (claves) => {
+  inputsEl.innerHTML="";
   for (let i = 0; i < claves.length; i++) {
-   let divi=document.createElement('div'); 
-   divi.setAttribute('class',`form-group row justify-content-between`);
-   
-
-
-
-    let inp = document.createElement('input'); 
-    let inpLb = document.createElement('label'); 
+    let divi = document.createElement('div');
+    divi.setAttribute('class', `form-group row justify-content-between`);
+    let inp = document.createElement('input');
+    let inpLb = document.createElement('label');
     inp.setAttribute('id', `inp-${claves[i]}`);
-    inpLb.setAttribute('for',`inp-${claves[i]}`);
-    inpLb.innerText=claves[i];
+    inpLb.setAttribute('for', `inp-${claves[i]}`);
+    inpLb.innerText = claves[i];
     divi.appendChild(inpLb);
     divi.appendChild(inp);
     inputsEl.appendChild(divi);
-    inputsEl
   }
 }
 
 let createHeader = (claves) => {
-  //claves es un array con los nombres de las claves de nuestro objeto --> ["nombre", "cantidad", "categoria", "precio", "marca"]
   let theadEl = document.createElement("thead");
   let trEl = document.createElement("tr");
   //recorremos el arreglo de claves
   for (let i = 0; i < claves.length; i++) {
-    //creamos un elemento th para cada clave
     let thEl = document.createElement("th");
-    //cambiamos el innerHTML del th para que muestre cada clave
     thEl.innerHTML = claves[i];
-    //agregamos el elemento th al elemento tr
     trEl.appendChild(thEl);
   }
   let thEl = document.createElement("th");
   thEl.innerHTML = 'Modificar/Eliminar';
   trEl.appendChild(thEl);
-  //agregamos el elemento tr al thead
+
+
   theadEl.appendChild(trEl);
-  //agregamos el thead a nuestra tabla
+
   tableHardEl.appendChild(theadEl);
 };
 
@@ -175,6 +169,7 @@ let createBody = (elementos) => {
 
 
 let createTable = (claves, arregloObjet) => {
+  tableHardEl.innerHTML="";
   createHeader(claves);
   createBody(arregloObjet);
   createInputs(claves);
@@ -182,15 +177,23 @@ let createTable = (claves, arregloObjet) => {
 
 
 window.addEventListener("load", () => {
-  loadGPUStable();
+  loadTable();
 });
 
 
+//get
+let loadTable = () => {
+  fetch("https://5fcbef5e51f70e00161f21d1.mockapi.io/gups")
+    .then((res) => res.json().then((data) => {
+      dataParseada = data;
+      //obtenemos las claves del objeto
+      let claves = Object.keys(dataParseada[0]);
+      createTable(claves, dataParseada);
+    }))
+    .catch((error) => console.log(error));
+};
 
-
-
-
-/* intento de carga desde un json */
+/* intento de carga desde un json 
 let loadGPUStable = () => {
   fetch('https://api.jsonbin.io/b/5fc69853045eb86f1f89c24d').then((res) => {  //fetch('"../json/CPUS.json"').then((res)=>{
     res.json().then(
@@ -210,3 +213,19 @@ let loadGPUStable = () => {
   );
 }
 
+*/
+
+let filtrosGPU = (incluyen1 ="",incluyen2 ="",min1 = 200,max1 = 30000,min2 = 0,max2 = 2000 ) => {
+
+  let claves = Object.keys(dataParseada[0]);
+  let fil1=dataParseada.filter(e => e.GPU_Name.indexOf(`${incluyen1}`) !== -1 );
+  console.log(fil1);
+  let fil2=fil1.filter(e => e.TEST_Date.indexOf(`${incluyen2}`) !== -1 );
+  console.log(fil2);
+  let fil3=fil2.filter(e => (e.G3D_Mark>= min1 && e.G3D_Mark<= max1 ));
+  console.log(fil3);
+  let fil4=fil3.filter(e => (e.G2D_Mark>=min2 && e.G2D_Mark<=max2 ));
+  console.log(fil4);
+
+  createTable(claves,fil4);
+}

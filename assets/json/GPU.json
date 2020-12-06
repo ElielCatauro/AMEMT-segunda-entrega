@@ -1,4 +1,13 @@
 {
+    "filtros":[
+        {
+        "GPU_Name":"contiene",
+        "TEST_Date":"contiene",
+        "G3D_Mark":"rango",
+        "G2D_Mark":"rango"
+        }
+    ]
+    ,
     "GPUS":[
     {
     "GPU_Name":"Radeon RX 6800 XT",
@@ -926,3 +935,711 @@
     }
     ]
     }
+
+
+
+    /* mokapi 
+    
+    [
+  {
+    "id": "1",
+    "GPU_Name": "Radeon RX 6800 XT",
+    "TEST_Date": "Nov 2020",
+    "G3D_Mark": "25312",
+    "G2D_Mark": "1095"
+  },
+  {
+    "id": "2",
+    "GPU_Name": "GeForce RTX 3090",
+    "TEST_Date": "Sep 2020",
+    "G3D_Mark": "24921",
+    "G2D_Mark": "985"
+  },
+  {
+    "id": "3",
+    "GPU_Name": "GeForce RTX 3080",
+    "TEST_Date": "Sep 2020",
+    "G3D_Mark": "23855",
+    "G2D_Mark": "992"
+  },
+  {
+    "id": "4",
+    "GPU_Name": "GeForce RTX 2080 Ti",
+    "TEST_Date": "Sep 2018",
+    "G3D_Mark": "21594",
+    "G2D_Mark": "949"
+  },
+  {
+    "id": "5",
+    "GPU_Name": "GeForce RTX 3070",
+    "TEST_Date": "Oct 2020",
+    "G3D_Mark": "21409",
+    "G2D_Mark": "943"
+  },
+  {
+    "id": "6",
+    "GPU_Name": "TITAN V",
+    "TEST_Date": "Dec 2017",
+    "G3D_Mark": "19378",
+    "G2D_Mark": "872"
+  },
+  {
+    "id": "7",
+    "GPU_Name": "GeForce RTX 2080 SUPER",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "19376",
+    "G2D_Mark": "940"
+  },
+  {
+    "id": "8",
+    "GPU_Name": "GeForce RTX 2080",
+    "TEST_Date": "Sep 2018",
+    "G3D_Mark": "18580",
+    "G2D_Mark": "930"
+  },
+  {
+    "id": "9",
+    "GPU_Name": "NVIDIA TITAN Xp",
+    "TEST_Date": "Apr 2017",
+    "G3D_Mark": "18280",
+    "G2D_Mark": "812"
+  },
+  {
+    "id": "10",
+    "GPU_Name": "GeForce RTX 2070 SUPER",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "18117",
+    "G2D_Mark": "906"
+  },
+  {
+    "id": "11",
+    "GPU_Name": "GeForce GTX 1080 Ti",
+    "TEST_Date": "Mar 2017",
+    "G3D_Mark": "17663",
+    "G2D_Mark": "927"
+  },
+  {
+    "id": "12",
+    "GPU_Name": "Radeon VII",
+    "TEST_Date": "Feb 2019",
+    "G3D_Mark": "17041",
+    "G2D_Mark": "780"
+  },
+  {
+    "id": "13",
+    "GPU_Name": "TITAN V CEO Edition",
+    "TEST_Date": "Oct 2018",
+    "G3D_Mark": "16988",
+    "G2D_Mark": "1086"
+  },
+  {
+    "id": "14",
+    "GPU_Name": "Radeon RX 5700 XT",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "16719",
+    "G2D_Mark": "944"
+  },
+  {
+    "id": "15",
+    "GPU_Name": "Radeon RX 5700 XT 50th Anniversary",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "16532",
+    "G2D_Mark": "964"
+  },
+  {
+    "id": "16",
+    "GPU_Name": "GeForce RTX 2060 SUPER",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "16396",
+    "G2D_Mark": "887"
+  },
+  {
+    "id": "17",
+    "GPU_Name": "GeForce RTX 2070",
+    "TEST_Date": "Oct 2018",
+    "G3D_Mark": "16168",
+    "G2D_Mark": "859"
+  },
+  {
+    "id": "18",
+    "GPU_Name": "TITAN Xp COLLECTORS EDITION",
+    "TEST_Date": "Dec 2017",
+    "G3D_Mark": "16023",
+    "G2D_Mark": "825"
+  },
+  {
+    "id": "19",
+    "GPU_Name": "Radeon Pro W5700",
+    "TEST_Date": "Jan 2020",
+    "G3D_Mark": "14807",
+    "G2D_Mark": "876"
+  },
+  {
+    "id": "20",
+    "GPU_Name": "GeForce GTX 1080",
+    "TEST_Date": "May 2016",
+    "G3D_Mark": "14803",
+    "G2D_Mark": "869"
+  },
+  {
+    "id": "21",
+    "GPU_Name": "Radeon RX Vega 64",
+    "TEST_Date": "Sep 2017",
+    "G3D_Mark": "14526",
+    "G2D_Mark": "791"
+  },
+  {
+    "id": "22",
+    "GPU_Name": "Radeon RX 5700",
+    "TEST_Date": "Jul 2019",
+    "G3D_Mark": "14482",
+    "G2D_Mark": "905"
+  },
+  {
+    "id": "23",
+    "GPU_Name": "Radeon Pro WX 8200",
+    "TEST_Date": "Aug 2018",
+    "G3D_Mark": "14190",
+    "G2D_Mark": "759"
+  },
+  {
+    "id": "24",
+    "GPU_Name": "GeForce GTX 1070 Ti",
+    "TEST_Date": "Nov 2017",
+    "G3D_Mark": "14045",
+    "G2D_Mark": "851"
+  },
+  {
+    "id": "25",
+    "GPU_Name": "GeForce RTX 2060",
+    "TEST_Date": "Jan 2019",
+    "G3D_Mark": "14039",
+    "G2D_Mark": "773"
+  },
+  {
+    "id": "26",
+    "GPU_Name": "GeForce GTX 980 Ti",
+    "TEST_Date": "Jun 2015",
+    "G3D_Mark": "13766",
+    "G2D_Mark": "818"
+  },
+  {
+    "id": "27",
+    "GPU_Name": "Radeon Vega Frontier Edition",
+    "TEST_Date": "Jun 2017",
+    "G3D_Mark": "13732",
+    "G2D_Mark": "773"
+  },
+  {
+    "id": "28",
+    "GPU_Name": "NVIDIA TITAN X",
+    "TEST_Date": "Aug 2016",
+    "G3D_Mark": "13660",
+    "G2D_Mark": "912"
+  },
+  {
+    "id": "29",
+    "GPU_Name": "Radeon RX 5600 XT",
+    "TEST_Date": "Jan 2020",
+    "G3D_Mark": "13480",
+    "G2D_Mark": "887"
+  },
+  {
+    "id": "30",
+    "GPU_Name": "Radeon RX Vega 56",
+    "TEST_Date": "Sep 2017",
+    "G3D_Mark": "13405",
+    "G2D_Mark": "753"
+  },
+  {
+    "id": "31",
+    "GPU_Name": "GeForce GTX 1070",
+    "TEST_Date": "Jun 2016",
+    "G3D_Mark": "13310",
+    "G2D_Mark": "837"
+  },
+  {
+    "id": "32",
+    "GPU_Name": "Radeon Pro WX 9100",
+    "TEST_Date": "Oct 2017",
+    "G3D_Mark": "13112",
+    "G2D_Mark": "822"
+  },
+  {
+    "id": "33",
+    "GPU_Name": "GeForce GTX 1660 SUPER",
+    "TEST_Date": "Nov 2019",
+    "G3D_Mark": "12668",
+    "G2D_Mark": "827"
+  },
+  {
+    "id": "34",
+    "GPU_Name": "GeForce GTX TITAN X",
+    "TEST_Date": "Mar 2015",
+    "G3D_Mark": "12653",
+    "G2D_Mark": "777"
+  },
+  {
+    "id": "35",
+    "GPU_Name": "Radeon Pro Vega 56",
+    "TEST_Date": "Mar 2018",
+    "G3D_Mark": "12209",
+    "G2D_Mark": "826"
+  },
+  {
+    "id": "36",
+    "GPU_Name": "GeForce GTX 1660 Ti",
+    "TEST_Date": "Feb 2019",
+    "G3D_Mark": "12197",
+    "G2D_Mark": "764"
+  },
+  {
+    "id": "37",
+    "GPU_Name": "Radeon Pro 5700",
+    "TEST_Date": "Aug 2020",
+    "G3D_Mark": "11814",
+    "G2D_Mark": "846"
+  },
+  {
+    "id": "38",
+    "GPU_Name": "GeForce GTX 1660",
+    "TEST_Date": "Mar 2019",
+    "G3D_Mark": "11553",
+    "G2D_Mark": "793"
+  },
+  {
+    "id": "39",
+    "GPU_Name": "Radeon Pro 5700 XT",
+    "TEST_Date": "Aug 2020",
+    "G3D_Mark": "11123",
+    "G2D_Mark": "832"
+  },
+  {
+    "id": "40",
+    "GPU_Name": "GeForce GTX 980",
+    "TEST_Date": "Sep 2014",
+    "G3D_Mark": "11081",
+    "G2D_Mark": "786"
+  },
+  {
+    "id": "41",
+    "GPU_Name": "Radeon RX 5600",
+    "TEST_Date": "Apr 2020",
+    "G3D_Mark": "10678",
+    "G2D_Mark": "995"
+  },
+  {
+    "id": "42",
+    "GPU_Name": "GeForce GTX 1060",
+    "TEST_Date": "Jul 2016",
+    "G3D_Mark": "10150",
+    "G2D_Mark": "753"
+  },
+  {
+    "id": "43",
+    "GPU_Name": "GeForce GTX 1650 SUPER",
+    "TEST_Date": "Nov 2019",
+    "G3D_Mark": "9803",
+    "G2D_Mark": "755"
+  },
+  {
+    "id": "44",
+    "GPU_Name": "Radeon R9 Fury + Fury X",
+    "TEST_Date": "Jul 2015",
+    "G3D_Mark": "9741",
+    "G2D_Mark": "811"
+  },
+  {
+    "id": "45",
+    "GPU_Name": "Radeon Pro Duo",
+    "TEST_Date": "Sep 2016",
+    "G3D_Mark": "9672",
+    "G2D_Mark": "615"
+  },
+  {
+    "id": "46",
+    "GPU_Name": "GeForce GTX 970",
+    "TEST_Date": "Sep 2014",
+    "G3D_Mark": "9652",
+    "G2D_Mark": "749"
+  },
+  {
+    "id": "47",
+    "GPU_Name": "GeForce GTX 1060 3GB",
+    "TEST_Date": "Aug 2016",
+    "G3D_Mark": "9602",
+    "G2D_Mark": "737"
+  },
+  {
+    "id": "48",
+    "GPU_Name": "Radeon RX 590",
+    "TEST_Date": "Nov 2018",
+    "G3D_Mark": "9508",
+    "G2D_Mark": "799"
+  },
+  {
+    "id": "49",
+    "GPU_Name": "Radeon R9 390X",
+    "TEST_Date": "Apr 2016",
+    "G3D_Mark": "9492",
+    "G2D_Mark": "831"
+  },
+  {
+    "id": "50",
+    "GPU_Name": "Radeon Pro W5500",
+    "TEST_Date": "Feb 2020",
+    "G3D_Mark": "9377",
+    "G2D_Mark": "872"
+  },
+  {
+    "id": "51",
+    "GPU_Name": "GeForce GTX 780 Ti",
+    "TEST_Date": "Nov 2013",
+    "G3D_Mark": "9221",
+    "G2D_Mark": "629"
+  },
+  {
+    "id": "52",
+    "GPU_Name": "GeForce GTX TITAN Black",
+    "TEST_Date": "Mar 2014",
+    "G3D_Mark": "9084",
+    "G2D_Mark": "600"
+  },
+  {
+    "id": "53",
+    "GPU_Name": "Radeon RX 5500 XT",
+    "TEST_Date": "Dec 2019",
+    "G3D_Mark": "8966",
+    "G2D_Mark": "801"
+  },
+  {
+    "id": "54",
+    "GPU_Name": "Radeon R9 390",
+    "TEST_Date": "Mar 2016",
+    "G3D_Mark": "8797",
+    "G2D_Mark": "789"
+  },
+  {
+    "id": "55",
+    "GPU_Name": "Radeon RX 580",
+    "TEST_Date": "Apr 2017",
+    "G3D_Mark": "8746",
+    "G2D_Mark": "752"
+  },
+  {
+    "id": "56",
+    "GPU_Name": "GeForce GTX Titan",
+    "TEST_Date": "Feb 2013",
+    "G3D_Mark": "8693",
+    "G2D_Mark": "653"
+  },
+  {
+    "id": "57",
+    "GPU_Name": "Radeon R9 295X2",
+    "TEST_Date": "May 2014",
+    "G3D_Mark": "8533",
+    "G2D_Mark": "773"
+  },
+  {
+    "id": "58",
+    "GPU_Name": "Radeon RX 480",
+    "TEST_Date": "Jun 2016",
+    "G3D_Mark": "8515",
+    "G2D_Mark": "757"
+  },
+  {
+    "id": "59",
+    "GPU_Name": "Radeon RX 5500",
+    "TEST_Date": "Nov 2019",
+    "G3D_Mark": "8494",
+    "G2D_Mark": "878"
+  },
+  {
+    "id": "60",
+    "GPU_Name": "Radeon R9 290X / 390X",
+    "TEST_Date": "Oct 2013",
+    "G3D_Mark": "8389",
+    "G2D_Mark": "699"
+  },
+  {
+    "id": "61",
+    "GPU_Name": "GeForce GTX TITAN Z",
+    "TEST_Date": "Jun 2014",
+    "G3D_Mark": "8238",
+    "G2D_Mark": "797"
+  },
+  {
+    "id": "62",
+    "GPU_Name": "Radeon R9 290 / 390",
+    "TEST_Date": "Nov 2013",
+    "G3D_Mark": "8150",
+    "G2D_Mark": "695"
+  },
+  {
+    "id": "63",
+    "GPU_Name": "GeForce GTX 780",
+    "TEST_Date": "May 2013",
+    "G3D_Mark": "7948",
+    "G2D_Mark": "569"
+  },
+  {
+    "id": "64",
+    "GPU_Name": "Radeon RX 470",
+    "TEST_Date": "Aug 2016",
+    "G3D_Mark": "7928",
+    "G2D_Mark": "701"
+  },
+  {
+    "id": "65",
+    "GPU_Name": "Radeon RX 580X",
+    "TEST_Date": "Feb 2019",
+    "G3D_Mark": "7798",
+    "G2D_Mark": "885"
+  },
+  {
+    "id": "66",
+    "GPU_Name": "GeForce GTX 1650",
+    "TEST_Date": "Apr 2019",
+    "G3D_Mark": "7730",
+    "G2D_Mark": "622"
+  },
+  {
+    "id": "67",
+    "GPU_Name": "Radeon Pro 580X",
+    "TEST_Date": "Sep 2019",
+    "G3D_Mark": "7540",
+    "G2D_Mark": "698"
+  },
+  {
+    "id": "68",
+    "GPU_Name": "Radeon RX 570",
+    "TEST_Date": "Apr 2017",
+    "G3D_Mark": "6967",
+    "G2D_Mark": "626"
+  },
+  {
+    "id": "69",
+    "GPU_Name": "Radeon RX 5600M",
+    "TEST_Date": "Jun 2020",
+    "G3D_Mark": "6682",
+    "G2D_Mark": "541"
+  },
+  {
+    "id": "70",
+    "GPU_Name": "GeForce GTX 1050 Ti",
+    "TEST_Date": "Oct 2016",
+    "G3D_Mark": "6376",
+    "G2D_Mark": "643"
+  },
+  {
+    "id": "71",
+    "GPU_Name": "Radeon R9 280X",
+    "TEST_Date": "Apr 2016",
+    "G3D_Mark": "6229",
+    "G2D_Mark": "665"
+  },
+  {
+    "id": "72",
+    "GPU_Name": "Radeon R9 380X",
+    "TEST_Date": "Jul 2015",
+    "G3D_Mark": "6180",
+    "G2D_Mark": "688"
+  },
+  {
+    "id": "73",
+    "GPU_Name": "Radeon R9 380",
+    "TEST_Date": "Mar 2016",
+    "G3D_Mark": "6177",
+    "G2D_Mark": "659"
+  },
+  {
+    "id": "74",
+    "GPU_Name": "GeForce GTX 960",
+    "TEST_Date": "Jan 2015",
+    "G3D_Mark": "5988",
+    "G2D_Mark": "641"
+  },
+  {
+    "id": "75",
+    "GPU_Name": "GeForce GTX 770",
+    "TEST_Date": "Jun 2013",
+    "G3D_Mark": "5887",
+    "G2D_Mark": "555"
+  },
+  {
+    "id": "76",
+    "GPU_Name": "GeForce GTX 690",
+    "TEST_Date": "May 2012",
+    "G3D_Mark": "5780",
+    "G2D_Mark": "473"
+  },
+  {
+    "id": "77",
+    "GPU_Name": "GeForce GTX 680",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "5595",
+    "G2D_Mark": "516"
+  },
+  {
+    "id": "78",
+    "GPU_Name": "Radeon HD 7990",
+    "TEST_Date": "May 2013",
+    "G3D_Mark": "5566",
+    "G2D_Mark": "766"
+  },
+  {
+    "id": "79",
+    "GPU_Name": "Radeon R9 285 / 380",
+    "TEST_Date": "Jan 2015",
+    "G3D_Mark": "5550",
+    "G2D_Mark": "655"
+  },
+  {
+    "id": "80",
+    "GPU_Name": "Radeon R9 280",
+    "TEST_Date": "Apr 2016",
+    "G3D_Mark": "5544",
+    "G2D_Mark": "621"
+  },
+  {
+    "id": "81",
+    "GPU_Name": "GeForce GTX 950",
+    "TEST_Date": "Aug 2015",
+    "G3D_Mark": "5359",
+    "G2D_Mark": "588"
+  },
+  {
+    "id": "82",
+    "GPU_Name": "GeForce GTX 1050",
+    "TEST_Date": "Oct 2016",
+    "G3D_Mark": "5352",
+    "G2D_Mark": "497"
+  },
+  {
+    "id": "83",
+    "GPU_Name": "GeForce GTX 670",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "5332",
+    "G2D_Mark": "518"
+  },
+  {
+    "id": "84",
+    "GPU_Name": "Radeon HD 7970 / R9 280X",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "5248",
+    "G2D_Mark": "730"
+  },
+  {
+    "id": "85",
+    "GPU_Name": "Radeon HD 8990",
+    "TEST_Date": "Nov 2013",
+    "G3D_Mark": "5214",
+    "G2D_Mark": "658"
+  },
+  {
+    "id": "86",
+    "GPU_Name": "GeForce GTX 760 Ti",
+    "TEST_Date": "Jan 2014",
+    "G3D_Mark": "5119",
+    "G2D_Mark": "802"
+  },
+  {
+    "id": "87",
+    "GPU_Name": "Radeon R9 270X",
+    "TEST_Date": "Oct 2013",
+    "G3D_Mark": "4853",
+    "G2D_Mark": "592"
+  },
+  {
+    "id": "88",
+    "GPU_Name": "GeForce GTX 760",
+    "TEST_Date": "Jun 2013",
+    "G3D_Mark": "4766",
+    "G2D_Mark": "503"
+  },
+  {
+    "id": "89",
+    "GPU_Name": "Radeon HD 7950 / R9 280",
+    "TEST_Date": "Jun 2012",
+    "G3D_Mark": "4765",
+    "G2D_Mark": "691"
+  },
+  {
+    "id": "90",
+    "GPU_Name": "Radeon R9 370",
+    "TEST_Date": "Apr 2016",
+    "G3D_Mark": "4722",
+    "G2D_Mark": "781"
+  },
+  {
+    "id": "91",
+    "GPU_Name": "Radeon HD 7870",
+    "TEST_Date": "Jun 2012",
+    "G3D_Mark": "4631",
+    "G2D_Mark": "553"
+  },
+  {
+    "id": "92",
+    "GPU_Name": "GeForce GTX 580",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "4520",
+    "G2D_Mark": "408"
+  },
+  {
+    "id": "93",
+    "GPU_Name": "Radeon HD 7870 XT",
+    "TEST_Date": "May 2013",
+    "G3D_Mark": "4470",
+    "G2D_Mark": "661"
+  },
+  {
+    "id": "94",
+    "GPU_Name": "Radeon R7 370",
+    "TEST_Date": "Apr 2016",
+    "G3D_Mark": "4427",
+    "G2D_Mark": "562"
+  },
+  {
+    "id": "95",
+    "GPU_Name": "GeForce GTX 660 Ti",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "4360",
+    "G2D_Mark": "442"
+  },
+  {
+    "id": "96",
+    "GPU_Name": "Radeon R9 270 / R7 370",
+    "TEST_Date": "Dec 2013",
+    "G3D_Mark": "4260",
+    "G2D_Mark": "645"
+  },
+  {
+    "id": "97",
+    "GPU_Name": "GeForce GTX 1060 5GB",
+    "TEST_Date": "Apr 2018",
+    "G3D_Mark": "4141",
+    "G2D_Mark": "571"
+  },
+  {
+    "id": "98",
+    "GPU_Name": "Radeon RX 460",
+    "TEST_Date": "Aug 2016",
+    "G3D_Mark": "4066",
+    "G2D_Mark": "556"
+  },
+  {
+    "id": "99",
+    "GPU_Name": "GeForce GTX 480",
+    "TEST_Date": "Aug 2012",
+    "G3D_Mark": "4034",
+    "G2D_Mark": "421"
+  },
+  {
+    "id": "100",
+    "GPU_Name": "GeForce GTX 750 Ti",
+    "TEST_Date": "Feb 2014",
+    "G3D_Mark": "3938",
+    "G2D_Mark": "482"
+  }
+]
+    */
