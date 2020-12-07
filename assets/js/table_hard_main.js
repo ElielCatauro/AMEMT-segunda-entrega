@@ -31,18 +31,22 @@ let btnCancel = document.getElementById('btnCancelar');
 
 let deleteRow = (elemento, i) => {
   tituloModalEL.innerText = "Eliminando fila, esta seguro?";
+  let idEl = parseInt(document.getElementById(`id${i}`).innerText);
 
   for (let clave in elemento) {
     let inpEL = document.getElementById(`inp-${clave}`);
     let tdEl = document.getElementById(`${clave}${i}`);
     inpEL.value = tdEl.innerHTML;
     inpEL.disabled = true;
-
-
     let sip = () => {
       const row = document.getElementById(`row${i}`);
-      try { row.remove(); }
+      try {
+        row.remove();
+
+        dataParseada.splice(dataParseada.findIndex(e => e.id == idEl), 1);
+      }
       catch (error) {
+        console.log(error);
       }
       inpEL.value = '';
       btnCancel.removeEventListener('click', nop, { once: true });
@@ -61,15 +65,25 @@ let deleteRow = (elemento, i) => {
 
 let modifiRow = (elemento, i) => {
   tituloModalEL.innerText = "Modificando Fila";
+  let idEl = parseInt(document.getElementById(`id${i}`).innerText);
+  console.log(elemento);
   //modifica en el html
   for (let clave in elemento) {
     let inpEL = document.getElementById(`inp-${clave}`);
     let tdEl = document.getElementById(`${clave}${i}`);
     inpEL.disabled = false;
     inpEL.value = tdEl.innerHTML;
-
+    
     let sip = () => {
       tdEl.innerHTML = !!inpEL.value ? inpEL.value : tdEl.innerHTML;
+      try {
+
+        elemento[clave]=inpEL.value;
+      
+      }
+      catch (error) {
+        console.log(error);
+      }
       inpEL.value = '';
       btnCancel.removeEventListener('click', nop, { once: true });
     };
@@ -81,9 +95,9 @@ let modifiRow = (elemento, i) => {
     btnOk.addEventListener('click', sip, { once: true });
 
     btnCancel.addEventListener('click', nop, { once: true });
-
   }
 }
+
 
 
 
@@ -199,27 +213,29 @@ let loadGPUStable = () => {
     res.json().then(
       dataProcess => {
         let dataParseada = dataProcess;
-
+ 
         //obtenemos las claves del objeto
         let claves = Object.keys(dataParseada.GPUS[0]);
         createTable(claves, dataParseada.GPUS);
       }
           ,
-
+ 
     )
   }
     ,
-
+ 
   );
 }
-
+ 
 */
 
 let filtContEl = document.getElementById('filtroscont');
 
 let createFilInput = () => {
+  let tableEl = document.createElement("table");
   let theadEl = document.createElement("thead");
   let trEl = document.createElement("tr");
+  let thEl0 = document.createElement("th");
   let thEl1 = document.createElement("th");
   let thEl2 = document.createElement("th");
   let thEl3 = document.createElement("th");
@@ -269,12 +285,18 @@ let createFilInput = () => {
   thEl4.innerHTML += 'max';
   thEl4.appendChild(filG2D_MarkMax);
 
+
+  trEl.appendChild(thEl0);
   trEl.appendChild(thEl1);
   trEl.appendChild(thEl2);
   trEl.appendChild(thEl3);
   trEl.appendChild(thEl4);
   trEl.appendChild(thEl5);
-  filtContEl.appendChild(trEl);
+  theadEl.appendChild(trEl);
+  tableEl.appendChild(theadEl);
+  tableHardEl.appendChild(tableEl);
+  filtContEl.appendChild(tableEl);
+
 }
 createFilInput();
 
@@ -296,42 +318,28 @@ let filG2D_MarkMaxEL = document.getElementById('filG2D_MarkMax');
 
 
 let filtrosGPU = (incluyen1 = "", incluyen2 = "", min1 = 200, max1 = 30000, min2 = 0, max2 = 2000) => {
-  console.log('en el llamado ');
-  console.log(incluyen1);
- console.log(incluyen2);
- console.log( min1, max1);
- console.log( min2, max2);
 
   let claves = Object.keys(dataParseada[0]);
   let fil1 = dataParseada.filter(e => e.GPU_Name.indexOf(`${incluyen1}`) !== -1);
   let fil2 = fil1.filter(e => e.TEST_Date.indexOf(`${incluyen2}`) !== -1);
-  let fil3 = fil2.filter(e => (e.G3D_Mark >= min1 && e.G3D_Mark <= max1));
-  let fil4 = fil3.filter(e => (e.G2D_Mark >= min2 && e.G2D_Mark <= max2));  
-  console.log(fil1);
-  console.log(fil2);
-  console.log( fil3);
-  console.log( fil4);
+  let fil3 = fil2.filter(e => e.G3D_Mark >= min1);
+  let fil4 = fil3.filter(e => e.G3D_Mark <= max1);
+  let fil5 = fil4.filter(e => e.G2D_Mark >= min2);
+  let fil6 = fil5.filter(e => e.G2D_Mark <= max2);
 
-  createTable(claves, fil4);
+  createTable(claves, fil6);
 }
 
 
 
 btnFiltraEL.addEventListener('click', () => {
-  
+
   let incluyen1 = `${filGPU_NameEL.value}`;
   let incluyen2 = `${filTEST_DateEL.value}`;
-  let min1 = parseInt(filG3D_MarkMinEL.value);
-  let max1 = parseInt(filG3D_MarkMaxEL.value);
-  let min2 = parseInt(filG2D_MarkMinEL.value);
-  let max2 = parseInt(filG2D_MarkMaxEL.value);
-
-  console.log(incluyen1);
-  console.log( incluyen2);
-  console.log( min1, max1);
-  console.log( min2, max2);
-  console.log('fuera del llamado ');
-
+  let min1 = isNaN(parseInt(filG3D_MarkMinEL.value)) ? undefined : parseInt(filG3D_MarkMinEL.value);
+  let max1 = isNaN(parseInt(filG3D_MarkMaxEL.value)) ? undefined : parseInt(filG3D_MarkMaxEL.value);
+  let min2 = isNaN(parseInt(filG2D_MarkMinEL.value)) ? undefined : parseInt(filG2D_MarkMinEL.value);
+  let max2 = isNaN(parseInt(filG2D_MarkMaxEL.value)) ? undefined : parseInt(filG2D_MarkMaxEL.value);
   filtrosGPU(incluyen1, incluyen2, min1, max1, min2, max2);
 });
 
