@@ -74,7 +74,31 @@
                         sus
                         respectivos
                         puntajes en PassMark</h4>
-                    <div class="col-11" id="filtroscont">
+
+
+          
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary bg-dark " data-toggle="modal" data-target="#exampleModal">
+   Filtros
+  </button>
+  
+  <!-- Modal de filtros-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog bg-primary">
+      <div class="modal-content bg-primary">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                       <!-- filtros -->
+                       <div class="col-11" id="filtroscont">
                         <h5>Filtros</h5>
 
 
@@ -92,28 +116,24 @@
                             <div>
                                 <label class="input-group-text" for="filTEST_Date"> contiene</label>
                                 <input id="filTEST_Date">
-                                
+
                             </div>
                         </div>
 
                         <div class="form-group row justify-content-between">
                             <p>G3D_Mark</p>
-                            <div >
+                            <div>
                                 <label class="input-group-text" for="filG3D_MarkMin">Min</label>
                                 <input id="filG3D_MarkMin">
-                            </div>
-                            <div >
                                 <label class="input-group-text" for="filG3D_MarkMax">Max</label>
                                 <input id="filG3D_MarkMax">
                             </div>
                         </div>
                         <div class="form-group row justify-content-between">
                             <p>G2D_Mark</p>
-                            <div >
+                            <div>
                                 <label class="input-group-text" for="filG2D_MarkMin">Min</label>
                                 <input id="filG2D_MarkMin">
-                            </div>
-                            <div >
                                 <label class="input-group-text" for="filG2D_MarkMax">Max</label>
                                 <input id="filG2D_MarkMax">
 
@@ -121,17 +141,73 @@
                         </div>
 
 
-                        <div class="btn-group col-2"><button class="btn btn-secondary"
-                                id="filBTN">Filtrar</button><button class="btn btn-secondary"
-                                id="btnLimpia">Limpiar</button></div>
+                   
 
 
                     </div>
+
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" id="filBTN" data-dismiss="modal">Filtrar</button>
+            <button class="btn btn-secondary" id="btnLimpia" data-dismiss="modal">Limpiar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <table id="tabla" class="table table-dark bg-primary">
                     </table>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
 
 
                     <!-- Modal -->
