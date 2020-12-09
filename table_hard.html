@@ -74,7 +74,59 @@
                         sus
                         respectivos
                         puntajes en PassMark</h4>
-                    <div  class="col-12 col-xl-10" id="filtroscont"></div>
+                    <div class="col-11" id="filtroscont">
+                        <h5>Filtros</h5>
+
+
+
+                        <div class="form-group row justify-content-between">
+                            <p>Nombre</p>
+                            <div>
+                                <label class="input-group-text" for="filGPU_Name"> contiene</label>
+                                <input id="filGPU_Name">
+
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-between">
+                            <p>Fecha</p>
+                            <div>
+                                <label class="input-group-text" for="filTEST_Date"> contiene</label>
+                                <input id="filTEST_Date">
+                                
+                            </div>
+                        </div>
+
+                        <div class="form-group row justify-content-between">
+                            <p>G3D_Mark</p>
+                            <div >
+                                <label class="input-group-text" for="filG3D_MarkMin">Min</label>
+                                <input id="filG3D_MarkMin">
+                            </div>
+                            <div >
+                                <label class="input-group-text" for="filG3D_MarkMax">Max</label>
+                                <input id="filG3D_MarkMax">
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-between">
+                            <p>G2D_Mark</p>
+                            <div >
+                                <label class="input-group-text" for="filG2D_MarkMin">Min</label>
+                                <input id="filG2D_MarkMin">
+                            </div>
+                            <div >
+                                <label class="input-group-text" for="filG2D_MarkMax">Max</label>
+                                <input id="filG2D_MarkMax">
+
+                            </div>
+                        </div>
+
+
+                        <div class="btn-group col-2"><button class="btn btn-secondary"
+                                id="filBTN">Filtrar</button><button class="btn btn-secondary"
+                                id="btnLimpia">Limpiar</button></div>
+
+
+                    </div>
 
                     <table id="tabla" class="table table-dark bg-primary">
                     </table>
@@ -106,7 +158,8 @@
                             </div>
                         </div>
                     </div>
-
+                    <button class="btn btn-secondary" id="addBTN" data-toggle="modal"
+                        data-target="#modalDelModAdd">Agregar</button>
 
 
 
