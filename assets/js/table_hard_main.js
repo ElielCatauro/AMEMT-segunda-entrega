@@ -46,23 +46,25 @@ let deleteRow = (elemento, i) => {
         console.log(error);
       }
       inpEL.value = '';
-      btnCancel.removeEventListener('click', nop, { once: true });
+      //btnCancel.removeEventListener('click', nop, { once: true });
     };
+    /*
     let nop = () => {
       inpEL.value = '';
-      btnOk.removeEventListener('click', sip, { once: true });
+      //btnOk.removeEventListener('click', sip, { once: true });
     };
+    //btnCancel.addEventListener('click', nop, { once: true });
+    btnCancel.onclick = nop;*/
 
-    btnOk.addEventListener('click', sip, { once: true });
-
-    btnCancel.addEventListener('click', nop, { once: true });
+    //btnOk.addEventListener('click', sip, { once: true });
+    btnOk.onclick = sip;
   }
 }
 
 
 let modifiRow = (elemento, i) => {
   tituloModalEL.innerText = "Modificando Fila";
-  let idEl = parseInt(document.getElementById(`id${i}`).innerText);
+
   console.log(elemento);
   //modifica en el html
   for (let clave in elemento) {
@@ -70,30 +72,40 @@ let modifiRow = (elemento, i) => {
     let tdEl = document.getElementById(`${clave}${i}`);
     inpEL.disabled = false;
     inpEL.value = tdEl.innerHTML;
+  }
 
-    let sip = () => {
+  let sip = () => {
+    for (let clave in elemento) {
+      let inpEL = document.getElementById(`inp-${clave}`);
+      let tdEl = document.getElementById(`${clave}${i}`);
       tdEl.innerHTML = !!inpEL.value ? inpEL.value : tdEl.innerHTML;
+      console.log(tdEl.innerHTML);
       try {
+        console.log("antes", clave, elemento[clave]);
+        console.log("antes", clave, inpEL.value);
 
-        elemento[clave] = inpEL.value;
-
+        elemento[clave] = !!inpEL.value ? inpEL.value : elemento[clave];
+        console.log("despues", clave, elemento[clave]);
+        console.log("despues", clave, inpEL.value);
       }
       catch (error) {
         console.log(error);
       }
       inpEL.value = '';
-      btnCancel.removeEventListener('click', nop, { once: true });
-    };
-    let nop = () => {
+      //btnCancel.removeEventListener('click', nop, { once: true });
+    }
+  };
+  /*   let nop = () => {
       inpEL.value = '';
-      btnOk.removeEventListener('click', sip, { once: true });
+      // btnOk.removeEventListener('click', sip, { once: true });
     };
+    //btnCancel.addEventListener('click', nop, { once: true });
+    btnCancel.onclick = nop; */
 
-    btnOk.addEventListener('click', sip, { once: true });
-
-    btnCancel.addEventListener('click', nop, { once: true });
-  }
+  //btnOk.addEventListener('click', sip, { once: true });
+  btnOk.onclick = sip;
 }
+
 
 
 
@@ -172,7 +184,7 @@ let createRow = (elemento, i) => {
 let createBody = (elementos) => {
 
   let tbodyEl = document.createElement("tbody");
-  tbodyEl.setAttribute("id","cuerpoTabla")
+  tbodyEl.setAttribute("id", "cuerpoTabla")
   for (let i = 0; i < elementos.length; i++) {
     tbodyEl.appendChild(createRow(elementos[i], i));
   }
@@ -247,17 +259,30 @@ let filG2D_MarkMaxEL = document.getElementById('filG2D_MarkMax');
 
 // implementaciond e los filtros
 
-let filtrosGPU = (incluyen1 = "", incluyen2 = "", min1 = 200, max1 = 30000, min2 = 0, max2 = 2000) => {
+let filtrosGPU = (incluyen1 = "", incluyen2 = "", min1, max1, min2, max2) => {
+
+  /*  let claves = Object.keys(dataParseada[0]);
+   let fil1 = dataParseada.filter(e => e.GPU_Name.indexOf(`${incluyen1}`) !== -1);
+   let fil2 = fil1.filter(e => e.TEST_Date.indexOf(`${incluyen2}`) !== -1);
+   let fil3 = fil2.filter(e => e.G3D_Mark >= min1);
+   let fil4 = fil3.filter(e => e.G3D_Mark <= max1);
+   let fil5 = fil4.filter(e => e.G2D_Mark >= min2);
+   let fil6 = fil5.filter(e => e.G2D_Mark <= max2);
+   */
 
   let claves = Object.keys(dataParseada[0]);
-  let fil1 = dataParseada.filter(e => e.GPU_Name.indexOf(`${incluyen1}`) !== -1);
-  let fil2 = fil1.filter(e => e.TEST_Date.indexOf(`${incluyen2}`) !== -1);
-  let fil3 = fil2.filter(e => e.G3D_Mark >= min1);
-  let fil4 = fil3.filter(e => e.G3D_Mark <= max1);
-  let fil5 = fil4.filter(e => e.G2D_Mark >= min2);
-  let fil6 = fil5.filter(e => e.G2D_Mark <= max2);
+  let dataFiltrada = dataParseada;
 
-  createTable(claves, fil6);
+
+  dataFiltrada = dataFiltrada.filter(e => e.GPU_Name.indexOf(`${incluyen1}`) !== -1);
+  dataFiltrada = dataFiltrada.filter(e => e.TEST_Date.indexOf(`${incluyen2}`) !== -1);
+  dataFiltrada = (min1 === undefined) ? dataFiltrada : dataFiltrada.filter(e => e.G3D_Mark >= min1);
+  dataFiltrada = (max1 === undefined) ? dataFiltrada : dataFiltrada.filter(e => e.G3D_Mark <= max1);
+  dataFiltrada = (min2 === undefined) ? dataFiltrada : dataFiltrada.filter(e => e.G2D_Mark >= min2);
+  dataFiltrada = (max2 === undefined) ? dataFiltrada : dataFiltrada.filter(e => e.G2D_Mark <= max2);
+
+  // createTable(claves, fil6);
+  createTable(claves, dataFiltrada);
 }
 
 
@@ -278,7 +303,7 @@ btnFiltraEL.addEventListener('click', () => {
 // implementacion limpiar filtrados 
 
 btnLimpiaTablaEL.addEventListener('click', () => {
-  createTable( Object.keys(dataParseada[0]),dataParseada)
+  createTable(Object.keys(dataParseada[0]), dataParseada)
   filGPU_NameEL.value = "";
   filTEST_DateEL.value = "";
   filG3D_MarkMinEL.value = "";
@@ -305,26 +330,28 @@ let addRow = () => {
         let inpEL = document.getElementById(`inp-${e}`);
         aux[e] = inpEL.value;
       })
-    
+
       dataParseada.push(aux);
-   
-      document.getElementById("cuerpoTabla").appendChild(createRow(aux, dataParseada.length-1));
+
+      document.getElementById("cuerpoTabla").appendChild(createRow(aux, dataParseada.length - 1));
     }
     catch (error) {
       console.log(error);
     }
 
-    btnCancel.removeEventListener('click', nop, { once: true });
+    //btnCancel.removeEventListener('click', nop, { once: true });
   };
+  /*
   let nop = () => {
-
-    btnOk.removeEventListener('click', sip, { once: true });
+ 
+   // btnOk.removeEventListener('click', sip, { once: true });
   };
+ 
+   //btnCancel.addEventListener('click', nop, { once: true });
+   btnCancel.onclick=nop;*/
 
-  btnOk.addEventListener('click', sip, { once: true });
-
-  btnCancel.addEventListener('click', nop, { once: true });
-
+  //btnOk.addEventListener('click', sip, { once: true });
+  btnOk.onclick = sip;
 }
 
 let addBTN = document.getElementById("addBTN");
