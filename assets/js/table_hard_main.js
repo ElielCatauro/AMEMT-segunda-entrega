@@ -5,7 +5,12 @@ let tableHardEl = document.getElementById("tabla");
 let inputsEl = document.getElementById("inputs");
 let inputsBtnsEl = document.getElementById("inputsBtns");
 let tituloModalEL = document.getElementById("tituloModal");
+let processBarEl = document.getElementById("processBar");
+let processPercEl = document.getElementById("processPerc");
 let dataParseada = [];
+const timecarga=2000;
+
+
 
 let createBtnModel = () => {
   let btnOk = document.createElement('button');
@@ -27,6 +32,34 @@ let btnCancel = document.getElementById('btnCancelar');
 
 
 
+
+
+let barrProceso=()=>{
+  processBarEl.classList.toggle("d-none");
+  inputsEl.classList.toggle("d-none");
+  btnOk.classList.toggle("disabled");
+  btnCancel.classList.toggle("disabled");
+  let auxtime=0;
+  let count=0;
+  let cargar=()=>{
+    auxtime+=timecarga/20;
+    count+=5;
+    processPercEl.style=`width: ${count}%`;
+    if(count==100){
+      clearInterval(contar);
+      processBarEl.classList.toggle("d-none");
+      inputsEl.classList.toggle("d-none");
+      btnOk.classList.toggle("disabled");
+      btnCancel.classList.toggle("disabled");
+    }
+  }
+  let contar = setInterval(cargar,timecarga/20);
+}
+
+
+
+
+
 let deleteRow = (elemento, i) => {
   tituloModalEL.innerText = "Eliminando fila, esta seguro?";
   let idEl = parseInt(document.getElementById(`id${i}`).innerText);
@@ -41,6 +74,7 @@ let deleteRow = (elemento, i) => {
       try {
         row.remove();
         dataParseada.splice(dataParseada.findIndex(e => e.id == idEl), 1);
+        barrProceso();
       }
       catch (error) {
         console.log(error);
@@ -87,6 +121,7 @@ let modifiRow = (elemento, i) => {
         elemento[clave] = !!inpEL.value ? inpEL.value : elemento[clave];
         console.log("despues", clave, elemento[clave]);
         console.log("despues", clave, inpEL.value);
+        barrProceso();
       }
       catch (error) {
         console.log(error);
@@ -334,6 +369,7 @@ let addRow = () => {
       dataParseada.push(aux);
 
       document.getElementById("cuerpoTabla").appendChild(createRow(aux, dataParseada.length - 1));
+      barrProceso();
     }
     catch (error) {
       console.log(error);
