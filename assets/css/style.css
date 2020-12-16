@@ -40,3 +40,12 @@ border-radius: 5px;}
     padding: .5rem !important;
     border-radius: .2rem !important;
 }
+
+.show {
+    display: block ; 
+    padding-right: 17px;
+}
+
+.hide{
+    display: none;
+}

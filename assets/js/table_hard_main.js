@@ -5,6 +5,9 @@ let tableHardEl = document.getElementById("tabla");
 let inputsEl = document.getElementById("inputs");
 let inputsBtnsEl = document.getElementById("inputsBtns");
 let tituloModalEL = document.getElementById("tituloModal");
+//let modalEL = new bootstrap.Modal(document.getElementById("modalDelModAdd")); lineas 78-127-374
+
+
 let processBarEl = document.getElementById("processBar");
 let processPercEl = document.getElementById("processPerc");
 let dataParseada = [];
@@ -17,7 +20,6 @@ let createBtnModel = () => {
   let btnCancel = document.createElement('button');
   btnOk.setAttribute('id', 'btnAceptar');
   btnOk.setAttribute('class', 'btn  btn-secondary');
-  btnOk.setAttribute('data-dismiss', "modal");
   btnCancel.setAttribute('id', 'btnCancelar');
   btnCancel.setAttribute('class', 'btn btn-dark');
   btnCancel.setAttribute('data-dismiss', "modal");
@@ -35,6 +37,8 @@ let btnCancel = document.getElementById('btnCancelar');
 
 
 let barrProceso=()=>{
+  
+  
   processBarEl.classList.toggle("d-none");
   inputsEl.classList.toggle("d-none");
   btnOk.classList.toggle("disabled");
@@ -51,14 +55,12 @@ let barrProceso=()=>{
       inputsEl.classList.toggle("d-none");
       btnOk.classList.toggle("disabled");
       btnCancel.classList.toggle("disabled");
+       $('#modalDelModAdd').modal('hide');
+       processPercEl.style=`width: 0%`;
     }
   }
   let contar = setInterval(cargar,timecarga/20);
 }
-
-
-
-
 
 let deleteRow = (elemento, i) => {
   tituloModalEL.innerText = "Eliminando fila, esta seguro?";
@@ -75,6 +77,8 @@ let deleteRow = (elemento, i) => {
         row.remove();
         dataParseada.splice(dataParseada.findIndex(e => e.id == idEl), 1);
         barrProceso();
+       //modalEL.hide();
+      
       }
       catch (error) {
         console.log(error);
@@ -122,6 +126,8 @@ let modifiRow = (elemento, i) => {
         console.log("despues", clave, elemento[clave]);
         console.log("despues", clave, inpEL.value);
         barrProceso();
+        //modalEL.hide();
+       
       }
       catch (error) {
         console.log(error);
@@ -140,9 +146,6 @@ let modifiRow = (elemento, i) => {
   //btnOk.addEventListener('click', sip, { once: true });
   btnOk.onclick = sip;
 }
-
-
-
 
 
 let createInputs = (claves) => {
@@ -370,6 +373,8 @@ let addRow = () => {
 
       document.getElementById("cuerpoTabla").appendChild(createRow(aux, dataParseada.length - 1));
       barrProceso();
+      //modalEL.hide();
+     
     }
     catch (error) {
       console.log(error);
