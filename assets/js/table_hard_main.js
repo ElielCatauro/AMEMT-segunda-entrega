@@ -11,7 +11,7 @@ let tituloModalEL = document.getElementById("tituloModal");
 let processBarEl = document.getElementById("processBar");
 let processPercEl = document.getElementById("processPerc");
 let dataParseada = [];
-const timecarga=2000;
+const timecarga = 2000;
 
 
 
@@ -36,30 +36,30 @@ let btnCancel = document.getElementById('btnCancelar');
 
 
 
-let barrProceso=()=>{
-  
-  
+let barrProceso = () => {
+
+
   processBarEl.classList.toggle("d-none");
   inputsEl.classList.toggle("d-none");
   btnOk.classList.toggle("disabled");
   btnCancel.classList.toggle("disabled");
-  let auxtime=0;
-  let count=0;
-  let cargar=()=>{
-    auxtime+=timecarga/20;
-    count+=5;
-    processPercEl.style=`width: ${count}%`;
-    if(count==100){
+  let auxtime = 0;
+  let count = 0;
+  let cargar = () => {
+    auxtime += timecarga / 20;
+    count += 5;
+    processPercEl.style = `width: ${count}%`;
+    if (count == 100) {
       clearInterval(contar);
       processBarEl.classList.toggle("d-none");
       inputsEl.classList.toggle("d-none");
       btnOk.classList.toggle("disabled");
       btnCancel.classList.toggle("disabled");
-       $('#modalDelModAdd').modal('hide');
-       processPercEl.style=`width: 0%`;
+      $('#modalDelModAdd').modal('hide');
+      processPercEl.style = `width: 0%`;
     }
   }
-  let contar = setInterval(cargar,timecarga/20);
+  let contar = setInterval(cargar, timecarga / 20);
 }
 
 let deleteRow = (elemento, i) => {
@@ -77,8 +77,8 @@ let deleteRow = (elemento, i) => {
         row.remove();
         dataParseada.splice(dataParseada.findIndex(e => e.id == idEl), 1);
         barrProceso();
-       //modalEL.hide();
-      
+        //modalEL.hide();
+
       }
       catch (error) {
         console.log(error);
@@ -127,7 +127,7 @@ let modifiRow = (elemento, i) => {
         console.log("despues", clave, inpEL.value);
         barrProceso();
         //modalEL.hide();
-       
+
       }
       catch (error) {
         console.log(error);
@@ -374,7 +374,7 @@ let addRow = () => {
       document.getElementById("cuerpoTabla").appendChild(createRow(aux, dataParseada.length - 1));
       barrProceso();
       //modalEL.hide();
-     
+
     }
     catch (error) {
       console.log(error);
