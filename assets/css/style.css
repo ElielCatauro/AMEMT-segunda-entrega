@@ -56,6 +56,18 @@
     color: #001c3a;
 }
 
+.card .btn .price {
+    color: greenyellow;
+    float: left;
+    margin-right: 5px;
+    
+}
+
+.card .btn .addCart {
+    float: right;
+    margin-left: 2px;
+}
+
 .card a:hover {
     color: #003b7b;
 }
@@ -74,3 +86,4 @@
 .hide {
     display: none;
 }
+
