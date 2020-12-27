@@ -150,29 +150,31 @@ let modifiRow = (elemento, i) => {
 
 let createInputs = (claves) => {
   inputsEl.innerHTML = "";
-  for (let i = 0; i < claves.length; i++) {
+  claves.forEach(clave => {
+ /*  for (let i = 0; i < claves.length; i++) { */
     let divi = document.createElement('div');
     divi.setAttribute('class', `form-group row justify-content-between`);
     let inp = document.createElement('input');
     let inpLb = document.createElement('label');
-    inp.setAttribute('id', `inp-${claves[i]}`);
-    inpLb.setAttribute('for', `inp-${claves[i]}`);
-    inpLb.innerText = claves[i];
+    inp.setAttribute('id', `inp-${clave}`);
+    inpLb.setAttribute('for', `inp-${clave}`);
+    inpLb.innerText = clave;
     divi.appendChild(inpLb);
     divi.appendChild(inp);
     inputsEl.appendChild(divi);
-  }
+  })
 }
 
 let createHeader = (claves) => {
   let theadEl = document.createElement("thead");
   let trEl = document.createElement("tr");
   //recorremos el arreglo de claves
-  for (let i = 0; i < claves.length; i++) {
+  claves.forEach(clave => {
+/*   for (let i = 0; i < claves.length; i++) { */
     let thEl = document.createElement("th");
-    thEl.innerHTML = claves[i];
+    thEl.innerHTML = clave;
     trEl.appendChild(thEl);
-  }
+  })
   let thEl = document.createElement("th");
   thEl.innerHTML = 'Modificar/Eliminar';
   trEl.appendChild(thEl);
@@ -223,9 +225,14 @@ let createBody = (elementos) => {
 
   let tbodyEl = document.createElement("tbody");
   tbodyEl.setAttribute("id", "cuerpoTabla")
-  for (let i = 0; i < elementos.length; i++) {
+  let i=0;
+  elementos.forEach(elemento =>{
+    tbodyEl.appendChild(createRow(elemento,i));
+    i++;
+  })
+ /*  for (let i = 0; i < elementos.length; i++) {
     tbodyEl.appendChild(createRow(elementos[i], i));
-  }
+  } */
   tableHardEl.appendChild(tbodyEl);
 };
 
